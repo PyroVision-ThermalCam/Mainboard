@@ -11,10 +11,10 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text_box "I2C addresses\n----------------\nPCAL6416AHF		0x20\nRV-8263-C8		0x51\nOV5640			0x3C\nLepton 3.5			0x2A\nTMP100			0x48\nMCP3425			0x68"
+	(text_box "I2C addresses\n----------------\nPCAL6416AHF		0x20\nRV-8263-C8		0x51\nOV5640			0x3C\nLepton 3.5			0x2A\nTMP100			0x48\nMCP3425			0x68\nPCA9633DP1,118	0x62"
 		(exclude_from_sim no)
-		(at 370.84 212.09 0)
-		(size 35.56 29.21)
+		(at 370.84 208.28 0)
+		(size 35.56 33.02)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)

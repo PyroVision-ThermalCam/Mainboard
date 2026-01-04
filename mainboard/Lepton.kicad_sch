@@ -2760,8 +2760,16 @@
 		(uuid "12d04273-b978-4099-af76-fc4874d7036c")
 	)
 	(no_connect
+		(at 245.11 81.28)
+		(uuid "27334e5d-0729-47a8-9919-70e8b55a6c3d")
+	)
+	(no_connect
 		(at 72.39 83.82)
 		(uuid "3a6243fd-ea37-4734-ad45-d544178e2bef")
+	)
+	(no_connect
+		(at 265.43 81.28)
+		(uuid "50d7b8cb-2198-4046-a350-18cfd782e341")
 	)
 	(no_connect
 		(at 72.39 68.58)
@@ -2770,10 +2778,6 @@
 	(no_connect
 		(at 190.5 66.04)
 		(uuid "683289d2-8f62-4b22-a90d-f633dd71b25a")
-	)
-	(no_connect
-		(at 265.43 66.04)
-		(uuid "7817d73b-fcd7-417b-a6db-4afc371d0358")
 	)
 	(no_connect
 		(at 72.39 53.34)
@@ -2794,10 +2798,6 @@
 	(no_connect
 		(at 85.09 50.8)
 		(uuid "e2136b05-b281-4d21-b894-8ca1f77f06a2")
-	)
-	(no_connect
-		(at 245.11 66.04)
-		(uuid "fe479489-eb9b-42b5-90ee-573a0cbc51ff")
 	)
 	(wire
 		(pts
@@ -2848,16 +2848,6 @@
 			(type default)
 		)
 		(uuid "0c57747d-fa4b-4ec9-8688-97f41ba9bf99")
-	)
-	(wire
-		(pts
-			(xy 265.43 81.28) (xy 266.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d576d79-41ad-45bd-87ac-291c26f569fc")
 	)
 	(wire
 		(pts
@@ -3068,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "41f04b21-f69d-464a-b002-7bdf88fa5869")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 266.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a5b41a-1d7b-4880-9d6b-50ff932b19b4")
 	)
 	(wire
 		(pts
@@ -3991,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 66.04) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77f16e2-8cda-434c-88b1-a098cff711b7")
+	)
+	(wire
+		(pts
 			(xy 96.52 76.2) (xy 85.09 76.2)
 		)
 		(stroke
@@ -4059,16 +4069,6 @@
 		)
 		(uuid "f934ee0e-e5a6-416f-891b-aa273a7906e9")
 	)
-	(wire
-		(pts
-			(xy 243.84 81.28) (xy 245.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd59475e-a699-4bc0-90d4-ac2a6dda9758")
-	)
 	(label "~{Lepton-CS}_{LV}"
 		(at 97.79 63.5 0)
 		(effects
@@ -4090,7 +4090,7 @@
 		(uuid "23e58fdf-6bf7-4a7d-99e4-8306bc9131cb")
 	)
 	(label "~{Lepton-CS}_{LV}"
-		(at 243.84 71.12 180)
+		(at 243.84 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4200,7 @@
 		(uuid "b7f7726f-4059-4f6a-9ef4-1aed92aa9450")
 	)
 	(label "Lepton-MISO_{LV}"
-		(at 243.84 81.28 180)
+		(at 243.84 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4220,7 +4220,7 @@
 		(uuid "beaef2de-14d2-4baa-b62f-7e430725a4c8")
 	)
 	(label "Lepton-SCLK_{LV}"
-		(at 243.84 76.2 180)
+		(at 243.84 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4473,7 +4473,7 @@
 	)
 	(hierarchical_label "~{Lepton-CS}"
 		(shape input)
-		(at 266.7 71.12 0)
+		(at 266.7 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4495,7 +4495,7 @@
 	)
 	(hierarchical_label "Lepton-MISO"
 		(shape output)
-		(at 266.7 81.28 0)
+		(at 266.7 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4528,7 +4528,7 @@
 	)
 	(hierarchical_label "Lepton-SCLK"
 		(shape input)
-		(at 266.7 76.2 0)
+		(at 266.7 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4850,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 265.43 128.27 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 265.43 128.27 0)
 			(effects
 				(font
@@ -5997,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 257.81 114.3 0)
 			(effects
 				(font
@@ -6042,7 +6042,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-07200KL"
 			(at 257.81 114.3 0)
 			(effects
 				(font
@@ -6367,7 +6367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 267.97 128.27 0)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 267.97 128.27 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 213.36 128.27 0)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 213.36 128.27 0)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 215.9 128.27 0)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 215.9 128.27 0)
 			(effects
 				(font
