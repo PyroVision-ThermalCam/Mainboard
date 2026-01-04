@@ -2123,16 +2123,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 123.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd4e57a-55c6-4d23-9adb-8e1c453d2d22")
-	)
-	(wire
-		(pts
 			(xy 121.92 74.93) (xy 123.19 74.93)
 		)
 		(stroke
@@ -2427,17 +2417,6 @@
 			(justify right)
 		)
 		(uuid "2b7198c8-0a50-4eed-b562-5eea58589bdf")
-	)
-	(hierarchical_label "Display-Backlight"
-		(shape output)
-		(at 121.92 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cffc1b5-1635-4dc3-a5fb-09da37cbd91f")
 	)
 	(hierarchical_label "Lepton-MISO"
 		(shape input)

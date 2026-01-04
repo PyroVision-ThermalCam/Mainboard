@@ -4010,7 +4010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-07200KL"
 			(at 260.35 54.61 0)
 			(effects
 				(font
@@ -4211,7 +4211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32R-1A7x1-11024_1x24-1MP_P0.5mm_Horizontal"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -4238,7 +4238,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "Amphenol Aorora"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "F32R-1A7H1-11024"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "649-F32R-1A7H1-11024"
 			(at 31.75 88.9 0)
 			(effects
 				(font
@@ -4394,7 +4394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 270.51 68.58 0)
 			(effects
 				(font
@@ -4439,7 +4439,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 270.51 68.58 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 218.44 68.58 0)
 			(effects
 				(font
@@ -4786,7 +4786,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-072K83L"
 			(at 218.44 68.58 0)
 			(effects
 				(font
@@ -5404,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -5449,7 +5449,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "603-RC0603FR-072K83L"
 			(at 215.9 68.58 0)
 			(effects
 				(font

@@ -392,16 +392,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 215.9) (xy 148.59 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ec1771-161a-410c-a10c-c54eac4c8e1f")
-	)
-	(wire
-		(pts
 			(xy 250.19 83.82) (xy 259.08 83.82)
 		)
 		(stroke
@@ -539,6 +529,16 @@
 			(type default)
 		)
 		(uuid "3bfdbb4d-979d-437e-ae25-65fb352073e3")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 255.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403a7663-1cbc-4383-8805-2063e7e849d8")
 	)
 	(wire
 		(pts
@@ -802,16 +802,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 157.48) (xy 148.59 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764705a6-de2c-485b-85af-c6a3453502eb")
-	)
-	(wire
-		(pts
 			(xy 259.08 64.77) (xy 241.3 64.77)
 		)
 		(stroke
@@ -932,16 +922,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 148.59 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa8be8a-ec41-470e-8710-09baf8ccd965")
-	)
-	(wire
-		(pts
 			(xy 107.95 204.47) (xy 137.16 204.47)
 		)
 		(stroke
@@ -1059,6 +1039,16 @@
 			(type default)
 		)
 		(uuid "9e1e4afb-5e6a-4fc3-a327-38b3a6bf0a41")
+	)
+	(wire
+		(pts
+			(xy 255.27 90.17) (xy 255.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50da106-ff4b-4f7c-84cf-6a88c5a4f7ec")
 	)
 	(wire
 		(pts
@@ -1339,6 +1329,16 @@
 			(type default)
 		)
 		(uuid "cf88a497-f30a-4c80-8d4b-70c06c6591ae")
+	)
+	(wire
+		(pts
+			(xy 107.95 215.9) (xy 255.27 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d001eef4-a60b-43ee-9686-90691aaaa421")
 	)
 	(wire
 		(pts
@@ -1852,16 +1852,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "Display-Backlight" output
-			(at 149.86 157.48 180)
-			(uuid "1a566995-906a-4005-84de-88419efc50bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -2579,6 +2569,16 @@
 		(pin "I2C-SDA" bidirectional
 			(at 259.08 80.01 180)
 			(uuid "6d0a7f1e-b4e2-4004-9f68-030a600415b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Display-Backlight" output
+			(at 259.08 90.17 180)
+			(uuid "3d95c3fe-f7b5-482c-8bef-9463321ebab0")
 			(effects
 				(font
 					(size 1.27 1.27)
