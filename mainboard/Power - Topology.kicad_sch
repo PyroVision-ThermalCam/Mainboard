@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e4072e16-76e5-4cb7-b600-1ae14a69f117")
+	(paper "A3")
+	(title_block
+		(date "2025-12-19")
+		(rev "1")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 334.01 240.03)
+		(end 405.13 240.792)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid a1e57db2-c507-4777-bba1-cf3c72b298ce)
+	)
+	(rectangle
+		(start 334.01 207.01)
+		(end 405.13 207.772)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid a45710fa-44e6-44b9-8060-80cdd32ce581)
+	)
+	(text_box "Spec 2"
+		(exclude_from_sim no)
+		(at 335.28 215.9 0)
+		(size 43.18 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "508c293d-8be1-4f2d-ba4e-0bf71b9200f7")
+	)
+	(text_box "Input voltage:"
+		(exclude_from_sim no)
+		(at 335.28 208.28 0)
+		(size 41.91 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6343a3a4-b665-4b45-b613-d6c929be8466")
+	)
+	(text_box "Spec 4"
+		(exclude_from_sim no)
+		(at 335.28 231.14 0)
+		(size 44.45 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7c0a3193-f68c-495e-89ba-c6056c9cecf1")
+	)
+	(text_box "?? - ?? V"
+		(exclude_from_sim no)
+		(at 381 208.28 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9a2e37a7-e948-4676-8c13-25d5c0120ffd")
+	)
+	(text_box "Target specifications:"
+		(exclude_from_sim no)
+		(at 331.47 199.39 0)
+		(size 73.66 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a2f8884a-2d81-4e19-994d-7e0cb95faadf")
+	)
+	(text_box "??"
+		(exclude_from_sim no)
+		(at 381 231.14 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a5043b84-71a1-48af-80d0-a92e9e41e9f3")
+	)
+	(text_box "??"
+		(exclude_from_sim no)
+		(at 381 223.52 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d0a29ba0-dff0-43e4-8dcb-4b6d849e6352")
+	)
+	(text_box "Spec 3"
+		(exclude_from_sim no)
+		(at 335.28 223.52 0)
+		(size 41.91 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e6d756d3-cd8d-403e-bc9c-ee573d654575")
+	)
+	(text_box "??"
+		(exclude_from_sim no)
+		(at 381 215.9 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fb4daffd-d583-4e02-886e-d9143aca708c")
+	)
+)

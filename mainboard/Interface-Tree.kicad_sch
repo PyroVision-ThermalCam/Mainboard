@@ -1,0 +1,37 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e4072e16-76e5-4cb7-b600-1ae14a69f117")
+	(paper "A3")
+	(title_block
+		(title "Interface Tree")
+		(date "2025-12-19")
+		(rev "1")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "I2C addresses\n----------------\nPCAL6416AHF		0x20\nRV-8263-C8		0x51\nOV5640			0x3C\nLepton 3.5			0x2A\nTMP100			0x48\nMCP3425			0x68"
+		(exclude_from_sim no)
+		(at 370.84 212.09 0)
+		(size 35.56 29.21)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "404547ca-199a-4326-9780-a7feee7674e0")
+	)
+)

@@ -1,0 +1,56 @@
+# KiBot output for generating Bill of Materials in XLSX format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/bom.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: bom
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: XLSX
+    group_fields: ['Value', '@MPN_FIELD@']
+    count_smd_tht: true
+    distributors:
+        - Mouser
+        - Digi-Key
+        - TME
+        - Arrow
+        - Farnell
+    xlsx:
+      title: 'Bill of Materials'
+      datasheet_as_link: 'Datasheet'
+      logo: false
+      style: modern-blue
+      kicost: true
+      kicost_config: '@KICOST_CONFIG@'
+      specs: true
+
+    columns:
+      - "Row"
+      - "Quantity Per PCB"
+      - "References"
+      - "manf"
+      - "manf#"
+      - "Datasheet"
+      - "Footprint"
+      - "Description"
+      # - "arrow#"
+      # - "digikey#"
+      # - "farnell#"
+      # - "mouser#"
+      # - "newark#"
+      # - "rs#"
+      # - "tme#"
+
+...
+definitions:
+  NAME: xlsx_costs_bom
+  COMMENT: Costs Bill of Materials in XLSX format
+  DIR: Manufacturing/Assembly
+  KICOST_CONFIG: ''
+  FILT_PRE_TRANSFORM: field_rename
+  MPN_FIELD: 'manf#'
