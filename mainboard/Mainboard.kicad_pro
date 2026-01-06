@@ -507,6 +507,7 @@
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
+        "line_style": 1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -534,15 +535,18 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Project Architecture/Battery/USB-D+": [
+        "USB"
+      ],
+      "/Project Architecture/Battery/USB-D-": [
+        "USB"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "VBUS",
         "pattern": "VBUS"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "*USB*"
       },
       {
         "netclass": "I2C",

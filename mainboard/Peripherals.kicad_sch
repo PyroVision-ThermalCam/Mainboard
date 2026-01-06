@@ -3519,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4e5c46-cf6b-4c93-9e29-ab0003ed5e98")
-	)
-	(wire
-		(pts
 			(xy 187.96 106.68) (xy 187.96 107.95)
 		)
 		(stroke
@@ -4337,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63d1883-9f71-44db-a58e-99dcb41484ec")
+	)
+	(wire
+		(pts
 			(xy 85.09 121.92) (xy 86.36 121.92)
 		)
 		(stroke
@@ -5000,6 +5000,17 @@
 		)
 		(uuid "77d7da57-4269-4767-a441-b0a6325256b5")
 	)
+	(hierarchical_label "~{Battery-Alert}"
+		(shape input)
+		(at 127 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79ce41a7-41f9-4514-9d8f-c6f37c211557")
+	)
 	(hierarchical_label "I2C-SCL"
 		(shape input)
 		(at 99.06 116.84 180)
@@ -5087,17 +5098,6 @@
 			(justify left)
 		)
 		(uuid "e26592ff-55bb-4ddd-97a3-08e1e005f25a")
-	)
-	(hierarchical_label "Battery-Enable"
-		(shape output)
-		(at 127 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e386956c-cfdb-434a-9fbf-729281c1010f")
 	)
 	(hierarchical_label "I2C-SDA"
 		(shape bidirectional)
@@ -6092,7 +6092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XP-G"
+		(property "Footprint" "Cree:XP-G"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -8326,7 +8326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XP-G"
+		(property "Footprint" "Cree:XP-G"
 			(at 227.33 102.87 0)
 			(effects
 				(font
