@@ -232,16 +232,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 60.96) (xy 259.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0221e7ca-ec31-4766-9954-dc502a32030f")
-	)
-	(wire
-		(pts
 			(xy 259.08 86.36) (xy 252.73 86.36)
 		)
 		(stroke
@@ -249,6 +239,16 @@
 			(type default)
 		)
 		(uuid "02b74a90-a18b-49f7-8b8b-a85fe43ce3a1")
+	)
+	(wire
+		(pts
+			(xy 243.84 44.45) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06553809-6ae2-4c78-aa23-e70245c05d2d")
 	)
 	(wire
 		(pts
@@ -269,26 +269,6 @@
 			(type default)
 		)
 		(uuid "0abb9731-dc7b-47ba-b6fd-61666cc5d410")
-	)
-	(wire
-		(pts
-			(xy 107.95 69.85) (xy 119.38 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce94a6f-aada-4812-85ac-507cc75cc042")
-	)
-	(wire
-		(pts
-			(xy 119.38 69.85) (xy 119.38 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14283de2-7c22-43ad-bce3-364c7069f5fb")
 	)
 	(wire
 		(pts
@@ -352,6 +332,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 60.96) (xy 259.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19364eea-2102-497a-aa55-d610d3fd19a6")
+	)
+	(wire
+		(pts
 			(xy 149.86 121.92) (xy 128.27 121.92)
 		)
 		(stroke
@@ -359,6 +349,16 @@
 			(type default)
 		)
 		(uuid "1b72fd4d-f4f9-45f3-8637-405c9b20d92b")
+	)
+	(wire
+		(pts
+			(xy 119.38 71.12) (xy 119.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f10b01f-0ac2-4195-be83-17d51c4339cf")
 	)
 	(wire
 		(pts
@@ -682,6 +682,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638c7839-e9ec-48d0-8686-a7630b3d50d5")
+	)
+	(wire
+		(pts
 			(xy 189.23 127) (xy 246.38 127)
 		)
 		(stroke
@@ -709,16 +719,6 @@
 			(type default)
 		)
 		(uuid "689894b8-2b63-417e-bc45-adba94f1832d")
-	)
-	(wire
-		(pts
-			(xy 243.84 44.45) (xy 243.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a6c46a-3599-4b2e-82f9-c254cb574160")
 	)
 	(wire
 		(pts
@@ -809,16 +809,6 @@
 			(type default)
 		)
 		(uuid "76f18911-5bae-463b-b124-dfd15aa1b2e3")
-	)
-	(wire
-		(pts
-			(xy 119.38 44.45) (xy 243.84 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d2fc59-caf3-4a90-9c60-8374cc03a3f7")
 	)
 	(wire
 		(pts
@@ -1349,6 +1339,16 @@
 			(type default)
 		)
 		(uuid "d006998c-dbf6-46bc-90e9-87ec8c7fe090")
+	)
+	(wire
+		(pts
+			(xy 119.38 44.45) (xy 243.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fb5704-9fe6-4546-88ff-ec3bd6c49a7d")
 	)
 	(wire
 		(pts
@@ -2140,16 +2140,6 @@
 				(justify right)
 			)
 		)
-		(pin "Battery-Enable" input
-			(at 107.95 69.85 0)
-			(uuid "a0a7c532-b78e-495a-b863-54250380df16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB-D+" bidirectional
 			(at 107.95 82.55 0)
 			(uuid "0d02feb2-1520-4552-ba9a-99c02498e352")
@@ -2173,6 +2163,16 @@
 		(pin "I2C-SCL" input
 			(at 107.95 74.93 0)
 			(uuid "a764058f-f5c0-4c4c-a43d-8d2d79e5e3e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{Battery-Alert}" output
+			(at 107.95 71.12 0)
+			(uuid "7d0cde85-c6e6-4dcc-8a21-36186f5394cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,16 +2476,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Battery-Enable" output
-			(at 259.08 60.96 180)
-			(uuid "d02461ca-e7ec-42fe-9940-c7d1788420ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Battery-Charge" input
 			(at 259.08 58.42 180)
 			(uuid "1219ef54-955a-4eec-b34c-bf7be397a0c5")
@@ -2579,6 +2569,16 @@
 		(pin "Display-Backlight" output
 			(at 259.08 90.17 180)
 			(uuid "3d95c3fe-f7b5-482c-8bef-9463321ebab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Battery-Alert}" input
+			(at 259.08 60.96 180)
+			(uuid "5c44d085-1e45-4868-af74-f8854a45a360")
 			(effects
 				(font
 					(size 1.27 1.27)
