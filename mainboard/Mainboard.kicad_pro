@@ -562,7 +562,7 @@
       "plot": "../production/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../cad/PCB.stp",
+      "step": "../../../../../Downloads/Mainboard.step",
       "svg": "",
       "vrml": "../cad/ZSWatch.wrl"
     },
