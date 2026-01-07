@@ -6,7 +6,7 @@
 
 <p align="center" width="100%">
   <a href="${GIT_URL}/actions/workflows/pcb.yaml">
-    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/pcb.yaml/badge.svg">
+    <img alt="CI Badge" src="${GIT_URL}/actions/workflows/pcb.yml/badge.svg">
   </a>
 </p>
 

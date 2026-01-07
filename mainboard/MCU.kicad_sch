@@ -1698,16 +1698,34 @@
 		(uuid "aecf51e3-1c4c-4762-9357-2c46de535fc6")
 	)
 	(junction
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "268a07a0-09f1-4c28-83ce-c257692b2755")
+	)
+	(junction
 		(at 138.43 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ac141d4-511e-494a-b2e4-ff46803490b7")
 	)
 	(junction
+		(at 72.39 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843e5d9c-1150-4b03-b6bc-7f9457f215f0")
+	)
+	(junction
 		(at 96.52 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f05b8b-99c8-44ea-a9e2-0b041714aaa9")
+	)
+	(junction
+		(at 74.93 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76c354e-584a-42ef-845f-3f0cf469db37")
 	)
 	(no_connect
 		(at 153.67 82.55)
@@ -1724,6 +1742,16 @@
 	(no_connect
 		(at 153.67 85.09)
 		(uuid "dd91e026-2710-4ed0-a100-bf916bef439f")
+	)
+	(wire
+		(pts
+			(xy 72.39 88.9) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0236c77d-cb76-44cd-be3a-56efb298fd2a")
 	)
 	(wire
 		(pts
@@ -1777,6 +1805,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a00d2bc-9266-4f32-9237-376676417676")
+	)
+	(wire
+		(pts
 			(xy 154.94 107.95) (xy 153.67 107.95)
 		)
 		(stroke
@@ -1784,6 +1822,16 @@
 			(type default)
 		)
 		(uuid "1f95609d-2b3a-409c-8e1e-8bb73bb1d305")
+	)
+	(wire
+		(pts
+			(xy 74.93 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223927a8-e56a-4a74-9a24-7dccfbe6d284")
 	)
 	(wire
 		(pts
@@ -1857,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 123.19 92.71)
+			(xy 60.96 92.71) (xy 72.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 123.19 95.25)
+			(xy 60.96 95.25) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1954,6 +2002,16 @@
 			(type default)
 		)
 		(uuid "6b3f916d-ed6e-48ed-aee4-aee5414341c7")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7161972e-d318-4a79-ad10-230abe2d5f10")
 	)
 	(wire
 		(pts
@@ -2127,6 +2185,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 80.01) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c860faef-571e-42bc-bfad-79d3681fa25f")
+	)
+	(wire
+		(pts
 			(xy 121.92 74.93) (xy 123.19 74.93)
 		)
 		(stroke
@@ -2134,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "ce208f93-af6d-42f2-a8d1-bacee5cba0be")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 72.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb37518-2fbc-435c-99a5-7f1a7ffe8516")
 	)
 	(wire
 		(pts
@@ -2157,6 +2235,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 88.9) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc735258-b4ba-4f0f-be19-97b6ee39e4be")
+	)
+	(wire
+		(pts
 			(xy 121.92 82.55) (xy 123.19 82.55)
 		)
 		(stroke
@@ -2174,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "ebada7fb-2eeb-4db5-91e8-12def051a149")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef6bf23-b44c-4f16-a65a-1d300f5aedd4")
 	)
 	(wire
 		(pts
@@ -2244,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "f4e44cf6-bdfe-4b16-bbe5-61d1689fd218")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f581f558-b719-4154-8537-8496af4824a1")
 	)
 	(wire
 		(pts
@@ -2413,7 +2521,7 @@
 	)
 	(hierarchical_label "I2C-SCL"
 		(shape output)
-		(at 121.92 92.71 180)
+		(at 60.96 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,7 +2763,7 @@
 	)
 	(hierarchical_label "I2C-SDA"
 		(shape bidirectional)
-		(at 121.92 95.25 180)
+		(at 60.96 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2731,6 +2839,112 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
 					(reference "#PWR0903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e93a9bc-a117-40d4-b32c-f91b7efa0451")
+		(property "Reference" "R1007"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k3"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.612 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RC0603FR-073K3L"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "603-RC0603FR-073K3L"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d06fa4e0-ac4e-44ba-b985-96858ca52151")
+		)
+		(pin "2"
+			(uuid "7464a564-25b9-4b6a-8221-3f8673169a3d")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "R1007")
 					(unit 1)
 				)
 			)
@@ -2987,6 +3201,111 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
 					(reference "#PWR0906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9853bfc8-ca34-47cd-a859-a4322b4a3cb5")
+		(property "Reference" "R1008"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k3"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.708 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RC0603FR-073K3L"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "603-RC0603FR-073K3L"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a6cc5d-4b9d-474f-ac0b-bfcf3e506725")
+		)
+		(pin "2"
+			(uuid "b7042971-499a-4be5-8925-5c8724fd515b")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "R1008")
 					(unit 1)
 				)
 			)
@@ -3505,6 +3824,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff639b8-e1c7-42bd-a962-9cb92d0bc8b8")
+		(property "Reference" "#PWR01013"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a35740b-1207-4b9e-9b2f-35802e61aac3")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "#PWR01013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 138.43 87.63 0)
 		(unit 1)
@@ -3749,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Value" "PROG"
+		(property "Value" "Prog"
 			(at 261.62 152.4 0)
 			(effects
 				(font

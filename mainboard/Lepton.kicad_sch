@@ -2686,12 +2686,6 @@
 		(uuid "a02af78c-280b-4764-913d-f0bd41ee62cb")
 	)
 	(junction
-		(at 267.97 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4d7f6ec-87d8-4073-8613-b936b256e5d6")
-	)
-	(junction
 		(at 71.12 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2702,18 +2696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be9fa2eb-4826-4714-8225-8d481436268a")
-	)
-	(junction
-		(at 266.7 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0868ce1-d475-4c8f-a38e-44cc83153f2a")
-	)
-	(junction
-		(at 265.43 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c14d7b0a-6d3d-4c1c-a572-d789295735c4")
 	)
 	(junction
 		(at 71.12 78.74)
@@ -2738,12 +2720,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7639b27-baa5-4a1b-8afc-1bb3ee4600bf")
-	)
-	(junction
-		(at 266.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8b28746-8012-4d1c-8753-fd8778341c5b")
 	)
 	(junction
 		(at 86.36 83.82)
@@ -2801,16 +2777,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 109.22) (xy 266.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a60296-1ed9-4562-a5ed-fa22ef72e1cb")
-	)
-	(wire
-		(pts
 			(xy 116.84 129.54) (xy 115.57 129.54)
 		)
 		(stroke
@@ -2841,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 137.16) (xy 265.43 137.16)
+			(xy 259.08 137.16) (xy 271.78 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3011,16 +2977,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 132.08) (xy 267.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335fe543-9d92-4737-b6ab-05b945d7a430")
-	)
-	(wire
-		(pts
 			(xy 243.84 76.2) (xy 245.11 76.2)
 		)
 		(stroke
@@ -3091,16 +3047,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 132.08) (xy 265.43 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47fafe3e-ca7c-4e8e-aba8-bb5da2eaaa7e")
-	)
-	(wire
-		(pts
 			(xy 189.23 76.2) (xy 190.5 76.2)
 		)
 		(stroke
@@ -3138,16 +3084,6 @@
 			(type default)
 		)
 		(uuid "53100d3d-5ee6-407c-815a-d6713059fbf8")
-	)
-	(wire
-		(pts
-			(xy 267.97 124.46) (xy 267.97 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5324384d-2662-4743-b17f-bd0087548e2d")
 	)
 	(wire
 		(pts
@@ -3301,23 +3237,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 139.7) (xy 267.97 139.7)
+			(xy 259.08 139.7) (xy 271.78 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6bb21cd1-e4f4-4dbe-a0d1-d5afe05767e6")
-	)
-	(wire
-		(pts
-			(xy 266.7 123.19) (xy 265.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f369f26-5565-4a17-8413-7bb308facabc")
 	)
 	(wire
 		(pts
@@ -3328,36 +3254,6 @@
 			(type default)
 		)
 		(uuid "71e1124b-08d1-4b0e-969f-59cdeeabfc3b")
-	)
-	(wire
-		(pts
-			(xy 267.97 123.19) (xy 266.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738e3e3e-d821-4d0a-a2b3-b76aef2f4ef8")
-	)
-	(wire
-		(pts
-			(xy 267.97 139.7) (xy 271.78 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b3dd333-d8e2-460e-942c-13a1c9ecc514")
-	)
-	(wire
-		(pts
-			(xy 266.7 114.3) (xy 266.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f935ee-ea95-4201-8882-216bf6c45106")
 	)
 	(wire
 		(pts
@@ -3941,16 +3837,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 123.19) (xy 265.43 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e7dd25-9072-4f5c-a077-3e8b4a494385")
-	)
-	(wire
-		(pts
 			(xy 227.33 114.3) (xy 227.33 129.54)
 		)
 		(stroke
@@ -4028,16 +3914,6 @@
 			(type default)
 		)
 		(uuid "f14a8a97-8c3e-465e-a1d7-2f4e1c4e0776")
-	)
-	(wire
-		(pts
-			(xy 265.43 137.16) (xy 271.78 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63e4eed-419a-485f-8402-8690bb01325b")
 	)
 	(wire
 		(pts
@@ -4808,112 +4684,6 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
 					(reference "#PWR01008")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 128.27 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e93a9bc-a117-40d4-b32c-f91b7efa0451")
-		(property "Reference" "R1007"
-			(at 262.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k3"
-			(at 262.89 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 263.652 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RC0603FR-073K3L"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "603-RC0603FR-073K3L"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d06fa4e0-ac4e-44ba-b985-96858ca52151")
-		)
-		(pin "2"
-			(uuid "7464a564-25b9-4b6a-8221-3f8673169a3d")
-		)
-		(instances
-			(project "PyroVision"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
-					(reference "R1007")
 					(unit 1)
 				)
 			)
@@ -6332,111 +6102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 267.97 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9853bfc8-ca34-47cd-a859-a4322b4a3cb5")
-		(property "Reference" "R1008"
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k3"
-			(at 270.51 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 269.748 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RC0603FR-073K3L"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "603-RC0603FR-073K3L"
-			(at 267.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10a6cc5d-4b9d-474f-ac0b-bfcf3e506725")
-		)
-		(pin "2"
-			(uuid "b7042971-499a-4be5-8925-5c8724fd515b")
-		)
-		(instances
-			(project "PyroVision"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
-					(reference "R1008")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 88.9 0)
 		(unit 1)
@@ -7543,72 +7208,6 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
 					(reference "C1002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 266.7 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff639b8-e1c7-42bd-a962-9cb92d0bc8b8")
-		(property "Reference" "#PWR01013"
-			(at 266.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 266.7 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a35740b-1207-4b9e-9b2f-35802e61aac3")
-		)
-		(instances
-			(project "PyroVision"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
-					(reference "#PWR01013")
 					(unit 1)
 				)
 			)

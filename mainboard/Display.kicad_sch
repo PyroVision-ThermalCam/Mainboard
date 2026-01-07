@@ -1090,6 +1090,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 99.06) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e5e015-264c-4260-99c8-e8a37c65a640")
+	)
+	(wire
+		(pts
 			(xy 130.81 73.66) (xy 133.35 73.66)
 		)
 		(stroke
@@ -1170,6 +1180,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 106.68) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc5644d-d5ce-4f2c-9ce1-4e0025e4c190")
+	)
+	(wire
+		(pts
 			(xy 154.94 81.28) (xy 171.45 81.28)
 		)
 		(stroke
@@ -1190,7 +1210,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 171.45 99.06)
+			(xy 153.67 106.68) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acc200d-e7f5-4593-8ad0-6f17971b6769")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1207,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "aa56b9c9-a5db-40d3-bec0-bd679298b243")
-	)
-	(wire
-		(pts
-			(xy 168.91 74.93) (xy 168.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad66c1fe-6fb7-45d6-a8cc-cb01ba620691")
 	)
 	(wire
 		(pts
@@ -1716,6 +1736,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 153.67 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "437527fe-73b8-48b4-bb2d-c5b84851f0af")
+		(property "Reference" "R1"
+			(at 151.13 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 151.13 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 155.448 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0603-JW-104ELF"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9b14e1-6fd6-4c58-8d2b-540f2ee18ed7")
+		)
+		(pin "2"
+			(uuid "bc5c4209-dd44-4f14-bcd4-f09422cae491")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 113.03 0)
 		(unit 1)
@@ -2064,6 +2189,113 @@
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
 					(reference "#PWR01404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34dbf13-0af1-4d40-bb3f-3fd7ae14133e")
+		(property "Reference" "R2"
+			(at 158.75 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 158.75 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.432 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0603-JW-104ELF"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0603-JW-104ELF"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796c8007-5a1c-46b0-9b40-df365be02ad4")
+		)
+		(pin "2"
+			(uuid "c61b7673-2b6a-463e-a4be-9bf67dcfb206")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
+					(reference "R2")
 					(unit 1)
 				)
 			)
