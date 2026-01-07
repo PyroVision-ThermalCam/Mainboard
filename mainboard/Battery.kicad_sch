@@ -951,37 +951,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.524 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -990,15 +985,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1007,7 +993,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "batt voltage-source cell"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1016,129 +1002,62 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "Battery_1_1"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,9 +1073,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3318,7 +3237,7 @@
 	(text_box "DESIGN NOTE:\nCan be replaced with static 10k, if not needed."
 		(exclude_from_sim no)
 		(at 172.72 92.71 0)
-		(size 24.13 11.43)
+		(size 24.13 8.89)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
@@ -3364,7 +3283,7 @@
 	(text_box "DESIGN NOTE:\nCalculated for a charging current of 540 mA."
 		(exclude_from_sim no)
 		(at 137.16 135.89 0)
-		(size 24.13 11.43)
+		(size 24.13 8.89)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
@@ -3469,6 +3388,12 @@
 		(uuid "25411c27-20b7-49c7-9f0f-5edb2e4285a9")
 	)
 	(junction
+		(at 231.14 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31113bc9-03c6-4738-835e-22b75ad334ad")
+	)
+	(junction
 		(at 179.07 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3505,10 +3430,22 @@
 		(uuid "b1fe6bc8-e7dc-414e-aeee-6a20aaeab98a")
 	)
 	(junction
+		(at 229.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba2682c6-a3cb-4cce-80af-5c4ab3c911e8")
+	)
+	(junction
 		(at 321.31 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd05b6c7-7dde-455f-ab54-1421b7117133")
+	)
+	(junction
+		(at 232.41 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c95e2ca8-0ff4-4615-9b22-ab202fad46d0")
 	)
 	(junction
 		(at 203.2 109.22)
@@ -3533,6 +3470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9c6520e-1f2b-4674-9e96-752e1ff49347")
+	)
+	(junction
+		(at 232.41 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff726cf1-84a3-40a3-b4b6-1d68806abcf9")
 	)
 	(wire
 		(pts
@@ -3636,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 146.05) (xy 231.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250eb62b-15ba-4179-b607-fec8b41807e1")
+	)
+	(wire
+		(pts
 			(xy 62.23 127) (xy 62.23 128.27)
 		)
 		(stroke
@@ -3716,6 +3669,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 121.92) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345df0a9-219f-4a32-bfe6-bd61b5d33298")
+	)
+	(wire
+		(pts
 			(xy 171.45 109.22) (xy 203.2 109.22)
 		)
 		(stroke
@@ -3746,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 109.22) (xy 256.54 109.22)
+			(xy 229.87 109.22) (xy 232.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3773,6 +3736,16 @@
 			(type default)
 		)
 		(uuid "415662cb-f07d-4b3e-af33-65efd8c52072")
+	)
+	(wire
+		(pts
+			(xy 234.95 130.81) (xy 232.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4892b14b-07d5-438f-8d09-499027e16deb")
 	)
 	(wire
 		(pts
@@ -3837,7 +3810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.15 113.03) (xy 182.88 104.14)
+			(xy 184.15 113.03) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0.254)
@@ -3918,6 +3891,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 121.92) (xy 232.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acd17e6-da9e-4c84-8062-aee5b67107b3")
+	)
+	(wire
+		(pts
 			(xy 337.82 144.78) (xy 337.82 142.24)
 		)
 		(stroke
@@ -3955,6 +3938,16 @@
 			(type default)
 		)
 		(uuid "7a240fb3-b713-4111-ac38-16aa0d9fe78b")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 256.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3528e5-3a2f-4209-bc96-c5748bf4de74")
 	)
 	(wire
 		(pts
@@ -4015,6 +4008,16 @@
 			(type default)
 		)
 		(uuid "8323f28b-aa25-4d06-9045-192bdbe9e5a5")
+	)
+	(wire
+		(pts
+			(xy 229.87 140.97) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a3cc32-9d91-4cdb-a2b8-3d42ef726c9a")
 	)
 	(wire
 		(pts
@@ -4108,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 109.22) (xy 229.87 111.76)
+			(xy 229.87 109.22) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4208,6 +4211,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a57f6b13-274b-4b4c-b6d1-a63cbab295ca")
+	)
+	(wire
+		(pts
 			(xy 308.61 151.13) (xy 307.34 151.13)
 		)
 		(stroke
@@ -4225,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "aa8bd848-479b-41d3-98a4-d12373338537")
+	)
+	(wire
+		(pts
+			(xy 232.41 140.97) (xy 232.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe8af5c-a2dd-465e-969a-15735f283200")
 	)
 	(wire
 		(pts
@@ -4255,6 +4278,16 @@
 			(type default)
 		)
 		(uuid "b35db073-1363-45d9-977e-f70dc377c72a")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 232.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb88c2e5-4bc5-4d01-9280-ee5dba4e9ef4")
 	)
 	(wire
 		(pts
@@ -4315,6 +4348,16 @@
 			(type default)
 		)
 		(uuid "c874bda6-e066-4f97-9aac-2900b2945c64")
+	)
+	(wire
+		(pts
+			(xy 232.41 146.05) (xy 231.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4a32c5-5894-4543-8a38-f39ffc3314d7")
 	)
 	(wire
 		(pts
@@ -4448,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 121.92) (xy 229.87 128.27)
+			(xy 229.87 128.27) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4465,6 +4508,26 @@
 			(type default)
 		)
 		(uuid "ed98f1e8-d414-4305-9be1-73bf1bbb9b25")
+	)
+	(wire
+		(pts
+			(xy 232.41 130.81) (xy 232.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5587941-746f-4778-8900-1829fdaaa1ab")
+	)
+	(wire
+		(pts
+			(xy 231.14 146.05) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcecd656-3799-48fb-926f-2bb65b7c6cf0")
 	)
 	(wire
 		(pts
@@ -5202,112 +5265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 229.87 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f19351a-9538-4b7d-92dd-bd8069f6eae9")
-		(property "Reference" "BT701"
-			(at 233.68 114.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 233.68 117.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery_Kampi:Keystone_18650"
-			(at 229.87 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/201/1/1043.PDF"
-			(at 229.87 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Keystone Electronics"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "1043"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "534-1043"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ed0b931-ae7e-4158-89ff-a82c882759a9")
-		)
-		(pin "1"
-			(uuid "857d7d6a-9927-44db-bde0-8be92ba1ef78")
-		)
-		(instances
-			(project ""
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
-					(reference "BT701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 179.07 146.05 180)
 		(unit 1)
@@ -5414,7 +5371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 128.27 0)
+		(at 231.14 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5423,7 +5380,7 @@
 		(dnp no)
 		(uuid "297f553d-f8a2-443f-8d81-1f4b009579a8")
 		(property "Reference" "#PWR0710"
-			(at 229.87 134.62 0)
+			(at 231.14 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.743 132.6642 0)
+			(at 231.013 151.7142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 128.27 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 128.27 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 128.27 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,6 +5436,113 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
 					(reference "#PWR0710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 137.16 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f66277e-30b3-4b34-88d3-46adf824bf5a")
+		(property "Reference" "R710"
+			(at 227.33 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 227.33 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 228.092 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR1206-J/-000ELF"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR1206-J/-000ELF"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7598041-09a8-4cc1-91c5-1e18fc88b5f9")
+		)
+		(pin "2"
+			(uuid "018148e1-55f3-46ab-9a4c-a74baf562131")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -5774,6 +5838,112 @@
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
 					(reference "#PWR0709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e524cc8-a828-4cb0-b25a-f0547d9e6e1c")
+		(property "Reference" "R708"
+			(at 234.95 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 234.95 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 234.188 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR1206-J/-000ELF"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR1206-J/-000ELF"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b676fb38-4265-4d49-a42f-bb3f89e7cf13")
+		)
+		(pin "2"
+			(uuid "9579687c-40c3-4013-bf47-3bc0036d71bf")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "R708")
 					(unit 1)
 				)
 			)
@@ -6372,6 +6542,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 240.03 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70e01605-e3e6-4e2a-8b60-3e569517a2aa")
+		(property "Reference" "X702"
+			(at 242.57 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 242.57 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1q49kc1*_gcl_aw*R0NMLjE3Njc4MTgyNTEuQ2owS0NRaUFwZmpLQmhDMEFSSXNBTWlSX0lzdkJ5TENnX010TTZNVG9xREFmVmI5TVlsSHQ2OXlNZmxfSmM2M1BITW9jMUNYYXE4LS1Kd2FBa3Y1RUFMd193Y0I.*_gcl_au*Mjc1Njk5MzM3LjE3NjUxMzEwODIuMzAwMjEyMTU0LjE3Njc4MTc1MDQuMTc2NzgxNzU2Mg..*_ga*MTI4ODM2MzAzLjE3NjU0MzcxNTg.*_ga_15W4STQT4T*czE3Njc4MTc1MDUkbzI0JGcxJHQxNzY3ODE4MjUxJGo2MCRsMCRoMA.."
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "JST Commercial"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "B2B-PH-SM4-TB(LF)(SN)"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "306-B2BPHSM4TBLFSN"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9617b83-9136-4243-9435-f5182361d07f")
+		)
+		(pin "2"
+			(uuid "4392578c-d151-444e-bd56-ad433d02bfab")
+		)
+		(instances
+			(project ""
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "X702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 229.87 107.95 0)
 		(unit 1)
@@ -6932,6 +7208,113 @@
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
 					(reference "#PWR0713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8be5194b-d682-4cce-98db-ea23c9bcde24")
+		(property "Reference" "R711"
+			(at 234.95 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 234.95 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 234.188 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR1206-J/-000ELF"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR1206-J/-000ELF"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc293f02-4180-4451-bca4-658304f96e46")
+		)
+		(pin "2"
+			(uuid "8a8b7c89-d522-47fb-a2d5-36582a61cea8")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "R711")
 					(unit 1)
 				)
 			)
@@ -7968,6 +8351,113 @@
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
 					(reference "#PWR0719")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 118.11 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "efe35f1d-8afd-4175-ba55-8ddc0d6d0885")
+		(property "Reference" "R707"
+			(at 227.33 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 227.33 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 228.092 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR1206-J/-000ELF"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR1206-J/-000ELF"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad8974c-34c8-4f2f-ae43-0342291fa706")
+		)
+		(pin "2"
+			(uuid "9e794555-e8e5-4320-8960-c96df97d85df")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "R707")
 					(unit 1)
 				)
 			)
