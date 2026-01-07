@@ -435,6 +435,7 @@ import:
       NAME: @COPY_LOGO@
       COMMENT: Copy logo
       DIR: @COPY_LOGO_DIR@
+      LOGO: @LOGO@
 
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
@@ -553,7 +554,7 @@ definitions:
   PROJECT_NAME: PyroVision
   BOARD_NAME: Mainboard
 
-  COMPANY: Kampis-Elektroecke
+  COMPANY: PyroVision
   DESIGNER: Daniel Kampert
 
   LOGO: 'Logos/Logo.png'
