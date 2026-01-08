@@ -37,9 +37,9 @@
         "other_text_thickness": 0.12,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.25,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -468,7 +468,7 @@
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
+      "unresolved_variable": "warning",
       "wire_dangling": "error"
     }
   },
@@ -507,11 +507,15 @@
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
+        "clearance": 0.15,
         "line_style": 1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(255, 153, 0)"
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.24,
+        "via_diameter": 0.45,
+        "via_drill": 0.25
       },
       {
         "bus_width": 12,

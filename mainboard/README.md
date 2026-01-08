@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/dummy_logo.png">
+  <img alt="Logo" width="33%" src="logos/Logo.png">
 </p>
 
 <h1 align="center">PyroVision Mainboard</h1>

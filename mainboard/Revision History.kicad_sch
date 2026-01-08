@@ -5,7 +5,7 @@
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
-		(title "Template")
+		(title "Revision History")
 		(date "2025-12-19")
 		(rev "1")
 		(company "${COMPANY}")
@@ -33,29 +33,6 @@
 		)
 		(uuid "0c062e2b-2be1-4307-b752-045c211787f4")
 	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 80.01 16.51 0)
-		(size 137.16 12.7)
-		(margins 4.4999 4.4999 4.4999 4.4999)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "20a0a094-ac98-46df-bdac-21d5721f7697")
-	)
 	(text_box "${RELEASE_BODY_1.0.0}"
 		(exclude_from_sim no)
 		(at 22.86 35.56 0)
@@ -77,6 +54,29 @@
 			(justify left top)
 		)
 		(uuid "212b625e-4169-46f2-a2fc-afc6cbef07cd")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 271.78 20.32)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "270c46bd-8d97-4216-a27f-bc7b5938e128")
 	)
 	(text_box "${RELEASE_TITLE_1.0.2}"
 		(exclude_from_sim no)

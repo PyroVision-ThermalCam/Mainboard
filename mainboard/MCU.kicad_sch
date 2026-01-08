@@ -1677,7 +1677,7 @@
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 271.78 13.97)
+		(size 271.78 20.32)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -1695,7 +1695,7 @@
 				(color 162 22 34 1)
 			)
 		)
-		(uuid "aecf51e3-1c4c-4762-9357-2c46de535fc6")
+		(uuid "92ce4f56-b73d-4758-8230-7b60854feed6")
 	)
 	(junction
 		(at 73.66 80.01)
@@ -1730,10 +1730,6 @@
 	(no_connect
 		(at 153.67 82.55)
 		(uuid "0835a902-615c-4377-b5f3-046eebb5529d")
-	)
-	(no_connect
-		(at 123.19 72.39)
-		(uuid "8d0663e4-6956-49a6-8187-42ea11f43e74")
 	)
 	(no_connect
 		(at 153.67 87.63)
@@ -2295,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1692e18-2ecc-40ed-862f-a4b428b35a7c")
+	)
+	(wire
+		(pts
 			(xy 271.78 139.7) (xy 275.59 139.7)
 		)
 		(stroke
@@ -2486,6 +2492,17 @@
 		)
 		(uuid "1306c1a9-bc4d-4b46-b82d-8e96f83134ab")
 	)
+	(hierarchical_label "~{Display-Expander-Int}"
+		(shape input)
+		(at 121.92 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14023ccd-5cac-442c-943a-00b4e967ea68")
+	)
 	(hierarchical_label "Camera-PCLK"
 		(shape input)
 		(at 121.92 90.17 180)
@@ -2552,9 +2569,9 @@
 		)
 		(uuid "35c46477-f530-45fb-9b4d-46da46484bf2")
 	)
-	(hierarchical_label "~{Expander-INT}"
+	(hierarchical_label "~{Expander-Int}"
 		(shape input)
-		(at 121.92 74.93 180)
+		(at 121.92 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,7 +2635,7 @@
 		)
 		(uuid "70d89488-f928-4329-9846-2a6b1f7e3f8a")
 	)
-	(hierarchical_label "~{Touch-CS}"
+	(hierarchical_label "~{Touch-Reset}"
 		(shape output)
 		(at 154.94 107.95 0)
 		(effects
@@ -2782,7 +2799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d124065-554e-4f07-adcb-bdbfba300987")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR0904"
 			(at 134.62 62.23 0)
 			(effects
 				(font
@@ -2838,7 +2855,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0903")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 			)
@@ -2854,7 +2871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e93a9bc-a117-40d4-b32c-f91b7efa0451")
-		(property "Reference" "R1007"
+		(property "Reference" "R901"
 			(at 69.85 83.82 0)
 			(effects
 				(font
@@ -2944,7 +2961,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "R1007")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -2960,7 +2977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dcce06e-cb14-416f-94a0-0e43e436b08f")
-		(property "Reference" "#PWR0907"
+		(property "Reference" "#PWR0908"
 			(at 275.59 147.32 0)
 			(effects
 				(font
@@ -3016,7 +3033,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0907")
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -3144,7 +3161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80717c21-65fb-4dfd-bd98-eba531323cf8")
-		(property "Reference" "#PWR0906"
+		(property "Reference" "#PWR0907"
 			(at 269.24 147.32 0)
 			(effects
 				(font
@@ -3200,7 +3217,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0906")
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9853bfc8-ca34-47cd-a859-a4322b4a3cb5")
-		(property "Reference" "R1008"
+		(property "Reference" "R902"
 			(at 77.47 83.82 0)
 			(effects
 				(font
@@ -3305,7 +3322,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "R1008")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -3321,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb83508-923a-484b-8160-7b80c242c6bd")
-		(property "Reference" "R901"
+		(property "Reference" "R903"
 			(at 99.06 52.0699 0)
 			(effects
 				(font
@@ -3417,7 +3434,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "R901")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73b16c7-27e9-43ae-bcc4-16b092784cde")
-		(property "Reference" "#PWR0904"
+		(property "Reference" "#PWR0905"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -3601,7 +3618,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0904")
+					(reference "#PWR0905")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db816da0-6545-4f24-af73-b7f5ae7f5bc3")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR0902"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -3673,7 +3690,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0901")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a30db5-5705-46de-9e54-6b9f19cd22b9")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0903"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -3745,7 +3762,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0902")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -3761,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60ad865-906d-4476-9dc4-5a2c355e7618")
-		(property "Reference" "#PWR0905"
+		(property "Reference" "#PWR0906"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3817,7 +3834,7 @@
 			)
 			(project "Thermal Cam"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR0905")
+					(reference "#PWR0906")
 					(unit 1)
 				)
 			)
@@ -3833,7 +3850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff639b8-e1c7-42bd-a962-9cb92d0bc8b8")
-		(property "Reference" "#PWR01013"
+		(property "Reference" "#PWR0901"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -3883,7 +3900,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
-					(reference "#PWR01013")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)

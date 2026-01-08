@@ -557,8 +557,8 @@ definitions:
   COMPANY: PyroVision
   DESIGNER: Daniel Kampert
 
-  LOGO: 'Logos/Logo.png'
-  GIT_URL: 'https://github.com/Kampi/PyroVision'
+  LOGO: 'logos/Logo.png'
+  GIT_URL: 'https://github.com/PyroVision-ThermalCam/Mainboard'
 
   # Preflight ==================================================================
 
