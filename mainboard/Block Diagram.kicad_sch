@@ -5,7 +5,7 @@
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
-		(title "Template")
+		(title "Block Diagram")
 		(date "2025-12-19")
 		(rev "1")
 		(company "${COMPANY}")
@@ -13,8 +13,8 @@
 	(lib_symbols)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 144.78 20.32 0)
-		(size 130.81 12.7)
+		(at 12.7 12.7 0)
+		(size 394.97 20.32)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -32,6 +32,6 @@
 				(color 162 22 34 1)
 			)
 		)
-		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
+		(uuid "3cd83383-b953-41df-b946-dd72f0f620b2")
 	)
 )

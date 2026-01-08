@@ -730,7 +730,7 @@
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 271.78 13.97)
+		(size 271.78 20.32)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -748,7 +748,7 @@
 				(color 162 22 34 1)
 			)
 		)
-		(uuid "22ca1d3c-3cd0-4a5e-aca4-fd3fabd6f5da")
+		(uuid "83d880bb-d364-4143-80aa-0562d5207bbe")
 	)
 	(junction
 		(at 102.87 96.52)
@@ -803,6 +803,16 @@
 			(type default)
 		)
 		(uuid "2aa5caf8-ca9b-4c48-a4b4-e5803c196ae6")
+	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b1c45d-8644-443a-aa49-3a4852d8c7d1")
 	)
 	(wire
 		(pts
@@ -893,16 +903,6 @@
 			(type default)
 		)
 		(uuid "de806a85-72e4-4ef5-ba26-d0321f5aa1a2")
-	)
-	(wire
-		(pts
-			(xy 102.87 83.82) (xy 102.87 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5f559e-01b4-405d-bae6-049f152f9760")
 	)
 	(hierarchical_label "~{SD-CS}"
 		(shape input)
@@ -1393,7 +1393,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 102.87 83.82 0)
+		(at 102.87 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1402,7 +1402,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1dc5c36-70ab-45e6-a594-9d34f93aa8c9")
 		(property "Reference" "#PWR01301"
-			(at 102.87 87.63 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 78.74 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 83.82 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 83.82 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 83.82 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
