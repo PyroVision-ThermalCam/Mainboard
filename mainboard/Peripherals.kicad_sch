@@ -5139,7 +5139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 83.82 205.74 0)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 128.27 205.74 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 92.71 205.74 0)
 			(effects
 				(font
@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 101.6 205.74 0)
 			(effects
 				(font
@@ -8281,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -8790,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 115.57 189.23 0)
 			(effects
 				(font
@@ -8890,7 +8890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 124.46 189.23 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 110.49 205.74 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 64.77 189.23 0)
 			(effects
 				(font
@@ -10119,7 +10119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 119.38 205.74 0)
 			(effects
 				(font
