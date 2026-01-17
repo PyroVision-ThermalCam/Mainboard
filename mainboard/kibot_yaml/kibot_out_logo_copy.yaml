@@ -8,6 +8,7 @@ outputs:
 - name: @NAME@
   comment: '@COMMENT@'
   type: copy_files
+  dir: Logos
   options:
     files:
       - source: @LOGO@

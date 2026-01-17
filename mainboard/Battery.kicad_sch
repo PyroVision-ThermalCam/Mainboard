@@ -6741,7 +6741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -8076,7 +8076,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d2a9190d-82b5-411b-8405-cded0744be1e")
 		(property "Reference" "TP702"
 			(at 349.25 148.59 0)
@@ -8094,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
 			(at 354.33 156.21 0)
 			(effects
 				(font

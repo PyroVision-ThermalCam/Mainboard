@@ -1,5 +1,7 @@
 # PyroVision - Mainboard
 
+[![PCB](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml/badge.svg)](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml)
+
 ## Table of Contents
 
 - [PyroVision - Mainboard](#pyrovision---mainboard)
