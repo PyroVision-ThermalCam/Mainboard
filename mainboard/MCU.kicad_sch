@@ -1378,6 +1378,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_Shielded"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 4.318 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Shielded"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton momentary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Shielded_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Shielded_1_1"
+				(rectangle
+					(start -3.048 2.54)
+					(end 3.048 -1.27)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1716,7 +1918,13 @@
 		(uuid "843e5d9c-1150-4b03-b6bc-7f9457f215f0")
 	)
 	(junction
-		(at 96.52 64.77)
+		(at 82.55 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0fdfe9b-e3af-435c-aa27-7302b3e5c46d")
+	)
+	(junction
+		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f05b8b-99c8-44ea-a9e2-0b041714aaa9")
@@ -1751,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 64.77) (xy 96.52 66.04)
+			(xy 93.98 46.99) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1811,6 +2019,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 63.5) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5655e9-0f0b-4745-afe2-7b22d82ff528")
+	)
+	(wire
+		(pts
 			(xy 154.94 107.95) (xy 153.67 107.95)
 		)
 		(stroke
@@ -1828,6 +2046,16 @@
 			(type default)
 		)
 		(uuid "223927a8-e56a-4a74-9a24-7dccfbe6d284")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23174e8a-d561-4808-9455-287cc29bc5dd")
 	)
 	(wire
 		(pts
@@ -1921,6 +2149,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 46.99) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51022aef-dbcb-4de6-a63b-1ec59814c460")
+	)
+	(wire
+		(pts
 			(xy 121.92 97.79) (xy 123.19 97.79)
 		)
 		(stroke
@@ -1928,6 +2166,16 @@
 			(type default)
 		)
 		(uuid "52c5f0c6-ad8f-4c8c-a8b8-16bb61713091")
+	)
+	(wire
+		(pts
+			(xy 82.55 46.99) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a991e4-94d8-4a55-8550-50060899b626")
 	)
 	(wire
 		(pts
@@ -1981,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 96.52 64.77)
+			(xy 78.74 46.99) (xy 82.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 57.15) (xy 96.52 64.77)
+			(xy 93.98 45.72) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 73.66) (xy 96.52 74.93)
+			(xy 93.98 63.5) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2071,6 +2319,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 46.99) (xy 123.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83296d99-5670-4551-8084-6281aa72e1a9")
+	)
+	(wire
+		(pts
 			(xy 267.97 144.78) (xy 269.24 144.78)
 		)
 		(stroke
@@ -2078,16 +2336,6 @@
 			(type default)
 		)
 		(uuid "86c098ee-b73f-4b5c-a9d1-256bd03b73be")
-	)
-	(wire
-		(pts
-			(xy 96.52 64.77) (xy 123.19 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7c297b-94aa-41c8-80c5-c5f285bcfd55")
 	)
 	(wire
 		(pts
@@ -2171,7 +2419,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 96.52 49.53)
+			(xy 93.98 46.99) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d9a021-5bf9-485e-84f0-ccfab3e10a66")
+	)
+	(wire
+		(pts
+			(xy 93.98 36.83) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2278,6 +2536,16 @@
 			(type default)
 		)
 		(uuid "f0578689-d653-4eeb-b8ff-9c2121f0fdcd")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e847f0-8374-4e39-ae18-fb3d2d663e3e")
 	)
 	(wire
 		(pts
@@ -2390,7 +2658,7 @@
 		(uuid "4ac4c5ac-6ebd-4509-a2d6-4d708248222b")
 	)
 	(label "ESP-Enable"
-		(at 95.25 64.77 180)
+		(at 78.74 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2968,6 +3236,248 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_Shielded")
+		(at 82.55 58.42 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31928a1f-9d1b-43d7-a563-9f86d683b974")
+		(property "Reference" "SW901"
+			(at 78.74 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Reset"
+			(at 78.74 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Same Sky:TS11"
+			(at 77.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/6118/1/ts11.pdf"
+			(at 77.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Same Sky"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TS11-674-50-BK-260-RA-D"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "179-TS1167450260RAD"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SH"
+			(uuid "68cd1fef-84db-4acb-b8bc-543af502dff2")
+		)
+		(pin "1"
+			(uuid "3b8fefcd-5ff4-4d52-85c7-f45dcf18e2e1")
+		)
+		(pin "2"
+			(uuid "3e264f1d-deea-4426-b266-a01d24618b4d")
+		)
+		(instances
+			(project ""
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "SW901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1d4063-cd73-404f-9d8b-54f44ae4b68a")
+		(property "Reference" "#PWR0910"
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c53eb66-05d6-4a99-8022-735d32cee6aa")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "#PWR0910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f186d96-f553-4c65-83a6-2ca3edf95e3b")
+		(property "Reference" "#PWR0909"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4124d790-9c05-4cef-9998-939d1c7d43b1")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/85a410e7-e905-4760-8407-37aaa1389258"
+					(reference "#PWR0909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 140.97 0)
 		(unit 1)
@@ -3330,7 +3840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 53.34 180)
+		(at 93.98 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3339,7 +3849,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcb83508-923a-484b-8160-7b80c242c6bd")
 		(property "Reference" "R903"
-			(at 99.06 52.0699 0)
+			(at 96.52 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3858,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 54.6099 0)
+			(at 96.52 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 98.298 53.34 90)
+			(at 95.758 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3876,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3885,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3894,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3903,7 @@
 			)
 		)
 		(property "manf" "Bourns"
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3912,7 @@
 			)
 		)
 		(property "manf#" "CR0603-JW-103ELF"
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3921,7 @@
 			)
 		)
 		(property "mouser#" "652-CR0603-JW-103ELF"
-			(at 96.52 53.34 0)
+			(at 93.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,16 +3952,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 69.85 0)
+		(at 93.98 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcb89e04-eb76-4d7d-b9ef-8ad1401931b4")
 		(property "Reference" "C901"
-			(at 92.71 68.5799 0)
+			(at 97.79 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3970,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 92.71 71.1199 0)
+			(at 97.79 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.4852 73.66 0)
+			(at 93.0148 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3997,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +4006,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +4015,7 @@
 			)
 		)
 		(property "manf" "KYOCERA AVX"
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +4024,7 @@
 			)
 		)
 		(property "manf#" "06036C105MAT2A"
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +4033,7 @@
 			)
 		)
 		(property "mouser#" "581-06036C105MAT2A"
-			(at 96.52 69.85 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +4136,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 41.91 0)
+		(at 93.98 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3635,7 +4145,7 @@
 		(fields_autoplaced yes)
 		(uuid "db816da0-6545-4f24-af73-b7f5ae7f5bc3")
 		(property "Reference" "#PWR0902"
-			(at 96.52 45.72 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +4154,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 36.83 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 41.91 0)
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 41.91 0)
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 41.91 0)
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +4208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 74.93 0)
+		(at 93.98 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3707,7 +4217,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a30db5-5705-46de-9e54-6b9f19cd22b9")
 		(property "Reference" "#PWR0903"
-			(at 96.52 81.28 0)
+			(at 93.98 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +4226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 80.01 0)
+			(at 93.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +4234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 74.93 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 74.93 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 74.93 0)
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
