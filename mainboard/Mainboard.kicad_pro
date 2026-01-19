@@ -777,14 +777,14 @@
     "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "1e4f4f2",
-    "GIT_HASH_SCH": "a6febc7",
+    "GIT_HASH_PCB": "d4e0f44",
+    "GIT_HASH_SCH": "965ddee",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Mainboard",
     "PROJECT_NAME": "PyroVision",
     "RELEASE_BODY_2.2.0": "Version 2.2.0 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "17-Jan-2026",
-    "RELEASE_DATE_NUM": "2026-01-17",
+    "RELEASE_DATE": "19-Jan-2026",
+    "RELEASE_DATE_NUM": "2026-01-19",
     "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "",
@@ -828,6 +828,6 @@
     "SHEET_NAME_7": "Battery",
     "SHEET_NAME_8": "Power",
     "SHEET_NAME_9": "MCU",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "RELEASED"
   }
 }
