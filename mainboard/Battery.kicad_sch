@@ -7696,7 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "700-MAX17048G+T10"
+		(property "manf#" "MAX17048G+T10"
 			(at 325.12 144.78 0)
 			(effects
 				(font
