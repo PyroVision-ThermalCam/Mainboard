@@ -1,0 +1,19 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP701,Net-(IC702-OUT),Default,42.1000,-68.6250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP702,/Project Architecture/Battery/~{Battery-Alert},Default,36.3000,-77.0000,top,,~,TestPoint_Pad_1.0x1.0mm
+TP801,Camera-2V8,Default,66.8000,-35.7250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP802,Camera-1V5,Default,42.4000,-29.1625,top,,~,TestPoint_Pad_1.0x1.0mm
+TP803,+3V3,Default,47.6000,-61.1250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP804,Lepton-3V0,Default,57.9000,-63.9250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP805,Lepton-2V8,Default,58.9000,-54.0750,top,,~,TestPoint_Pad_1.0x1.0mm
+TP806,Lepton-1V2,Default,49.5750,-56.0250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1101,/Project Architecture/Battery/I2C-SDA,"I2C,Default",60.9000,-35.7250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1102,/Project Architecture/Battery/I2C-SCL,"I2C,Default",60.1000,-39.8250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1103,/Project Architecture/Camera/Camera-PWR,Default,81.0000,-41.0250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1104,/Project Architecture/Camera/~{Camera-Reset},Default,82.7500,-38.8250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1105,/Project Architecture/Lepton/~{Lepton-PWR},Default,48.2000,-43.6250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1106,/Project Architecture/Lepton/~{Lepton-Reset},Default,84.6000,-44.1250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1107,/Project Architecture/Peripherals/~{SD-CD},Default,90.3000,-25.6250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1108,/Project Architecture/Peripherals/~{RTC-INT},Default,68.3000,-69.3250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1109,/Project Architecture/Battery/Battery-Charge,Default,80.1000,-57.4250,top,,~,TestPoint_Pad_1.0x1.0mm
+TP1110,/Project Architecture/Peripherals/LED-Flash,Default,87.8000,-51.9625,top,,~,TestPoint_Pad_1.0x1.0mm
