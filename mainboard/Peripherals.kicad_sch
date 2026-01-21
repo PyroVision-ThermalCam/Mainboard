@@ -5656,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0603FR-07200KL"
+		(property "manf#" "RC0603FR-073K3L"
 			(at 275.59 161.29 0)
 			(effects
 				(font

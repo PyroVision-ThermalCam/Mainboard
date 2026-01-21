@@ -8900,7 +8900,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Bourns"
+		(property "manf" "YAGEO"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -8909,7 +8909,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CR0603-JW-103ELF"
+		(property "manf#" "RC0603FR-073K3L"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -8918,7 +8918,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-JW-103ELF"
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 85.09 127 0)
 			(effects
 				(font
