@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-01-21T06:56:13+0000</date>
+    <date>2026-01-21T18:34:16+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">b10dc01</textvar>
+    <textvar name="GIT_HASH_PCB">eb0e9a3</textvar>
     <textvar name="GIT_HASH_SCH">965ddee</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Mainboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">Battery</textvar>
     <textvar name="SHEET_NAME_8">Power</textvar>
     <textvar name="SHEET_NAME_9">MCU</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template</title>
@@ -495,7 +495,7 @@
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf</datasheet>
       <fields>
         <field name="manf">Analog Devices / Maxim Integrated</field>
-        <field name="manf#">700-MAX17048G+T10</field>
+        <field name="manf#">MAX17048G+T10</field>
         <field name="mouser#">700-MAX17048G+T10</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm</field>
@@ -504,7 +504,7 @@
       </fields>
       <libsource lib="Maxim" part="MAX17048" description=""/>
       <property name="manf" value="Analog Devices / Maxim Integrated"/>
-      <property name="manf#" value="700-MAX17048G+T10"/>
+      <property name="manf#" value="MAX17048G+T10"/>
       <property name="mouser#" value="700-MAX17048G+T10"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Battery"/>
@@ -1330,8 +1330,8 @@
       <description>250-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, SOT-23</description>
       <fields>
         <field name="manf">Texas Instruments</field>
-        <field name="manf#"> LP5907MFX1.5NOPB</field>
-        <field name="mouser#"> 595-LP5907MFX1.5NOPB</field>
+        <field name="manf#">LP5907MFX-1.5/NOPB</field>
+        <field name="mouser#">595-LP5907MFX-1.5/NOPB</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/lp5907</field>
@@ -1339,8 +1339,8 @@
       </fields>
       <libsource lib="Regulator_Linear" part="LP5907MFX-1.5" description="250-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, SOT-23"/>
       <property name="manf" value="Texas Instruments"/>
-      <property name="manf#" value=" LP5907MFX1.5NOPB"/>
-      <property name="mouser#" value=" 595-LP5907MFX1.5NOPB"/>
+      <property name="manf#" value="LP5907MFX-1.5/NOPB"/>
+      <property name="mouser#" value="595-LP5907MFX-1.5/NOPB"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
@@ -1422,6 +1422,7 @@
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="Single Output LDO Low-Noise"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -1668,8 +1669,8 @@
       <description>Switch, single pole double throw</description>
       <fields>
         <field name="manf">C&amp;K</field>
-        <field name="manf#">OS102011MA1Q</field>
-        <field name="mouser#">611-OS102011MA1Q</field>
+        <field name="manf#">OS102011MA1QN1</field>
+        <field name="mouser#">611-OS102011MA1QN1</field>
         <field name="CONFIG"/>
         <field name="Footprint">Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</field>
         <field name="Datasheet">https://ckswitches.com/media/1428/os.pdf</field>
@@ -1677,8 +1678,8 @@
       </fields>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
       <property name="manf" value="C&amp;K"/>
-      <property name="manf#" value="OS102011MA1Q"/>
-      <property name="mouser#" value="611-OS102011MA1Q"/>
+      <property name="manf#" value="OS102011MA1QN1"/>
+      <property name="mouser#" value="611-OS102011MA1QN1"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
@@ -2756,8 +2757,8 @@
       <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
       <fields>
         <field name="manf">Diodes Incorporated</field>
-        <field name="manf#">DMN2053UQ</field>
-        <field name="mouser#">621-DMN2053UQ</field>
+        <field name="manf#">DMN2053UQ-7</field>
+        <field name="mouser#">621-DMN2053UQ-7</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf</field>
@@ -2765,8 +2766,8 @@
       </fields>
       <libsource lib="Diodes Incorporated" part="DMN2053UQ" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <property name="manf" value="Diodes Incorporated"/>
-      <property name="manf#" value="DMN2053UQ"/>
-      <property name="mouser#" value="621-DMN2053UQ"/>
+      <property name="manf#" value="DMN2053UQ-7"/>
+      <property name="mouser#" value="621-DMN2053UQ-7"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
@@ -2782,8 +2783,8 @@
       <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
       <fields>
         <field name="manf">Diodes Incorporated</field>
-        <field name="manf#">DMN2053UQ</field>
-        <field name="mouser#">621-DMN2053UQ</field>
+        <field name="manf#">DMN2053UQ-7</field>
+        <field name="mouser#">621-DMN2053UQ-7</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf</field>
@@ -2791,8 +2792,8 @@
       </fields>
       <libsource lib="Diodes Incorporated" part="DMN2053UQ" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <property name="manf" value="Diodes Incorporated"/>
-      <property name="manf#" value="DMN2053UQ"/>
-      <property name="mouser#" value="621-DMN2053UQ"/>
+      <property name="manf#" value="DMN2053UQ-7"/>
+      <property name="mouser#" value="621-DMN2053UQ-7"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>

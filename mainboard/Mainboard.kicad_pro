@@ -772,12 +772,12 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "asas",
+    "ASSEMBLY_NOTES": "",
     "BOARD_NAME": "Mainboard",
     "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "b10dc01",
+    "GIT_HASH_PCB": "eb0e9a3",
     "GIT_HASH_SCH": "965ddee",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Mainboard",
     "PROJECT_NAME": "PyroVision",
@@ -828,6 +828,6 @@
     "SHEET_NAME_7": "Battery",
     "SHEET_NAME_8": "Power",
     "SHEET_NAME_9": "MCU",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "CHECKED"
   }
 }
