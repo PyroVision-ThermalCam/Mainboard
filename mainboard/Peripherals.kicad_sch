@@ -8211,7 +8211,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "DMN2053UQ"
+		(property "manf#" "DMN2053UQ-7"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "621-DMN2053UQ"
+		(property "mouser#" "621-DMN2053UQ-7"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -8423,7 +8423,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "DMN2053UQ"
+		(property "manf#" "DMN2053UQ-7"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -8432,7 +8432,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "621-DMN2053UQ"
+		(property "mouser#" "621-DMN2053UQ-7"
 			(at 185.42 113.03 0)
 			(effects
 				(font

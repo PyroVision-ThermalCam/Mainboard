@@ -4226,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " LP5907MFX1.5NOPB"
+		(property "manf#" "LP5907MFX-1.5/NOPB"
 			(at 52.07 71.12 0)
 			(effects
 				(font
@@ -4235,7 +4235,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" " 595-LP5907MFX1.5NOPB"
+		(property "mouser#" "595-LP5907MFX-1.5/NOPB"
 			(at 52.07 71.12 0)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd612e61-9824-4da1-8001-7ed1a829a671")
 		(property "Reference" "IC806"
 			(at 208.915 109.22 0)
@@ -9520,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "OS102011MA1Q"
+		(property "manf#" "OS102011MA1QN1"
 			(at 39.37 128.27 0)
 			(effects
 				(font
@@ -9529,7 +9529,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "611-OS102011MA1Q"
+		(property "mouser#" "611-OS102011MA1QN1"
 			(at 39.37 128.27 0)
 			(effects
 				(font
