@@ -772,7 +772,7 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
+    "ASSEMBLY_NOTES": "asas",
     "BOARD_NAME": "Mainboard",
     "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
