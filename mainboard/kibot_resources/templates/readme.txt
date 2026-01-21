@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="logos/Logo.png">
+  <img alt="Logo" width="33%" src="Files/logos/Logo.png">
 </p>
 
 <h1 align="center">${BOARD_NAME}</h1>
