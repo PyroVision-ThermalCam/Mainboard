@@ -137,7 +137,7 @@ jobs:
 
       - name: Update CHANGELOG
         if: ${{ github.ref_type == 'tag' }}
-        uses: thomaseizinger/keep-a-changelog-new-release@v2
+        uses: thomaseizinger/keep-a-changelog-new-release@v3
         with:
           changelogPath: ${{ env.kibot_input_dir }}/CHANGELOG.md
           tag: ${{ github.ref_name }}
