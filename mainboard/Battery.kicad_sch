@@ -5577,7 +5577,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CR1206-J/-000ELF"
+		(property "manf#" "CR0603-J/-000ELF"
 			(at 229.87 137.16 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CR1206-J/-000ELF"
+		(property "manf#" "CR0603-J/-000ELF"
 			(at 232.41 118.11 0)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" "Resistor"
 			(at 179.07 119.38 0)
 			(effects
 				(font
@@ -6944,7 +6944,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "TDK"
+		(property "manf" "YAGEO"
 			(at 179.07 119.38 0)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "NTCG163JF103FT1H"
+		(property "manf#" "RC0603FR-073K3L"
 			(at 179.07 119.38 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-NTCG163JF103FT1H"
+		(property "mouser#" "603-RC0603FR-073K3L"
 			(at 179.07 119.38 0)
 			(effects
 				(font
@@ -8595,7 +8595,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CR1206-J/-000ELF"
+		(property "manf#" "CR0603-J/-000ELF"
 			(at 369.57 109.22 0)
 			(effects
 				(font

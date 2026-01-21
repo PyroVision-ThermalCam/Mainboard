@@ -2,21 +2,21 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-01-19T19:22:05+0000</date>
+    <date>2026-01-21T06:56:13+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">d4e0f44</textvar>
+    <textvar name="GIT_HASH_PCB">b10dc01</textvar>
     <textvar name="GIT_HASH_SCH">965ddee</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Mainboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
     <textvar name="RELEASE_BODY_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">19-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-19</textvar>
+    <textvar name="RELEASE_DATE">21-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-21</textvar>
     <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">Battery</textvar>
     <textvar name="SHEET_NAME_8">Power</textvar>
     <textvar name="SHEET_NAME_9">MCU</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template</title>
@@ -675,7 +675,7 @@
       <description>Resistor</description>
       <fields>
         <field name="manf">Bourns</field>
-        <field name="manf#">CR1206-J/-000ELF</field>
+        <field name="manf#">CR0603-J/-000ELF</field>
         <field name="mouser#">652-CR1206-J/-000ELF</field>
         <field name="CONFIG"/>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
@@ -684,7 +684,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR1206-J/-000ELF"/>
+      <property name="manf#" value="CR0603-J/-000ELF"/>
       <property name="mouser#" value="652-CR1206-J/-000ELF"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Battery"/>
@@ -701,7 +701,7 @@
       <description>Resistor</description>
       <fields>
         <field name="manf">Bourns</field>
-        <field name="manf#">CR1206-J/-000ELF</field>
+        <field name="manf#">CR0603-J/-000ELF</field>
         <field name="mouser#">652-CR1206-J/-000ELF</field>
         <field name="CONFIG"/>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
@@ -710,7 +710,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR1206-J/-000ELF"/>
+      <property name="manf#" value="CR0603-J/-000ELF"/>
       <property name="mouser#" value="652-CR1206-J/-000ELF"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Battery"/>
@@ -807,7 +807,7 @@
       <description>Resistor</description>
       <fields>
         <field name="manf">Bourns</field>
-        <field name="manf#">CR1206-J/-000ELF</field>
+        <field name="manf#">CR0603-J/-000ELF</field>
         <field name="mouser#">652-CR1206-J/-000ELF</field>
         <field name="CONFIG"/>
         <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
@@ -816,7 +816,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR1206-J/-000ELF"/>
+      <property name="manf#" value="CR0603-J/-000ELF"/>
       <property name="mouser#" value="652-CR1206-J/-000ELF"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Battery"/>
@@ -830,20 +830,20 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/catalog/tpd_automotive_ntc-thermistor_ntcg_en.pdf?ref_disty=mouser</datasheet>
-      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <description>Resistor</description>
       <fields>
-        <field name="manf">TDK</field>
-        <field name="manf#">NTCG163JF103FT1H</field>
-        <field name="mouser#">810-NTCG163JF103FT1H</field>
+        <field name="manf">YAGEO</field>
+        <field name="manf#">RC0603FR-073K3L</field>
+        <field name="mouser#">603-RC0603FR-073K3L</field>
         <field name="CONFIG"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/sensor/ntc/chip-ntc-thermistor/catalog/tpd_automotive_ntc-thermistor_ntcg_en.pdf?ref_disty=mouser</field>
-        <field name="Description">Temperature dependent resistor, negative temperature coefficient</field>
+        <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
-      <property name="manf" value="TDK"/>
-      <property name="manf#" value="NTCG163JF103FT1H"/>
-      <property name="mouser#" value="810-NTCG163JF103FT1H"/>
+      <property name="manf" value="YAGEO"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
+      <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Battery"/>
       <property name="Sheetfile" value="Battery.kicad_sch"/>
@@ -1538,18 +1538,18 @@
       <description>Resistor</description>
       <fields>
         <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0603-JW-103ELF</field>
-        <field name="mouser#">652-CR0603-JW-103ELF</field>
+        <field name="manf">YAGEO</field>
+        <field name="manf#">RC0603FR-073K3L</field>
+        <field name="mouser#">603-RC0603FR-073K3L</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0603-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0603-JW-103ELF"/>
+      <property name="manf" value="YAGEO"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
+      <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1985,18 +1985,18 @@
       <description>Resistor</description>
       <fields>
         <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0603-JW-103ELF</field>
-        <field name="mouser#">652-CR0603-JW-103ELF</field>
+        <field name="manf">YAGEO</field>
+        <field name="manf#">RC0603FR-073K3L</field>
+        <field name="mouser#">603-RC0603FR-073K3L</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0603-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0603-JW-103ELF"/>
+      <property name="manf" value="YAGEO"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
+      <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2271,7 +2271,7 @@
         <field name="CONFIG"/>
         <field name="manf">Bourns</field>
         <field name="manf#">CR0603-J/-000ELF</field>
-        <field name="mouser#">652-CR0603-J/-000ELF</field>
+        <field name="mouser#">652-CR1206-J/-000ELF</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
@@ -2280,7 +2280,7 @@
       <property name="CONFIG" value=""/>
       <property name="manf" value="Bourns"/>
       <property name="manf#" value="CR0603-J/-000ELF"/>
-      <property name="mouser#" value="652-CR0603-J/-000ELF"/>
+      <property name="mouser#" value="652-CR1206-J/-000ELF"/>
       <property name="Sheetname" value="Lepton"/>
       <property name="Sheetfile" value="Lepton.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2374,7 +2374,7 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-07200KL</field>
+        <field name="manf#">RC0603FR-073K3L</field>
         <field name="mouser#">603-RC0603FR-07200KL</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
@@ -2383,7 +2383,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-07200KL"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
       <property name="mouser#" value="603-RC0603FR-07200KL"/>
       <property name="Sheetname" value="Lepton"/>
       <property name="Sheetfile" value="Lepton.kicad_sch"/>
@@ -3017,7 +3017,7 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-07200KL</field>
+        <field name="manf#">RC0603FR-073K3L</field>
         <field name="mouser#">603-RC0603FR-07200KL</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
@@ -3026,7 +3026,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-07200KL"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
       <property name="mouser#" value="603-RC0603FR-07200KL"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
@@ -3468,7 +3468,7 @@
         <field name="CONFIG"/>
         <field name="manf">Bourns</field>
         <field name="manf#">CR0603-J/-000ELF</field>
-        <field name="mouser#">652-CR0603-J/-000ELF</field>
+        <field name="mouser#">652-CR1206-J/-000ELF</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
@@ -3477,7 +3477,7 @@
       <property name="CONFIG" value=""/>
       <property name="manf" value="Bourns"/>
       <property name="manf#" value="CR0603-J/-000ELF"/>
-      <property name="mouser#" value="652-CR0603-J/-000ELF"/>
+      <property name="mouser#" value="652-CR1206-J/-000ELF"/>
       <property name="Sheetname" value="Camera"/>
       <property name="Sheetfile" value="Camera.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3597,7 +3597,7 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-07200KL</field>
+        <field name="manf#">RC0603FR-073K3L</field>
         <field name="mouser#">603-RC0603FR-07200KL</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
@@ -3606,7 +3606,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-07200KL"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
       <property name="mouser#" value="603-RC0603FR-07200KL"/>
       <property name="Sheetname" value="Camera"/>
       <property name="Sheetfile" value="Camera.kicad_sch"/>

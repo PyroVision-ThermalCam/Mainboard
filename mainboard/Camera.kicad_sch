@@ -4399,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0603FR-07200KL"
+		(property "manf#" "RC0603FR-073K3L"
 			(at 257.81 77.47 0)
 			(effects
 				(font
@@ -6227,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0603-J/-000ELF"
+		(property "mouser#" "652-CR1206-J/-000ELF"
 			(at 59.69 63.5 0)
 			(effects
 				(font
