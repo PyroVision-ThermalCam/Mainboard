@@ -2,12 +2,17 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-01-21
+
 ### Changed
 
--	Increase the width of the cutout for the temperature sensor (#7)
+- Increase the width of the cutout for the temperature sensor (#7)
 
 ## [1.0.0](https://github.com/PyroVision-ThermalCam/Mainboard/compare/67de4a6eec24cc332c0ba283ca204f24177bcb72...1.0.0) - 2026-01-19
 
 ### Added
 
-* Initial release
+- Initial release
+
+[unreleased]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/67de4a6eec24cc332c0ba283ca204f24177bcb72...1.0.1
