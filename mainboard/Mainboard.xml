@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-01-21T18:34:16+0000</date>
+    <date>2026-01-21T18:53:16+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">eb0e9a3</textvar>
+    <textvar name="GIT_HASH_PCB">7d35ea0</textvar>
     <textvar name="GIT_HASH_SCH">965ddee</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Mainboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">Battery</textvar>
     <textvar name="SHEET_NAME_8">Power</textvar>
     <textvar name="SHEET_NAME_9">MCU</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template</title>
