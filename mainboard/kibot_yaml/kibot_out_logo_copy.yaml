@@ -8,7 +8,7 @@ outputs:
 - name: @NAME@
   comment: '@COMMENT@'
   type: copy_files
-  dir: Logos
+  dir: Files
   options:
     files:
       - source: @LOGO@
@@ -16,5 +16,4 @@ outputs:
 
 definitions:
   NAME: copy_logo
-  COMMENT: Copy logo files
   LOGO: logos/Logo.png
