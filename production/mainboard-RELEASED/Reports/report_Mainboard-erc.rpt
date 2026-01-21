@@ -1,0 +1,198 @@
+ERC report (2026-01-21T18:48:08+0000, Encoding UTF8)
+
+***** Sheet /
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.2032 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.2286 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.8636 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.889 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.524 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.5494 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.1844 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.2098 mm, 0.3556 mm): Text Box
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(2.2987 mm, 1.0795 mm): Symbol TP701 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'JST'.
+    ; warning
+    @(2.4003 mm, 1.2827 mm): Symbol X702 [Conn_01x02]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Vishay'
+    ; warning
+    @(2.8702 mm, 1.0922 mm): Symbol Q701 [Si2333CDS]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Maxim'
+    ; warning
+    @(3.2512 mm, 1.4478 mm): Symbol IC703 [MAX17048]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(3.4925 mm, 1.5621 mm): Symbol TP702 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.6858 mm, 0.3429 mm): Symbol TP801 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.6858 mm, 0.6731 mm): Symbol TP802 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.0668 mm, 1.1303 mm): Symbol TP803 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(2.2479 mm, 0.508 mm): Symbol TP804 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(2.2479 mm, 0.8128 mm): Symbol TP805 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(2.2479 mm, 1.1176 mm): Symbol TP806 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Same Sky'.
+    ; warning
+    @(0.8255 mm, 0.5842 mm): Symbol SW901 [SW_Push_Shielded]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(2.6035 mm, 1.4732 mm): Symbol X901 [Conn_02x03_Odd_Even]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.6985 mm, 1.8923 mm): Symbol TP1101 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.7874 mm, 1.8923 mm): Symbol TP1102 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Cree'.
+    ; warning
+    @(1.8796 mm, 1.0287 mm): Symbol D1101 [LED]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Diodes Incorporated'
+    ; warning
+    @(1.8542 mm, 1.1303 mm): Symbol Q1101 [DMN2053UQ]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.1049 mm, 1.8923 mm): Symbol TP1107 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.7874 mm, 2.0574 mm): Symbol TP1103 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.8763 mm, 2.0574 mm): Symbol TP1104 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.1938 mm, 1.8923 mm): Symbol TP1109 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(0.9652 mm, 2.0574 mm): Symbol TP1105 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.0541 mm, 2.0574 mm): Symbol TP1106 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.143 mm, 2.0574 mm): Symbol TP1108 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Testpoints_Kampi'.
+    ; warning
+    @(1.2319 mm, 2.0574 mm): Symbol TP1110 [TestPoint]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Cree'.
+    ; warning
+    @(2.2733 mm, 1.0287 mm): Symbol D1102 [LED]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Diodes Incorporated'
+    ; warning
+    @(2.2479 mm, 1.1303 mm): Symbol Q1102 [DMN2053UQ]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(2.7432 mm, 1.143 mm): Symbol IC1104 [PCA9633DP1,118]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(2.6924 mm, 1.8288 mm): Symbol IC1103 [PCA9306JK]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(2.6924 mm, 1.8288 mm): Symbol IC1103 [PCA9306JK]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Micro Crystal'.
+    ; warning
+    @(3.1115 mm, 1.905 mm): Symbol IC1105 [RV-8263-C8]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Micro Crystal'
+    ; warning
+    @(3.1115 mm, 1.905 mm): Symbol IC1105 [RV-8263-C8]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(0.7747 mm, 0.6604 mm): Symbol X1001 [Conn_02x16_Odd_Even]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(2.286 mm, 1.2446 mm): Symbol IC1002 [PCA9306JK]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(2.286 mm, 1.2446 mm): Symbol IC1002 [PCA9306JK]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(2.4638 mm, 0.9906 mm): Symbol IC1202 [PCA9306JK]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'NXP'
+    ; warning
+    @(2.4638 mm, 0.9906 mm): Symbol IC1202 [PCA9306JK]
+
+***** Sheet /Block Diagram/
+***** Sheet /Power - Topology/
+***** Sheet /Power - Sequencing/
+***** Sheet /Interface - Tree/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Battery/
+***** Sheet /Project Architecture/Power/
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/Lepton/
+***** Sheet /Project Architecture/Peripherals/
+***** Sheet /Project Architecture/Camera/
+***** Sheet /Project Architecture/SD-Card/
+***** Sheet /Project Architecture/Display/
+***** Sheet /Revision History/
+ ** ERC messages: 45  Errors 0  Warnings 45

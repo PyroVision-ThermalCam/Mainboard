@@ -777,7 +777,7 @@
     "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "eb0e9a3",
+    "GIT_HASH_PCB": "7d35ea0",
     "GIT_HASH_SCH": "965ddee",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Mainboard",
     "PROJECT_NAME": "PyroVision",
@@ -828,6 +828,6 @@
     "SHEET_NAME_7": "Battery",
     "SHEET_NAME_8": "Power",
     "SHEET_NAME_9": "MCU",
-    "VARIANT": "CHECKED"
+    "VARIANT": "RELEASED"
   }
 }
