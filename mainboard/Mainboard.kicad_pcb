@@ -50623,7 +50623,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50632,7 +50632,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4x R 1,5000 mm"
+		(gr_text "4x R 1,50 mm"
 			(at 182.01 175 0)
 			(layer "User.6")
 			(uuid "64a8bae3-180a-4349-90fc-e9588b18aea5")
@@ -50657,7 +50657,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50666,7 +50666,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4x R 2,0000 mm"
+		(gr_text "4x R 2,00 mm"
 			(at 280.808291 115.891709 0)
 			(layer "User.6")
 			(uuid "e4f2f9e4-f377-4989-bf6e-1f31d8e2e080")
@@ -50692,7 +50692,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50703,7 +50703,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "55,6540 mm"
+		(gr_text "55,65 mm"
 			(at 187.827 109.28 0)
 			(layer "User.6")
 			(uuid "1ab305f1-41ac-4ed9-a19f-4bd8e70a54d3")
@@ -50729,7 +50729,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50740,7 +50740,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "65,8000 mm"
+		(gr_text "65,80 mm"
 			(at 192.9 208.88 0)
 			(layer "User.6")
 			(uuid "3a1c2e74-009b-46b3-a159-ace23f9fbcd1")
@@ -50766,7 +50766,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50777,7 +50777,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "41,0000 mm"
+		(gr_text "41,00 mm"
 			(at 146.88 177.5 90)
 			(layer "User.6")
 			(uuid "3d9e2424-3a4a-4f10-8446-26ea975f57cb")
@@ -50803,19 +50803,19 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction inward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2,4500 mm"
-			(at 272.78 196.775 90)
+		(gr_text "2,45 mm"
+			(at 275 196.775 90)
 			(layer "User.6")
 			(uuid "58e43e45-22ff-4ecc-93ff-0e7cc97894c7")
 			(effects
@@ -50840,7 +50840,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50851,7 +50851,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "76,6000 mm"
+		(gr_text "76,60 mm"
 			(at 198.3 107.28 0)
 			(layer "User.6")
 			(uuid "614f6b88-cbe9-413f-85f5-ff76e92485cc")
@@ -50877,7 +50877,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50888,7 +50888,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "43,1000 mm"
+		(gr_text "43,10 mm"
 			(at 181.55 206.18 0)
 			(layer "User.6")
 			(uuid "64ce3389-646b-4df0-95ba-d1ab3053a728")
@@ -50914,7 +50914,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50925,7 +50925,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8,0000 mm"
+		(gr_text "8,00 mm"
 			(at 153.88 194 90)
 			(layer "User.6")
 			(uuid "679a2687-be21-4447-b661-32edc9fa4bdc")
@@ -50951,7 +50951,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50962,7 +50962,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "69,0000 mm"
+		(gr_text "69,00 mm"
 			(at 144.48 163.5 90)
 			(layer "User.6")
 			(uuid "69411368-4c84-44a7-877a-38832773d32f")
@@ -50988,7 +50988,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -50999,7 +50999,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "34,0000 mm"
+		(gr_text "34,00 mm"
 			(at 177 111.38 0)
 			(layer "User.6")
 			(uuid "8f678a5e-14c7-4d8f-be38-1f93ecaa220c")
@@ -51025,7 +51025,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51036,7 +51036,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,0000 mm"
+		(gr_text "15,00 mm"
 			(at 167.5 203.18 0)
 			(layer "User.6")
 			(uuid "aadb8c3c-b131-4e32-b180-2fe1e2e1e87a")
@@ -51062,7 +51062,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51073,7 +51073,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4,0000 mm"
+		(gr_text "4,00 mm"
 			(at 162 115.28 0)
 			(layer "User.6")
 			(uuid "bab8c675-2bd8-4073-add2-ef95f7b62438")
@@ -51099,7 +51099,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51110,7 +51110,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "80,3000 mm"
+		(gr_text "80,30 mm"
 			(at 200.15 211.48 0)
 			(layer "User.6")
 			(uuid "c023e3cf-4014-453d-9aaa-df099e646dbf")
@@ -51136,7 +51136,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51147,7 +51147,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "29,5300 mm"
+		(gr_text "29,53 mm"
 			(at 272.68 132.765 90)
 			(layer "User.6")
 			(uuid "c0bbe970-6dcc-4807-a273-e295ad081509")
@@ -51210,7 +51210,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51221,7 +51221,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5,0000 mm"
+		(gr_text "5,00 mm"
 			(at 162.5 200.08 0)
 			(layer "User.6")
 			(uuid "dafbd543-0905-4a8d-a3a0-86f15e95ee98")
@@ -51247,7 +51247,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51258,7 +51258,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "23,0000 mm"
+		(gr_text "23,00 mm"
 			(at 151.78 186.5 90)
 			(layer "User.6")
 			(uuid "dce0217e-005f-4ace-bbe3-1a355e59de0c")
@@ -51284,7 +51284,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51295,7 +51295,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3,0000 mm"
+		(gr_text "3,00 mm"
 			(at 157.18 194.5 90)
 			(layer "User.6")
 			(uuid "f8ba1534-d62b-444f-84d7-b31388f6ceed")
@@ -51321,7 +51321,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.1)
@@ -51332,7 +51332,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "30,0000 mm"
+		(gr_text "30,00 mm"
 			(at 149.88 183 90)
 			(layer "User.6")
 			(uuid "fbdcdd32-39d8-4b84-a69b-56cbf0e17019")
