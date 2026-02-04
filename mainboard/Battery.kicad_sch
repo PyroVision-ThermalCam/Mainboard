@@ -4610,6 +4610,16 @@
 		)
 		(uuid "ff523b57-00cb-4dcf-a9ef-d0c1164799d6")
 	)
+	(label "VBat"
+		(at 232.41 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb3dd7f1-1c2b-4bd6-8e14-8bf30f7391f9")
+	)
 	(hierarchical_label "I2C-SDA"
 		(shape bidirectional)
 		(at 311.15 146.05 180)
