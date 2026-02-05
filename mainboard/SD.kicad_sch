@@ -1289,7 +1289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3BT-DSF-PEJS"
+		(property "Footprint" "Same Sky:MSD-4-A"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/6118/1/msd_4_a.pdf"
 			(at 156.21 81.28 0)
 			(effects
 				(font
@@ -1316,7 +1316,18 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Hirose Connector"
+		(property "manf" "Same Sky"
+			(at 156.21 83.82 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MSD-4-A"
 			(at 156.21 83.82 0)
 			(effects
 				(font
@@ -1325,16 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "DM3BT-DSF-PEJS"
-			(at 156.21 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "798-DM3BT-DSF-PEJS"
+		(property "mouser#" "179-MSD-4-A"
 			(at 156.21 83.82 0)
 			(effects
 				(font
