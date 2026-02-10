@@ -5499,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TPS62823DLCT"
+		(property "manf#" "TPS62823DLCR"
 			(at 62.23 124.46 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "595-TPS62823DLCT"
+		(property "mouser#" "595-TPS62823DLCR"
 			(at 62.23 124.46 0)
 			(effects
 				(font
@@ -5991,7 +5991,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TLV75530PDBVR"
+		(property "manf#" "LP5907MFX-3.0/NOPB"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -6000,7 +6000,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "595-TLV75530PDBVR"
+		(property "mouser#" "595-LP5907MFX-3.0NPB"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -7504,7 +7504,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "DFE201610E - R47M"
+		(property "manf#" "DFE201610E-R47M=P2"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -7513,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-DFE201610E - R47M"
+		(property "mouser#" "81-DFE201610E-R47MP2"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dd612e61-9824-4da1-8001-7ed1a829a671")
 		(property "Reference" "IC806"
 			(at 208.915 109.22 0)
