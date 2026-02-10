@@ -4606,7 +4606,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "ASDDV-25.000MHz-LC-T3"
+		(property "manf" "ABRACON"
 			(at 105.41 129.54 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "ABRACON"
+		(property "manf#" "ASDDV-25.000MHz-LC-T3"
 			(at 105.41 129.54 0)
 			(effects
 				(font

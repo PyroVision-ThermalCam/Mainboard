@@ -3300,7 +3300,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "TS11-674-50-BK-260-RA-D"
+		(property "manf#" "TS11-674-43-BK-260-RA-D"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -3309,7 +3309,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "179-TS1167450260RAD"
+		(property "mouser#" "179-TS1167443260RAD"
 			(at 82.55 58.42 0)
 			(effects
 				(font
