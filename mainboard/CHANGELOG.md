@@ -2,15 +2,19 @@
 
 ## [Unreleased]
 
+**Added:**
+
+- Connect the TMP117 temperatur alert pin (#21)
+
 ## [1.0.1] - 2026-01-21
 
-### Changed
+**Changed:**
 
 - Increase the width of the cutout for the temperature sensor (#7)
 
 ## [1.0.0](https://github.com/PyroVision-ThermalCam/Mainboard/compare/67de4a6eec24cc332c0ba283ca204f24177bcb72...1.0.0) - 2026-01-19
 
-### Added
+**Added:**
 
 - Initial release
 
