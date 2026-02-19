@@ -10,6 +10,9 @@ on:
       - main
       - master
       - dev
+env:
+  # Input directory with the KiCad project and the KiBot files
+  kibot_input_dir: mainboard
 
 jobs:
   validate-changelog:
@@ -22,7 +25,7 @@ jobs:
       - name: Validate Changelog Format
         shell: bash
         run: |
-          CHANGELOG_FILE="CHANGELOG.md"
+          CHANGELOG_FILE="${{ env.kibot_input_dir }}/CHANGELOG.md"
 
           if [ ! -f "$CHANGELOG_FILE" ]; then
             echo "Error: CHANGELOG.md not found in directory"
@@ -132,7 +135,7 @@ jobs:
       - name: Check for duplicate issue numbers
         shell: bash
         run: |
-          CHANGELOG_FILE="CHANGELOG.md"
+          CHANGELOG_FILE="${{ env.kibot_input_dir }}/CHANGELOG.md"
 
           echo "Checking for duplicate issue numbers in [Unreleased] section..."
 
