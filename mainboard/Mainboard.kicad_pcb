@@ -30236,7 +30236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "manf#" "XPGDWT-BS-0000-00Q2E"
+		(property "manf#" "XPGDWT-BS-0000-00P5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30250,7 +30250,7 @@
 				(justify mirror)
 			)
 		)
-		(property "mouser#" "941-PGDWTBS000000Q2E"
+		(property "mouser#" "941-XPGDWT-BS-0000-00P5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31516,7 +31516,7 @@
 				(justify mirror)
 			)
 		)
-		(property "manf#" "XPGDWT-BS-0000-00Q2E"
+		(property "manf#" "XPGDWT-BS-0000-00P5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31530,7 +31530,7 @@
 				(justify mirror)
 			)
 		)
-		(property "mouser#" "941-PGDWTBS000000Q2E"
+		(property "mouser#" "941-XPGDWT-BS-0000-00P5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
