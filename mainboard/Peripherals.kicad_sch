@@ -6178,7 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "XPGDWT-BS-0000-00Q2E"
+		(property "manf#" "XPGDWT-BS-0000-00P5E"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -6187,7 +6187,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "941-PGDWTBS000000Q2E"
+		(property "mouser#" "941-XPGDWT-BS-0000-00P5E"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -8838,7 +8838,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "XPGDWT-BS-0000-00Q2E"
+		(property "manf#" "XPGDWT-BS-0000-00P5E"
 			(at 227.33 102.87 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "941-PGDWTBS000000Q2E"
+		(property "mouser#" "941-XPGDWT-BS-0000-00P5E"
 			(at 227.33 102.87 0)
 			(effects
 				(font
