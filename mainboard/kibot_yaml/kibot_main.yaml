@@ -434,8 +434,8 @@ import:
     definitions:
       NAME: @COPY_LOGO@
       COMMENT: Copy logo
-      DIR: @COPY_LOGO_DIR@
-      LOGO: @LOGO@
+      OUTDIR: @COPY_LOGO_DIR@
+      SOURCE: @LOGO@
 
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
@@ -557,7 +557,7 @@ definitions:
   COMPANY: PyroVision
   DESIGNER: Daniel Kampert
 
-  LOGO: 'logos/Logo.png'
+  LOGO: 'Logos/Logo.png'
   GIT_URL: 'https://github.com/PyroVision-ThermalCam/Mainboard'
 
   # Preflight ==================================================================
@@ -618,7 +618,7 @@ definitions:
   IMAGES_DIR: 'Images'
   3D_DIR: '3D'
   NETLIST_DIR: 'Netlist'
-  COPY_LOGO_DIR: '.'
+  COPY_LOGO_DIR: 'Images'
 
   RESOURCES_DIR: './kibot_resources'
   REPORT_TEMPLATE_DIR: '@RESOURCES_DIR@/templates'

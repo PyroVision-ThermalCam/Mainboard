@@ -8,12 +8,14 @@ outputs:
 - name: @NAME@
   comment: '@COMMENT@'
   type: copy_files
-  dir: Files
+  dir: '@OUTDIR@'
   options:
     files:
-      - source: @LOGO@
+      - source: @SOURCE@
         source_type: files
 
 definitions:
   NAME: copy_logo
-  LOGO: logos/Logo.png
+  COMMENT: Copy logo files
+  OUTDIR: .
+  SOURCE: Logos/Logo.png
