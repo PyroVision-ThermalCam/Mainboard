@@ -32,7 +32,7 @@ env:
   # PRELIMINARY: Will generate both schematic and PCB documents, but no ERC/DRC
   # CHECKED: Will generate both schematic and PCB documents, with ERC/DRC
   # RELEASED: Similar to CHECKED, automatically selected when pushing a tag to main
-  kibot_variant: PRELIMINARY
+  kibot_variant: CHECKED
 
   # Master branch (main or master). Can be changed for testing
   master_branch: master
@@ -42,6 +42,12 @@ env:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   release:
@@ -291,3 +297,38 @@ jobs:
         with:
           branch: ${{ github.ref_name }}
           commit_message: Push outputs from CI/CD (${{ env.DATE }})
+
+  deploy:
+    needs: generate_outputs
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    if: github.ref_type == 'tag'
+    steps:
+      - name: Determine variant
+        shell: bash
+        run: |
+          if [[ "${{ github.ref_type }}" == "tag" ]]; then
+            echo "kibot_variant=RELEASED" >> "${GITHUB_ENV}"
+          else
+            echo "kibot_variant=${{ env.kibot_variant }}" >> "${GITHUB_ENV}"
+          fi
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.kibot_variant }}.zip
+          path: production
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: production/${{ env.kibot_output_dir }}-${{ env.kibot_variant }}
+          overwrite: true
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
