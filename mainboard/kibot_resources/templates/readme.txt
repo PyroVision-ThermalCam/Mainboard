@@ -49,7 +49,7 @@
     │  ├─ lib_fp          # Footprint libraries
     │  └─ lib_sym         # Symbol libraries
     │
-    ├─ logos              # Logos
+    ├─ Logos              # Logos
     │
     ├─ Manufacturing      # Assembly and fabrication documents
     │  ├─ Assembly        # Assembly documents (BoM, pos, notes)

@@ -166,14 +166,14 @@
 	(property "COMPANY" "PyroVision")
 	(property "DESIGNER" "Daniel Kampert")
 	(property "FABRICATION_NOTES" "")
-	(property "GIT_HASH_PCB" "7d35ea0")
+	(property "GIT_HASH_PCB" "216c73c")
 	(property "GIT_HASH_SCH" "965ddee")
 	(property "GIT_URL" "https://github.com/PyroVision-ThermalCam/Mainboard")
 	(property "PROJECT_NAME" "PyroVision")
 	(property "RELEASE_BODY_2.2.0" "Version 2.2.0 not found.")
 	(property "RELEASE_BODY_UNRELEASED" "Version Unreleased not found.")
-	(property "RELEASE_DATE" "21-Jan-2026")
-	(property "RELEASE_DATE_NUM" "2026-01-21")
+	(property "RELEASE_DATE" "23-Feb-2026")
+	(property "RELEASE_DATE_NUM" "2026-02-23")
 	(property "RELEASE_TITLE_2.2.0" "Version 2.2.0 not found.")
 	(property "RELEASE_TITLE_UNRELEASED" "Version Unreleased not found.")
 	(property "REVISION" "")
@@ -217,7 +217,7 @@
 	(property "SHEET_NAME_7" "Battery")
 	(property "SHEET_NAME_8" "Power")
 	(property "SHEET_NAME_9" "MCU")
-	(property "VARIANT" "RELEASED")
+	(property "VARIANT" "CHECKED")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "+3V3")
@@ -3889,7 +3889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3901,7 +3901,7 @@
 				)
 			)
 		)
-		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5"
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20992,7 +20992,7 @@
 				)
 			)
 		)
-		(property "Value" "45k"
+		(property "Value" "45k3"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23793,7 +23793,7 @@
 				)
 			)
 		)
-		(property "manf#" "RC0603FR-073K3L"
+		(property "manf#" "RC0603FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23806,7 +23806,7 @@
 				)
 			)
 		)
-		(property "mouser#" "603-RC0603FR-073K3L"
+		(property "mouser#" "603-RC0603FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32975,7 +32975,7 @@
 				(justify mirror)
 			)
 		)
-		(property "mouser#" "595-TXB0102DCUR "
+		(property "mouser#" "595-TXB0102DCUR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

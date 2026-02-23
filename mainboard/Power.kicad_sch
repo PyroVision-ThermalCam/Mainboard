@@ -1056,42 +1056,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV75530PDBV"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LP5907MFX-3.0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 5.715 0)
+				(at -3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV75530PDBV"
-				(at 0 5.715 0)
+			(property "Value" "LP5907MFX-3.0"
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-				(at 0 1.27 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1099,7 +1085,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1108,7 +1103,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LDO Regulator Fixed Positive"
+			(property "ki_keywords" "Single Output LDO Low-Noise"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1126,10 +1121,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV75530PDBV_0_1"
+			(symbol "LP5907MFX-3.0_0_1"
 				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1138,8 +1133,6 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "TLV75530PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -5217,7 +5210,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "45k"
+		(property "Value" "45k3"
 			(at 87.63 118.11 0)
 			(effects
 				(font
@@ -5930,7 +5923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75530PDBV")
+		(lib_id "Regulator_Linear:LP5907MFX-3.0")
 		(at 210.82 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5955,17 +5948,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 210.82 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 210.82 53.34 0)
+			(at 210.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5956,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -8909,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0603FR-073K3L"
+		(property "manf#" "RC0603FR-0710KL"
 			(at 85.09 127 0)
 			(effects
 				(font
@@ -8918,7 +8910,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0603FR-073K3L"
+		(property "mouser#" "603-RC0603FR-0710KL"
 			(at 85.09 127 0)
 			(effects
 				(font

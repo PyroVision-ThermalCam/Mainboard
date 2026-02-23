@@ -6096,7 +6096,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "595-TXB0102DCUR "
+		(property "mouser#" "595-TXB0102DCUR"
 			(at 139.7 87.63 0)
 			(effects
 				(font

@@ -11,7 +11,7 @@
 
 **Added:**
 
-- Connect the TMP117 temperatur alert pin (#21)
+- Connect the TMP117 temperature alert pin (#21)
 
 **Changed:**
 
