@@ -3931,7 +3931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003f2485-bb19-45f1-b265-9b823ce9ca92")
-		(property "Reference" "#PWR0820"
+		(property "Reference" "#PWR0821"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -3981,7 +3981,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0820")
+					(reference "#PWR0821")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "032121b6-a41b-4516-9400-602ac1665813")
-		(property "Reference" "IC803"
+		(property "Reference" "IC802"
 			(at 50.165 64.77 0)
 			(effects
 				(font
@@ -4271,7 +4271,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "IC803")
+					(reference "IC802")
 					(unit 1)
 				)
 			)
@@ -4287,7 +4287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bbdedbe-9571-414d-b996-4e6b02e8df54")
-		(property "Reference" "#PWR0828"
+		(property "Reference" "#PWR0829"
 			(at 210.82 101.6 0)
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0828")
+					(reference "#PWR0829")
 					(unit 1)
 				)
 			)
@@ -4565,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1916bbc5-1342-4f3f-b4dc-92ed48fc4941")
-		(property "Reference" "#PWR0816"
+		(property "Reference" "#PWR0818"
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0816")
+					(reference "#PWR0818")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c920e1-60dc-4801-8dd9-1e94d5b5d5d2")
-		(property "Reference" "#PWR0825"
+		(property "Reference" "#PWR0826"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -4781,7 +4781,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0825")
+					(reference "#PWR0826")
 					(unit 1)
 				)
 			)
@@ -4797,7 +4797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262de94f-83ec-4638-8034-b8bc76fa6ba9")
-		(property "Reference" "#PWR0824"
+		(property "Reference" "#PWR0825"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0824")
+					(reference "#PWR0825")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b84c166-d0d8-40df-a250-c34226668993")
-		(property "Reference" "#PWR0822"
+		(property "Reference" "#PWR0823"
 			(at 184.15 115.57 0)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0822")
+					(reference "#PWR0823")
 					(unit 1)
 				)
 			)
@@ -5141,7 +5141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3954289c-f489-4a7c-9c6d-94e9cf7ee66b")
-		(property "Reference" "#PWR0814"
+		(property "Reference" "#PWR0813"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0814")
+					(reference "#PWR0813")
 					(unit 1)
 				)
 			)
@@ -5208,7 +5208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4195187e-b957-404a-b161-a493dcf65b3e")
-		(property "Reference" "R803"
+		(property "Reference" "R804"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -5298,7 +5298,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R803")
+					(reference "R804")
 					(unit 1)
 				)
 			)
@@ -5446,7 +5446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4873b872-f1dc-404c-9a91-e856be61ea43")
-		(property "Reference" "IC801"
+		(property "Reference" "IC803"
 			(at 62.23 109.22 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 		(instances
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "IC801")
+					(reference "IC803")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4979f472-fa4e-4fbf-9c4b-6c4fb29d3734")
-		(property "Reference" "#FLG0802"
+		(property "Reference" "#FLG0801"
 			(at 92.71 187.325 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#FLG0802")
+					(reference "#FLG0801")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a923f98-e4e0-416c-8122-58a212eb3f3d")
-		(property "Reference" "#PWR0832"
+		(property "Reference" "#PWR0833"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -5685,7 +5685,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0832")
+					(reference "#PWR0833")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5021fdf8-d67a-46d1-b509-c70677e89713")
-		(property "Reference" "#PWR0815"
+		(property "Reference" "#PWR0814"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -5817,7 +5817,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0815")
+					(reference "#PWR0814")
 					(unit 1)
 				)
 			)
@@ -6052,7 +6052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55003ccd-5811-4fc2-a1d2-2f22c07c2bea")
-		(property "Reference" "#PWR0808"
+		(property "Reference" "#PWR0809"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0808")
+					(reference "#PWR0809")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e0e89f-ded5-4a9f-86ab-c8431f05e81d")
-		(property "Reference" "#PWR0827"
+		(property "Reference" "#PWR0828"
 			(at 210.82 71.12 0)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0827")
+					(reference "#PWR0828")
 					(unit 1)
 				)
 			)
@@ -6290,7 +6290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dd0716b-2533-47cb-98fe-e6afa1c1d70c")
-		(property "Reference" "#PWR0818"
+		(property "Reference" "#PWR0819"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0818")
+					(reference "#PWR0819")
 					(unit 1)
 				)
 			)
@@ -6456,7 +6456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621d2e65-5fc8-4f56-87f4-9e61c7a99b5f")
-		(property "Reference" "#PWR0829"
+		(property "Reference" "#PWR0830"
 			(at 210.82 132.08 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0829")
+					(reference "#PWR0830")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63770fd2-d9fb-4657-84c7-2abcc72a34a1")
-		(property "Reference" "R808"
+		(property "Reference" "R801"
 			(at 29.21 134.62 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R808")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -6798,7 +6798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "713ca0b6-ccee-409a-b813-2984b4caad1d")
-		(property "Reference" "R805"
+		(property "Reference" "R806"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R805")
+					(reference "R806")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d6f884-9771-4405-bf15-296cc36de717")
-		(property "Reference" "#PWR0819"
+		(property "Reference" "#PWR0820"
 			(at 184.15 71.12 0)
 			(effects
 				(font
@@ -6954,7 +6954,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0819")
+					(reference "#PWR0820")
 					(unit 1)
 				)
 			)
@@ -6970,7 +6970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7723be3f-6fd1-47c6-9020-03598053824e")
-		(property "Reference" "#PWR0821"
+		(property "Reference" "#PWR0822"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -7020,7 +7020,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0821")
+					(reference "#PWR0822")
 					(unit 1)
 				)
 			)
@@ -7102,7 +7102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "888238b8-ffd5-47f9-b9f4-238162d9600d")
-		(property "Reference" "#PWR0833"
+		(property "Reference" "#PWR0807"
 			(at 31.75 147.32 0)
 			(effects
 				(font
@@ -7152,7 +7152,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0833")
+					(reference "#PWR0807")
 					(unit 1)
 				)
 			)
@@ -7167,7 +7167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b4a9d36-5e61-4ba2-8369-39059822eede")
-		(property "Reference" "IC802"
+		(property "Reference" "IC801"
 			(at 50.165 31.75 0)
 			(effects
 				(font
@@ -7264,7 +7264,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "IC802")
+					(reference "IC801")
 					(unit 1)
 				)
 			)
@@ -7280,7 +7280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9538667f-3441-4537-b640-3d17630d1fb3")
-		(property "Reference" "#PWR0826"
+		(property "Reference" "#PWR0827"
 			(at 201.93 132.08 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0826")
+					(reference "#PWR0827")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c5c6dd7-3f5e-4d71-af37-265dcfa9a4a5")
-		(property "Reference" "R807"
+		(property "Reference" "R808"
 			(at 199.39 119.38 0)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R807")
+					(reference "R808")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8e61d5-f5d4-4671-a71a-1a856373361a")
-		(property "Reference" "#PWR0812"
+		(property "Reference" "#PWR0815"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -7711,7 +7711,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0812")
+					(reference "#PWR0815")
 					(unit 1)
 				)
 			)
@@ -8099,7 +8099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d555f4-9f89-41a7-b510-7a2a8effe4b8")
-		(property "Reference" "#PWR0807"
+		(property "Reference" "#PWR0808"
 			(at 43.18 54.61 0)
 			(effects
 				(font
@@ -8149,7 +8149,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0807")
+					(reference "#PWR0808")
 					(unit 1)
 				)
 			)
@@ -8370,7 +8370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0a68f21-4a08-4d7a-8944-87c90225d941")
-		(property "Reference" "R801"
+		(property "Reference" "R802"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -8460,7 +8460,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R801")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0cd455f-00ab-43f6-8d35-e4bd8606dcae")
-		(property "Reference" "R802"
+		(property "Reference" "R803"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -8565,7 +8565,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R802")
+					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -8581,7 +8581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d500fd04-fc2f-4387-8a55-eca5410ec146")
-		(property "Reference" "#PWR0831"
+		(property "Reference" "#PWR0832"
 			(at 224.79 101.6 0)
 			(effects
 				(font
@@ -8631,7 +8631,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0831")
+					(reference "#PWR0832")
 					(unit 1)
 				)
 			)
@@ -8713,7 +8713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d946d13e-c2e8-4a29-bed1-999909a9eea3")
-		(property "Reference" "#PWR0813"
+		(property "Reference" "#PWR0816"
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -8763,7 +8763,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0813")
+					(reference "#PWR0816")
 					(unit 1)
 				)
 			)
@@ -8779,7 +8779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2fe5bd-9e67-4d96-85c4-ef9203bf812d")
-		(property "Reference" "#PWR0823"
+		(property "Reference" "#PWR0824"
 			(at 184.15 132.08 0)
 			(effects
 				(font
@@ -8829,7 +8829,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0823")
+					(reference "#PWR0824")
 					(unit 1)
 				)
 			)
@@ -8846,7 +8846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf3e79a-39f0-4f5f-ae3a-99ec7b4a15f0")
-		(property "Reference" "R804"
+		(property "Reference" "R805"
 			(at 87.63 125.73 0)
 			(effects
 				(font
@@ -8936,7 +8936,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R804")
+					(reference "R805")
 					(unit 1)
 				)
 			)
@@ -9064,7 +9064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2b6dc59-c82b-475f-a231-9ab69c8b1382")
-		(property "Reference" "#FLG0801"
+		(property "Reference" "#FLG0802"
 			(at 96.52 108.585 0)
 			(effects
 				(font
@@ -9114,7 +9114,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#FLG0801")
+					(reference "#FLG0802")
 					(unit 1)
 				)
 			)
@@ -9230,7 +9230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76bd6fa-8dc0-41f8-8b5d-daf4f90172b0")
-		(property "Reference" "#PWR0809"
+		(property "Reference" "#PWR0812"
 			(at 62.23 147.32 0)
 			(effects
 				(font
@@ -9280,7 +9280,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0809")
+					(reference "#PWR0812")
 					(unit 1)
 				)
 			)
@@ -9402,7 +9402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf7ac6b-5d77-4c4e-8624-03ede808ef7d")
-		(property "Reference" "#PWR0830"
+		(property "Reference" "#PWR0831"
 			(at 224.79 71.12 0)
 			(effects
 				(font
@@ -9452,7 +9452,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "#PWR0830")
+					(reference "#PWR0831")
 					(unit 1)
 				)
 			)
@@ -9468,7 +9468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec9a2749-e828-472a-a900-784403c169cb")
-		(property "Reference" "SW701"
+		(property "Reference" "SW801"
 			(at 39.37 119.38 0)
 			(effects
 				(font
@@ -9559,7 +9559,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "SW701")
+					(reference "SW801")
 					(unit 1)
 				)
 			)
@@ -9574,7 +9574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef27c9c9-b182-4e19-9413-662f6ce1738f")
-		(property "Reference" "R806"
+		(property "Reference" "R807"
 			(at 199.39 88.9 0)
 			(effects
 				(font
@@ -9664,7 +9664,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342"
-					(reference "R806")
+					(reference "R807")
 					(unit 1)
 				)
 			)
