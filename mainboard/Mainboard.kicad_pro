@@ -828,6 +828,6 @@
     "SHEET_NAME_7": "Battery",
     "SHEET_NAME_8": "Power",
     "SHEET_NAME_9": "MCU",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "CHECKED"
   }
 }

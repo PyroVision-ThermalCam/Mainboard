@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-02-23T15:38:30+0000</date>
+    <date>2026-02-23T15:48:19+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
@@ -60,7 +60,7 @@
     <textvar name="SHEET_NAME_7">Battery</textvar>
     <textvar name="SHEET_NAME_8">Power</textvar>
     <textvar name="SHEET_NAME_9">MCU</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template</title>
