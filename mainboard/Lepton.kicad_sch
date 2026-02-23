@@ -5425,7 +5425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66853c96-cf47-495f-87b8-8393cfda7a06")
-		(property "Reference" "#PWR01013"
+		(property "Reference" "#PWR01014"
 			(at 262.89 45.72 0)
 			(effects
 				(font
@@ -5475,7 +5475,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
-					(reference "#PWR01013")
+					(reference "#PWR01014")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17f4511-c8aa-42eb-846c-d4e067864ce0")
-		(property "Reference" "#PWR01014"
+		(property "Reference" "#PWR01013"
 			(at 252.73 105.41 0)
 			(effects
 				(font
@@ -7135,7 +7135,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195"
-					(reference "#PWR01014")
+					(reference "#PWR01013")
 					(unit 1)
 				)
 			)
