@@ -1,6 +1,7 @@
 # PyroVision - Mainboard
 
 [![PCB](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml/badge.svg)](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://pyrovision-thermalcam.github.io/)
 
 ## Table of Contents
 
