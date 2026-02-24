@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-02-24
+
 **Fixed:**
 
 - Add missing name for net for TP701 (#11)
@@ -33,5 +35,6 @@
 
 - Initial release
 
-[unreleased]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/1.0.1...HEAD
+[unreleased]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/PyroVision-ThermalCam/Mainboard/compare/67de4a6eec24cc332c0ba283ca204f24177bcb72...1.0.1
