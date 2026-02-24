@@ -777,7 +777,7 @@
     "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "216c73c",
+    "GIT_HASH_PCB": "c57c014",
     "GIT_HASH_SCH": "965ddee",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Mainboard",
     "PROJECT_NAME": "PyroVision",

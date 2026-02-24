@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-02-23T15:48:19+0000</date>
+    <date>2026-02-24T05:24:35+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">216c73c</textvar>
+    <textvar name="GIT_HASH_PCB">c57c014</textvar>
     <textvar name="GIT_HASH_SCH">965ddee</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Mainboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
@@ -1352,25 +1352,25 @@
     <comp ref="IC804">
       <value>LP5907MFX-3.0</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
-      <description>500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5</description>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23</description>
       <fields>
         <field name="manf">Texas Instruments</field>
         <field name="manf#">LP5907MFX-3.0/NOPB</field>
         <field name="mouser#">595-LP5907MFX-3.0NPB</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
-        <field name="Description">500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp5907.pdf</field>
+        <field name="Description">250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23</field>
       </fields>
-      <libsource lib="Regulator_Linear" part="TLV75530PDBV" description="500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5"/>
+      <libsource lib="Regulator_Linear" part="LP5907MFX-3.0" description="250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23"/>
       <property name="manf" value="Texas Instruments"/>
       <property name="manf#" value="LP5907MFX-3.0/NOPB"/>
       <property name="mouser#" value="595-LP5907MFX-3.0NPB"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
-      <property name="ki_keywords" value="LDO Regulator Fixed Positive"/>
+      <property name="ki_keywords" value="Single Output LDO Low-Noise"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
       <tstamps>5327e3f8-4af3-4be7-8727-5a6adc8b6ce6</tstamps>
@@ -1532,7 +1532,7 @@
       <tstamps>d0cd455f-00ab-43f6-8d35-e4bd8606dcae</tstamps>
     </comp>
     <comp ref="R804">
-      <value>45k</value>
+      <value>45k3</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
       <description>Resistor</description>
@@ -1565,8 +1565,8 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-073K3L</field>
-        <field name="mouser#">603-RC0603FR-073K3L</field>
+        <field name="manf#">RC0603FR-0710KL</field>
+        <field name="mouser#">603-RC0603FR-0710KL</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
@@ -1574,8 +1574,8 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-073K3L"/>
-      <property name="mouser#" value="603-RC0603FR-073K3L"/>
+      <property name="manf#" value="RC0603FR-0710KL"/>
+      <property name="mouser#" value="603-RC0603FR-0710KL"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3545,7 +3545,7 @@
       <fields>
         <field name="manf">Texas Instruments</field>
         <field name="manf#">TXB0102DCUR</field>
-        <field name="mouser#">595-TXB0102DCUR </field>
+        <field name="mouser#">595-TXB0102DCUR</field>
         <field name="CONFIG"/>
         <field name="Footprint">Package_SO:VSSOP-8_2.3x2mm_P0.5mm</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/txb0102.pdf</field>
@@ -3554,7 +3554,7 @@
       <libsource lib="Logic_LevelTranslator" part="TXB0102DCU" description="2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8"/>
       <property name="manf" value="Texas Instruments"/>
       <property name="manf#" value="TXB0102DCUR"/>
-      <property name="mouser#" value="595-TXB0102DCUR "/>
+      <property name="mouser#" value="595-TXB0102DCUR"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Camera"/>
       <property name="Sheetfile" value="Camera.kicad_sch"/>
@@ -4797,18 +4797,18 @@
         <pin num="5" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="TLV75530PDBV">
-      <description>500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5</description>
-      <docs>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</docs>
+    <libpart lib="Regulator_Linear" part="LP5907MFX-3.0">
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5907.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">TLV75530PDBV</field>
+        <field name="Value">LP5907MFX-3.0</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
-        <field name="Description">500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp5907.pdf</field>
+        <field name="Description">250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23</field>
       </fields>
       <pins>
         <pin num="1" name="IN" type="power_in"/>
