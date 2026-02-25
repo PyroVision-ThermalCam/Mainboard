@@ -6657,7 +6657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1q49kc1*_gcl_aw*R0NMLjE3Njc4MTgyNTEuQ2owS0NRaUFwZmpLQmhDMEFSSXNBTWlSX0lzdkJ5TENnX010TTZNVG9xREFmVmI5TVlsSHQ2OXlNZmxfSmM2M1BITW9jMUNYYXE4LS1Kd2FBa3Y1RUFMd193Y0I.*_gcl_au*Mjc1Njk5MzM3LjE3NjUxMzEwODIuMzAwMjEyMTU0LjE3Njc4MTc1MDQuMTc2NzgxNzU2Mg..*_ga*MTI4ODM2MzAzLjE3NjU0MzcxNTg.*_ga_15W4STQT4T*czE3Njc4MTc1MDUkbzI0JGcxJHQxNzY3ODE4MjUxJGo2MCRsMCRoMA.."
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf"
 			(at 240.03 128.27 0)
 			(effects
 				(font
