@@ -2461,7 +2461,7 @@
 	)
 	(text_box "DESIGN NOTE:\nThe camera use an internal pull-down."
 		(exclude_from_sim no)
-		(at 106.68 101.6 0)
+		(at 99.06 60.96 0)
 		(size 24.13 8.89)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -2508,7 +2508,7 @@
 	)
 	(text_box "DESIGN NOTE:\nThe camera use an internal pull-up."
 		(exclude_from_sim no)
-		(at 99.06 60.96 0)
+		(at 102.87 101.6 0)
 		(size 24.13 8.89)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -2600,22 +2600,10 @@
 		(uuid "fcc40333-67b8-440e-9f40-880c83d44178")
 	)
 	(junction
-		(at 269.24 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c1086c0-4bca-4dd2-bd87-2fc321295617")
-	)
-	(junction
 		(at 215.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cf730ad-1b34-4bfa-bacc-b80bb75e3608")
-	)
-	(junction
-		(at 266.7 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23bdd2bc-b8dd-4fd7-a66c-2ffb84c428ac")
 	)
 	(junction
 		(at 214.63 86.36)
@@ -2628,12 +2616,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90072494-2c37-453e-8165-adc3c7d29069")
-	)
-	(junction
-		(at 267.97 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e017400-7d13-4936-93df-77c11cff340a")
 	)
 	(junction
 		(at 215.9 102.87)
@@ -2658,12 +2640,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bad3ca4c-4b8e-45ed-9234-df98a064c97a")
-	)
-	(junction
-		(at 267.97 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3302304-8c25-443b-8734-36a0440ea0b7")
 	)
 	(junction
 		(at 162.56 90.17)
@@ -2872,16 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 100.33) (xy 271.78 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5c3548-48b8-48d7-8517-83893da7a37e")
-	)
-	(wire
-		(pts
 			(xy 39.37 78.74) (xy 36.83 78.74)
 		)
 		(stroke
@@ -2962,16 +2928,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 87.63) (xy 269.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b65f03f-930d-4c10-a02b-9ff8ffa67ff9")
-	)
-	(wire
-		(pts
 			(xy 38.1 116.84) (xy 38.1 128.27)
 		)
 		(stroke
@@ -3031,26 +2987,6 @@
 			(type default)
 		)
 		(uuid "4bb1765e-1cc9-4803-a45a-5811164eaeb3")
-	)
-	(wire
-		(pts
-			(xy 266.7 86.36) (xy 266.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554bbe1a-41c0-4c2b-a57a-f35641700002")
-	)
-	(wire
-		(pts
-			(xy 269.24 95.25) (xy 269.24 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8b1c37-22a5-4fed-b588-8f78aa90163a")
 	)
 	(wire
 		(pts
@@ -3121,16 +3057,6 @@
 			(type default)
 		)
 		(uuid "714ed191-bc62-454f-bfca-7bf36c25dc64")
-	)
-	(wire
-		(pts
-			(xy 269.24 86.36) (xy 267.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "749225a9-0c83-43f7-87a4-20e299dca85f")
 	)
 	(wire
 		(pts
@@ -3214,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 86.36) (xy 266.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95582597-5c97-4f67-9bb8-cb3d1bff66a6")
-	)
-	(wire
-		(pts
 			(xy 219.71 116.84) (xy 219.71 118.11)
 		)
 		(stroke
@@ -3271,16 +3187,6 @@
 			(type default)
 		)
 		(uuid "a0a1fd1e-ba41-41f4-a588-76e5e04c89a0")
-	)
-	(wire
-		(pts
-			(xy 266.7 95.25) (xy 266.7 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39429ea-8d5a-4056-bdea-6a0f7b7c900b")
 	)
 	(wire
 		(pts
@@ -3374,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 100.33) (xy 266.7 100.33)
+			(xy 259.08 100.33) (xy 271.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3431,16 +3337,6 @@
 			(type default)
 		)
 		(uuid "d4d90a2a-8115-497e-9ea7-57c74109baa5")
-	)
-	(wire
-		(pts
-			(xy 269.24 102.87) (xy 271.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d691d67e-3613-48f4-9bbc-a48a9df944cc")
 	)
 	(wire
 		(pts
@@ -3514,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 102.87) (xy 269.24 102.87)
+			(xy 259.08 102.87) (xy 271.78 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3531,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "e75ace71-76cc-4fcb-81b6-b070239d042a")
-	)
-	(wire
-		(pts
-			(xy 267.97 77.47) (xy 267.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea4b8ad8-939a-46c5-84ee-052ac77d8822")
 	)
 	(wire
 		(pts
@@ -3633,7 +3519,7 @@
 		(uuid "7098bfcf-bf0a-4991-b501-c8d0b4d68152")
 	)
 	(label "Camera-PWR_{LV}"
-		(at 128.27 85.09 180)
+		(at 128.27 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3673,7 +3559,7 @@
 		(uuid "eb07794b-a17d-428c-9267-932f8b9700cb")
 	)
 	(label "~{Camera-Reset}_{LV}"
-		(at 128.27 90.17 180)
+		(at 128.27 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3926,7 +3812,7 @@
 	)
 	(hierarchical_label "~{Camera-Reset}"
 		(shape input)
-		(at 172.72 90.17 0)
+		(at 172.72 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3981,7 +3867,7 @@
 	)
 	(hierarchical_label "Camera-PWR"
 		(shape input)
-		(at 172.72 85.09 0)
+		(at 172.72 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4216,112 +4102,6 @@
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b"
 					(reference "#PWR01202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 91.44 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0e7c5097-c488-4f64-a523-53d01fb1e8e3")
-		(property "Reference" "R1207"
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k3"
-			(at 264.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.922 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RC0603FR-073K3L"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "603-RC0603FR-073K3L"
-			(at 266.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a317cac5-d17a-49b4-b99e-cf6e7cce8957")
-		)
-		(pin "2"
-			(uuid "a6448bfd-9867-423e-a085-1064d80929c2")
-		)
-		(instances
-			(project "PyroVision"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b"
-					(reference "R1207")
 					(unit 1)
 				)
 			)
@@ -4601,111 +4381,6 @@
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b"
 					(reference "X1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 269.24 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "23560716-d29b-4f3f-8c3d-c0212367b364")
-		(property "Reference" "R1208"
-			(at 271.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k3"
-			(at 271.78 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 271.018 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "YAGEO"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RC0603FR-073K3L"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "603-RC0603FR-073K3L"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f4297bc-e58e-4c65-bccb-93d31d46b6cd")
-		)
-		(pin "2"
-			(uuid "d0a61f0c-817b-4445-9862-474685f247a9")
-		)
-		(instances
-			(project "PyroVision"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b"
-					(reference "R1208")
 					(unit 1)
 				)
 			)
@@ -5025,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0603FR-072K83L"
+		(property "manf#" "RC0603FR-072K8L"
 			(at 215.9 91.44 0)
 			(effects
 				(font
@@ -5034,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0603FR-072K83L"
+		(property "mouser#" "603-RC0603FR-072K8L"
 			(at 215.9 91.44 0)
 			(effects
 				(font
@@ -5924,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0603FR-072K83L"
+		(property "manf#" "RC0603FR-072K8L"
 			(at 213.36 91.44 0)
 			(effects
 				(font
@@ -5933,7 +5608,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0603FR-072K83L"
+		(property "mouser#" "603-RC0603FR-072K8L"
 			(at 213.36 91.44 0)
 			(effects
 				(font

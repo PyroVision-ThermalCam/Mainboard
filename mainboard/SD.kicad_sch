@@ -376,6 +376,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -846,6 +985,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 96.52) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b47cb7-0b18-4d48-8ad5-154209297e6e")
+	)
+	(wire
+		(pts
 			(xy 133.35 96.52) (xy 102.87 96.52)
 		)
 		(stroke
@@ -853,6 +1002,16 @@
 			(type default)
 		)
 		(uuid "97b02090-fbdb-4e8c-8aff-585abc0bc1f9")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3d0b7a-7e00-4a2a-b250-d36e6ac802dd")
 	)
 	(wire
 		(pts
@@ -960,6 +1119,111 @@
 		(uuid "ba8ac6ef-4aaf-41a1-b6fd-c398b15c24e3")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 102.87 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "063998a0-5b3d-4e35-8eed-16b1dfdd0434")
+		(property "Reference" "C1301"
+			(at 99.06 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.06 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 103.8352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "KYOCERA AVX"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "06031C104MAT2A"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-06031C104MAT2A"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01813be-f741-4685-8eed-acfd9cb72683")
+		)
+		(pin "2"
+			(uuid "70967fc8-a004-4d8d-ba0b-4333bdc6aab6")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
+					(reference "C1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 128.27 66.04 0)
 		(unit 1)
@@ -969,7 +1233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260fdf64-1eb3-4231-871f-abb6bea17d5c")
-		(property "Reference" "#PWR01302"
+		(property "Reference" "#PWR01303"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1019,7 +1283,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
-					(reference "#PWR01302")
+					(reference "#PWR01303")
 					(unit 1)
 				)
 			)
@@ -1035,7 +1299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59ade5d1-3960-40c4-a773-a25f57e0283d")
-		(property "Reference" "#PWR01304"
+		(property "Reference" "#PWR01305"
 			(at 177.8 113.03 0)
 			(effects
 				(font
@@ -1085,7 +1349,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
-					(reference "#PWR01304")
+					(reference "#PWR01305")
 					(unit 1)
 				)
 			)
@@ -1101,7 +1365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b8d94a-c707-4838-9819-17955bfcfa08")
-		(property "Reference" "#PWR01303"
+		(property "Reference" "#PWR01304"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -1151,7 +1415,7 @@
 		(instances
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
-					(reference "#PWR01303")
+					(reference "#PWR01304")
 					(unit 1)
 				)
 			)
@@ -1258,6 +1522,72 @@
 			(project "PyroVision"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
 					(reference "R1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8ddbea-7341-4bbe-8616-b4b1081d1e5a")
+		(property "Reference" "#PWR01302"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "223152ce-d5fa-4e7d-bd3c-ee818358009d")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc"
+					(reference "#PWR01302")
 					(unit 1)
 				)
 			)

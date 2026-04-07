@@ -891,7 +891,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "6. SCL"
+	(text "6. SPI-SCLK"
 		(exclude_from_sim no)
 		(at 97.79 86.36 0)
 		(effects
@@ -902,7 +902,7 @@
 		)
 		(uuid "231b0243-f475-48f7-b8e8-ff2f0c5d88cb")
 	)
-	(text "10. Display-DC"
+	(text "10. SDA"
 		(exclude_from_sim no)
 		(at 97.79 96.52 0)
 		(effects
@@ -913,7 +913,7 @@
 		)
 		(uuid "3bfd5989-03d4-408a-a9d3-1e4ea95398f6")
 	)
-	(text "12. SPI-MOSI"
+	(text "12. ~{Touch-Reset}"
 		(exclude_from_sim no)
 		(at 97.79 101.6 0)
 		(effects
@@ -924,7 +924,7 @@
 		)
 		(uuid "4908cc3f-f6fa-4a8a-a05e-4d5ae4c4f45e")
 	)
-	(text "7. ~{Expander-Int}"
+	(text "7. ~{Display-Reset}"
 		(exclude_from_sim no)
 		(at 97.79 88.9 0)
 		(effects
@@ -935,7 +935,7 @@
 		)
 		(uuid "4f40475c-6e1d-4542-863e-519bb363769d")
 	)
-	(text "13. SPI-MISO"
+	(text "13. GND"
 		(exclude_from_sim no)
 		(at 97.79 104.14 0)
 		(effects
@@ -946,7 +946,7 @@
 		)
 		(uuid "5b50bcd0-b003-4da9-9400-e2a21579d7cb")
 	)
-	(text "1. +3V3"
+	(text "1. Display-Backlight"
 		(exclude_from_sim no)
 		(at 97.79 73.66 0)
 		(effects
@@ -957,7 +957,7 @@
 		)
 		(uuid "606a1544-553a-48d7-893f-822b965f7ecd")
 	)
-	(text "4. ~{Touch-IRQ}"
+	(text "4. ~{Display-CS}"
 		(exclude_from_sim no)
 		(at 97.79 81.28 0)
 		(effects
@@ -968,7 +968,7 @@
 		)
 		(uuid "86de5b66-796f-4bda-87ab-8116e2bd8aa2")
 	)
-	(text "5. SDA"
+	(text "5. Display-DC"
 		(exclude_from_sim no)
 		(at 97.79 83.82 0)
 		(effects
@@ -979,7 +979,7 @@
 		)
 		(uuid "9ef8489b-d575-4268-a7b3-c1a3a115eea1")
 	)
-	(text "11. ~{Display-CS}"
+	(text "11. ~{Touch-IRQ}"
 		(exclude_from_sim no)
 		(at 97.79 99.06 0)
 		(effects
@@ -990,7 +990,7 @@
 		)
 		(uuid "aa68007f-2bf0-4b30-8f75-da2c0546567e")
 	)
-	(text "3. ~{Touch-Reset}"
+	(text "3. SPI-MOSI"
 		(exclude_from_sim no)
 		(at 97.79 78.74 0)
 		(effects
@@ -1001,7 +1001,7 @@
 		)
 		(uuid "b9d001cd-a14c-4e9a-8396-13c987bb9d0d")
 	)
-	(text "8. ~{Display-Reset}"
+	(text "8. ~{Display-Expander-Int}"
 		(exclude_from_sim no)
 		(at 97.79 91.44 0)
 		(effects
@@ -1012,7 +1012,7 @@
 		)
 		(uuid "bc603310-775d-4c3c-b2c5-e27ea080d1a9")
 	)
-	(text "14. Display-Backlight"
+	(text "14. +3V3"
 		(exclude_from_sim no)
 		(at 97.79 106.68 0)
 		(effects
@@ -1023,7 +1023,7 @@
 		)
 		(uuid "bf662dd7-6cdf-43fb-87e0-8ac83a5cc171")
 	)
-	(text "2. GND"
+	(text "2. SPI-MISO"
 		(exclude_from_sim no)
 		(at 97.79 76.2 0)
 		(effects
@@ -1034,7 +1034,7 @@
 		)
 		(uuid "cc9d6b21-90c8-4e3d-a6cd-28988ac77c9d")
 	)
-	(text "9. SPI-SCLK"
+	(text "9. SCL"
 		(exclude_from_sim no)
 		(at 97.79 93.98 0)
 		(effects

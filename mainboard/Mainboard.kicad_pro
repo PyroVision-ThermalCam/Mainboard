@@ -564,7 +564,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../production/",
-      "pos_files": "",
+      "pos_files": "../../../../../Downloads/",
       "specctra_dsn": "",
       "step": "../../../../../Downloads/Mainboard.step",
       "svg": "",
@@ -644,7 +644,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "manf#",
           "name": "manf#",
           "show": true
@@ -698,7 +698,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "${KIPRJMOD}/templates/KDT_Template_GIT.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../../../../../Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -787,7 +787,7 @@
     "RELEASE_DATE_NUM": "2026-02-24",
     "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "X.Y.Z",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "Lepton",
     "SHEET_NAME_11": "Peripherals",
