@@ -3478,6 +3478,12 @@
 		(uuid "59cb7fe1-8107-45c0-a14b-2d0861285a37")
 	)
 	(junction
+		(at 393.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715773c5-4c54-4055-a9ab-a559afd7fc9b")
+	)
+	(junction
 		(at 128.27 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3819,6 +3825,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 120.65) (xy 393.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c656a9-533a-43f3-9f14-65a52c4b76c9")
+	)
+	(wire
+		(pts
 			(xy 128.27 109.22) (xy 128.27 113.03)
 		)
 		(stroke
@@ -4081,6 +4097,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 120.65) (xy 393.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8564bbba-fe6a-4c84-b356-3ad7ffb77d0f")
+	)
+	(wire
+		(pts
 			(xy 292.1 109.22) (xy 325.12 109.22)
 		)
 		(stroke
@@ -4328,6 +4354,16 @@
 			(type default)
 		)
 		(uuid "af4eae29-278f-453b-89e7-07745c05b989")
+	)
+	(wire
+		(pts
+			(xy 388.62 119.38) (xy 388.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0335900-1694-444f-8e10-94164b333e26")
 	)
 	(wire
 		(pts
@@ -4915,6 +4951,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 388.62 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c617e59-cc96-49ed-b635-542f8d677e33")
+		(property "Reference" "TP703"
+			(at 388.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 388.62 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
+			(at 393.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 388.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 388.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 388.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 388.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 388.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caa8e902-fd63-45a2-8ecd-970212aacb1f")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22"
+					(reference "TP703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 393.7 107.95 0)
 		(unit 1)
@@ -5350,9 +5486,9 @@
 		(at 179.07 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23b4b461-1d62-4c89-8dee-506887f7403e")
 		(property "Reference" "R704"
 			(at 181.61 144.7799 0)
@@ -7404,9 +7540,9 @@
 		(at 341.63 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8df52afe-99b1-4a0a-b364-0b77e30a932a")
 		(property "Reference" "R710"
 			(at 344.17 137.1599 0)
@@ -8086,7 +8222,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d2a9190d-82b5-411b-8405-cded0744be1e")
 		(property "Reference" "TP702"
 			(at 349.25 148.59 0)

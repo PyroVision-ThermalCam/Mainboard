@@ -3324,6 +3324,12 @@
 		(uuid "3b6c425b-1678-48ab-bc59-8c2621cef0b0")
 	)
 	(junction
+		(at 345.44 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46b2f343-81aa-4e80-9804-563d06082882")
+	)
+	(junction
 		(at 111.76 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3378,6 +3384,12 @@
 		(uuid "8f42d03b-1482-4260-974e-bb5fc821457c")
 	)
 	(junction
+		(at 326.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a15525-8c9e-4dc9-9f81-7ad62ca84bd2")
+	)
+	(junction
 		(at 274.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3430,16 +3442,12 @@
 		(uuid "2a07b2ad-c456-4fd8-aee2-31cff3db927f")
 	)
 	(no_connect
-		(at 125.73 132.08)
-		(uuid "4c46a874-b959-43d3-ad15-8f5b30f2d520")
-	)
-	(no_connect
 		(at 125.73 137.16)
 		(uuid "5d03a899-e6b1-4388-a60c-e6d8659faefe")
 	)
 	(no_connect
-		(at 334.01 107.95)
-		(uuid "78d6fc42-849e-48f4-bca1-8ae2dd4971b7")
+		(at 125.73 127)
+		(uuid "61606416-f42b-47a0-b145-228ccae5a18d")
 	)
 	(no_connect
 		(at 321.31 186.69)
@@ -3460,6 +3468,16 @@
 	(no_connect
 		(at 125.73 119.38)
 		(uuid "fac16412-bfb1-4337-9795-2012b847057b")
+	)
+	(wire
+		(pts
+			(xy 326.39 101.6) (xy 326.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00983db3-5317-49c8-b738-acfd3aad7569")
 	)
 	(wire
 		(pts
@@ -3513,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 209.55) (xy 129.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d0653e-bed3-48de-95c7-1adcc43e726e")
+	)
+	(wire
+		(pts
 			(xy 238.76 179.07) (xy 238.76 186.69)
 		)
 		(stroke
@@ -3533,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 83.82) (xy 351.79 82.55)
+			(xy 350.52 83.82) (xy 350.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3788,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 132.08) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30018939-bd1a-4b80-9acc-938a1de893b0")
+	)
+	(wire
+		(pts
 			(xy 299.72 194.31) (xy 300.99 194.31)
 		)
 		(stroke
@@ -3906,26 +3944,6 @@
 			(type default)
 		)
 		(uuid "3cc20bc9-6970-400e-9156-b043ca6a6407")
-	)
-	(wire
-		(pts
-			(xy 123.19 213.36) (xy 123.19 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da7ab34-dbe9-4c76-a55a-807aae89fa44")
-	)
-	(wire
-		(pts
-			(xy 125.73 127) (xy 147.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e5b1edb-db93-4e40-b908-0c3fd95588b7")
 	)
 	(wire
 		(pts
@@ -4072,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 81.28) (xy 326.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5391c8f7-cbc4-4550-bf79-9c7f3515c10d")
+	)
+	(wire
+		(pts
 			(xy 314.96 161.29) (xy 314.96 162.56)
 		)
 		(stroke
@@ -4151,16 +4179,6 @@
 		)
 		(uuid "60b0291d-3dfe-481c-a35a-504716ea7b9b")
 	)
-	(wire
-		(pts
-			(xy 138.43 213.36) (xy 123.19 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b59daa-a04d-4c60-aea4-54eec579116f")
-	)
 	(polyline
 		(pts
 			(xy 161.29 146.05) (xy 217.17 146.05)
@@ -4216,13 +4234,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 217.17) (xy 114.3 217.17)
+			(xy 114.3 217.17) (xy 147.32 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a501d11-81bc-49ed-b250-32a660ed5dbd")
+	)
+	(wire
+		(pts
+			(xy 345.44 82.55) (xy 344.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1f097b-d088-4347-bb77-e05d8073bb37")
 	)
 	(wire
 		(pts
@@ -4267,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 92.71) (xy 351.79 91.44)
+			(xy 350.52 92.71) (xy 350.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4294,16 +4322,6 @@
 			(type default)
 		)
 		(uuid "76146c7c-d039-4c5a-8425-66387d055755")
-	)
-	(wire
-		(pts
-			(xy 344.17 82.55) (xy 346.71 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79097418-3a5f-44c0-8c19-4209724c4233")
 	)
 	(wire
 		(pts
@@ -4387,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "8a31edc4-3fb5-4501-8ed0-435a2993f80e")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c351b16-b6bb-446a-b886-b84a2f541316")
 	)
 	(wire
 		(pts
@@ -4583,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 81.28) (xy 344.17 82.55)
+			(xy 345.44 81.28) (xy 345.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4641,6 +4669,16 @@
 			(type default)
 		)
 		(uuid "9fc5e38f-c5fb-4a92-92cf-d70edd1b168e")
+	)
+	(wire
+		(pts
+			(xy 326.39 107.95) (xy 334.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07fa34c-e275-4572-a863-93ea972336e7")
 	)
 	(wire
 		(pts
@@ -4786,6 +4824,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 110.49) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583db31-25d6-4a10-9455-ac758e2acbc9")
+	)
+	(wire
+		(pts
+			(xy 345.44 82.55) (xy 346.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71b6bf9-cd8a-4457-b0cd-6056682c7bad")
+	)
+	(wire
+		(pts
 			(xy 66.04 123.19) (xy 66.04 124.46)
 		)
 		(stroke
@@ -4854,6 +4912,26 @@
 			(type default)
 		)
 		(uuid "bbe15105-cc57-40ef-9649-782b99ba1a67")
+	)
+	(wire
+		(pts
+			(xy 326.39 107.95) (xy 323.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcced89b-cea5-4c49-928a-b2af51337d89")
+	)
+	(wire
+		(pts
+			(xy 147.32 205.74) (xy 138.43 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0b0cd8-db11-4ddb-9b23-1610f66108b0")
 	)
 	(wire
 		(pts
@@ -4975,6 +5053,16 @@
 			(type default)
 		)
 		(uuid "cbcd007d-b260-43ad-8d73-9f40f5bb9a81")
+	)
+	(wire
+		(pts
+			(xy 138.43 205.74) (xy 138.43 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc28ad8f-1ccd-4c95-b47e-f49265fb6695")
 	)
 	(wire
 		(pts
@@ -5155,6 +5243,16 @@
 			(type default)
 		)
 		(uuid "e1c0bb21-259e-4ff8-8532-cf5dcdc8ffa9")
+	)
+	(wire
+		(pts
+			(xy 147.32 209.55) (xy 129.54 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e83b42-72fa-4182-9eb3-f8b55e145941")
 	)
 	(wire
 		(pts
@@ -5360,7 +5458,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 82.55) (xy 351.79 82.55)
+			(xy 346.71 82.55) (xy 350.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5409,6 +5507,16 @@
 		)
 		(uuid "ff9e7f19-66c0-4ca2-9bed-ca22e89ba1e5")
 	)
+	(label "~{Range-INT}"
+		(at 323.85 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04463aa1-3197-43c0-b400-90e5f4f7e5d6")
+	)
 	(label "~{RTC-INT}"
 		(at 147.32 124.46 0)
 		(effects
@@ -5419,15 +5527,15 @@
 		)
 		(uuid "0ec34346-a6ac-4390-91c7-e9109a97f1a8")
 	)
-	(label "~{TEMP-INT}"
-		(at 205.74 180.34 0)
+	(label "~{Range-INT}"
+		(at 147.32 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1f0a309d-4ac9-488e-ba4d-06a43b95e9b4")
+		(uuid "1ff87f70-ace7-4612-b92f-c942df45f637")
 	)
 	(label "~{RTC-INT}"
 		(at 330.2 193.04 0)
@@ -5439,18 +5547,28 @@
 		)
 		(uuid "39cba576-3891-4d3a-8d79-c1b67589e499")
 	)
-	(label "LED-Flash"
-		(at 147.32 127 0)
+	(label "~{Range-INT}"
+		(at 147.32 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6262496d-3f71-43c2-a60c-9a66a4256fc3")
+		(uuid "42e2f7d6-1271-4427-acc2-3e8e357fbe39")
+	)
+	(label "~{Temp-INT}"
+		(at 205.74 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49a14e49-c4a2-496d-8763-b2947da8fe98")
 	)
 	(label "~{RTC-INT}"
-		(at 138.43 217.17 0)
+		(at 147.32 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5479,6 +5597,16 @@
 		)
 		(uuid "7bc6f376-ef70-4562-abae-f7c8b2b94a81")
 	)
+	(label "~{Temp-INT}"
+		(at 147.32 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9219332b-8a47-4fca-b230-7ee6e5afe2dd")
+	)
 	(label "LED-Flash_{2}"
 		(at 287.02 110.49 0)
 		(effects
@@ -5488,16 +5616,6 @@
 			(justify left bottom)
 		)
 		(uuid "a20a409c-8d29-4f87-9288-ab9831d1b0b7")
-	)
-	(label "LED-Flash"
-		(at 138.43 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c272ff1a-15ea-4759-bc01-0ea8740a8e8c")
 	)
 	(label "LED-Flash_{1}"
 		(at 177.8 113.03 180)
@@ -5509,7 +5627,7 @@
 		)
 		(uuid "ed290976-571a-47d9-827b-49f68243feec")
 	)
-	(label "~{TEMP-INT}"
+	(label "~{Temp-INT}"
 		(at 147.32 129.54 0)
 		(effects
 			(font
@@ -5921,11 +6039,11 @@
 		(at 327.66 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a324f0a-68c8-43a9-847c-626a311d7be0")
-		(property "Reference" "R1113"
+		(property "Reference" "R1114"
 			(at 330.2 181.61 0)
 			(effects
 				(font
@@ -6015,48 +6133,42 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "R1113")
+					(reference "R1114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 123.19 205.74 0)
+		(lib_id "Device:R")
+		(at 326.39 97.79 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "0ca675d4-0f84-445c-893d-70650b16f57d")
-		(property "Reference" "TP1110"
-			(at 123.19 198.12 0)
+		(dnp yes)
+		(uuid "0b885dc8-0c0a-4b42-8de7-60ec597cb4d9")
+		(property "Reference" "R1113"
+			(at 323.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 123.19 200.025 0)
+		(property "Value" "3k3"
+			(at 323.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
-			(at 128.27 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 205.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 324.612 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,8 +6176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 123.19 205.74 0)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
+			(at 326.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,26 +6185,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
-			(at 123.19 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 123.19 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 123.19 205.74 0)
+		(property "Description" "Resistor"
+			(at 326.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6195,34 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 123.19 205.74 0)
+			(at 326.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "YAGEO"
+			(at 326.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RC0603FR-073K3L"
+			(at 326.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "603-RC0603FR-073K3L"
+			(at 326.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,12 +6231,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "74a6cabb-896a-4792-afb1-ef6eaced0725")
+			(uuid "23cecea2-cf18-4ea8-8078-f72c1d2e524a")
+		)
+		(pin "2"
+			(uuid "8ddceff2-8b6e-4b7b-afe5-abcd9b9a77ea")
 		)
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "TP1110")
+					(reference "R1113")
 					(unit 1)
 				)
 			)
@@ -6288,7 +6412,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 344.17 81.28 0)
+		(at 345.44 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6296,8 +6420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fcb060c-2f45-4309-91ab-da5b79e1ac09")
-		(property "Reference" "#PWR01132"
-			(at 344.17 85.09 0)
+		(property "Reference" "#PWR01133"
+			(at 345.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +6430,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 344.17 76.2 0)
+			(at 345.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 81.28 0)
+			(at 345.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 81.28 0)
+			(at 345.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 344.17 81.28 0)
+			(at 345.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6470,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "#PWR01132")
+					(reference "#PWR01133")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6957,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FLASH"
+		(property "Value" "Flash"
 			(at 191.77 105.7274 90)
 			(effects
 				(font
@@ -7622,7 +7746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d833133-db44-49f7-a7d4-039d47bcd4fc")
-		(property "Reference" "#PWR01130"
+		(property "Reference" "#PWR01131"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -7672,7 +7796,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "#PWR01130")
+					(reference "#PWR01131")
 					(unit 1)
 				)
 			)
@@ -7872,7 +7996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4131ce6f-3f7c-45cc-8756-75e7679338e6")
-		(property "Reference" "R1114"
+		(property "Reference" "R1115"
 			(at 330.2 124.4599 0)
 			(effects
 				(font
@@ -7962,7 +8086,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "R1114")
+					(reference "R1115")
 					(unit 1)
 				)
 			)
@@ -7973,9 +8097,9 @@
 		(at 238.76 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ce93015-6e81-4bac-8506-d63136f6d5fe")
 		(property "Reference" "R1109"
 			(at 241.3 173.99 0)
@@ -8489,9 +8613,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74e398cb-0aaf-4a8c-b749-5142f3cec8a4")
 		(property "Reference" "R1108"
 			(at 233.68 173.99 0)
@@ -8757,6 +8881,106 @@
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
 					(reference "#FLG01101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7df3c830-c6f1-4eb3-8161-ed42e3aa0bc2")
+		(property "Reference" "TP1111"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 138.43 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
+			(at 143.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08b8d82c-a6b5-4a27-ab7c-b88325818b0c")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
+					(reference "TP1111")
 					(unit 1)
 				)
 			)
@@ -9086,13 +9310,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c19c25d-20ed-47b4-9829-4e02aa37445a")
+		(property "Reference" "TP1112"
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1a50253-0950-4b5b-863d-7be3e9eabb35")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
+					(reference "TP1112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "91b906fc-d809-42fd-9240-b819f0ca075d")
 		(property "Reference" "R1105"
 			(at 205.74 168.91 0)
@@ -9297,6 +9621,72 @@
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
 					(reference "Q1102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 326.39 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99163aa3-1d78-4796-b99f-38662c0e5c2a")
+		(property "Reference" "#PWR01130"
+			(at 326.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 326.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 326.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ebe27d4-b666-4e48-8e6a-30c51d15f38d")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
+					(reference "#PWR01130")
 					(unit 1)
 				)
 			)
@@ -9599,7 +9989,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FLASH"
+		(property "Value" "Flash"
 			(at 231.14 105.7274 90)
 			(effects
 				(font
@@ -9806,6 +10196,106 @@
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
 					(reference "IC1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8940a7f-0def-4890-9b9e-8f80d515da31")
+		(property "Reference" "TP1110"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
+			(at 134.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4caf34-fc5e-4b6d-bb1f-e1390cfcc903")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
+					(reference "TP1110")
 					(unit 1)
 				)
 			)
@@ -10730,6 +11220,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf1aad3e-528e-4a00-96aa-133b393c81ad")
+		(property "Reference" "TP1113"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 218.44 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34632866-9979-4949-ba97-6863ecc55e0e")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
+					(reference "TP1113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 199.39 0)
 		(unit 1)
@@ -10806,7 +11396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f11e24-88d5-44ba-b599-121f6de4cc37")
-		(property "Reference" "#PWR01133"
+		(property "Reference" "#PWR01134"
 			(at 345.44 137.16 0)
 			(effects
 				(font
@@ -10856,7 +11446,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "#PWR01133")
+					(reference "#PWR01134")
 					(unit 1)
 				)
 			)
@@ -11647,7 +12237,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 351.79 87.63 0)
+		(at 350.52 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11657,7 +12247,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8b8e6c-38cf-4f58-b24a-1726959e3261")
 		(property "Reference" "C1107"
-			(at 355.6 86.3599 0)
+			(at 354.33 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +12256,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 355.6 88.8999 0)
+			(at 354.33 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +12265,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 350.8248 91.44 0)
+			(at 349.5548 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,8 +12273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
-			(at 351.79 87.63 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +12283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 351.79 87.63 0)
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +12292,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 351.79 87.63 0)
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +12301,7 @@
 			)
 		)
 		(property "manf" "KYOCERA AVX"
-			(at 351.79 87.63 0)
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,8 +12309,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "06033D475KAT2A"
-			(at 351.79 87.63 0)
+		(property "manf#" "06036D475MAT4A"
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11728,8 +12318,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-06033D475KAT2A"
-			(at 351.79 87.63 0)
+		(property "mouser#" "581-06036D475MAT4A"
+			(at 350.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12159,7 +12749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a0efe2-6cb4-494f-a1ab-a020baff68d9")
-		(property "Reference" "#PWR01131"
+		(property "Reference" "#PWR01132"
 			(at 340.36 99.06 0)
 			(effects
 				(font
@@ -12209,7 +12799,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "#PWR01131")
+					(reference "#PWR01132")
 					(unit 1)
 				)
 			)
@@ -12283,7 +12873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 92.71 0)
+		(at 350.52 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12292,8 +12882,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf74f64-8b5d-4441-8502-e9550bd29c3e")
-		(property "Reference" "#PWR01134"
-			(at 351.79 99.06 0)
+		(property "Reference" "#PWR01135"
+			(at 350.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,7 +12892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 97.79 0)
+			(at 350.52 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +12900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 92.71 0)
+			(at 350.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 92.71 0)
+			(at 350.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 92.71 0)
+			(at 350.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +12932,7 @@
 		(instances
 			(project "Mainboard"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1"
-					(reference "#PWR01134")
+					(reference "#PWR01135")
 					(unit 1)
 				)
 			)

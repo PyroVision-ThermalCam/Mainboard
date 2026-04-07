@@ -6203,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_Y5V.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 17.78 124.46 0)
 			(effects
 				(font
@@ -6239,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "0603ZG475ZAT2A"
+		(property "manf#" "06036D475MAT4A"
 			(at 17.78 124.46 0)
 			(effects
 				(font
@@ -6248,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-0603ZG475ZAT2A"
+		(property "mouser#" "581-06036D475MAT4A"
 			(at 17.78 124.46 0)
 			(effects
 				(font
@@ -6786,9 +6786,9 @@
 		(at 201.93 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "713ca0b6-ccee-409a-b813-2984b4caad1d")
 		(property "Reference" "R806"
 			(at 199.39 58.42 0)
@@ -7543,9 +7543,9 @@
 		(at 201.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c5c6dd7-3f5e-4d71-af37-265dcfa9a4a5")
 		(property "Reference" "R808"
 			(at 199.39 119.38 0)
@@ -7746,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -7782,7 +7782,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "0603YD106MAT2A"
+		(property "manf#" "06034D106KAT2A"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -7791,7 +7791,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "581-0603YD106MAT2A"
+		(property "mouser#" "581-06034D106K"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -8358,9 +8358,9 @@
 		(at 43.18 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d0a68f21-4a08-4d7a-8944-87c90225d941")
 		(property "Reference" "R802"
 			(at 40.64 41.91 0)
@@ -8463,9 +8463,9 @@
 		(at 43.18 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d0cd455f-00ab-43f6-8d35-e4bd8606dcae")
 		(property "Reference" "R803"
 			(at 40.64 74.93 0)
@@ -9562,9 +9562,9 @@
 		(at 201.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ef27c9c9-b182-4e19-9413-662f6ce1738f")
 		(property "Reference" "R807"
 			(at 199.39 88.9 0)
