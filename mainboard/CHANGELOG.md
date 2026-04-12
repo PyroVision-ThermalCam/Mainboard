@@ -10,6 +10,7 @@
 - Wrong part number for IC804 (#17)
 - Wrong part number for DFE201610E - R47M (#16)
 - IC806 is set to DNP (#14)
+- Remove camera PWD signal from camera power supply enable
 
 **Added:**
 
