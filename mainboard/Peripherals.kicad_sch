@@ -3438,10 +3438,6 @@
 		(uuid "f15f4885-a933-4a90-ae09-8cf32bb8c485")
 	)
 	(no_connect
-		(at 125.73 144.78)
-		(uuid "2a07b2ad-c456-4fd8-aee2-31cff3db927f")
-	)
-	(no_connect
 		(at 125.73 137.16)
 		(uuid "5d03a899-e6b1-4388-a60c-e6d8659faefe")
 	)
@@ -3720,6 +3716,16 @@
 			(type default)
 		)
 		(uuid "22964c79-6faa-4641-88ba-3154c236e0ff")
+	)
+	(wire
+		(pts
+			(xy 125.73 144.78) (xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fad0e2-49e8-45d8-bbf0-6a2adf4a3f40")
 	)
 	(wire
 		(pts
@@ -5823,6 +5829,17 @@
 			(justify left)
 		)
 		(uuid "94082bba-fec7-439e-9bcb-0435cda1ca6b")
+	)
+	(hierarchical_label "Camera-PWD"
+		(shape output)
+		(at 127 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ec01e6-05f2-4be7-a096-28fed076ccab")
 	)
 	(hierarchical_label "Lepton-PWR"
 		(shape output)

@@ -3498,7 +3498,7 @@
 		)
 		(uuid "21b2462d-2e65-47d8-90b5-1074d6f0611f")
 	)
-	(label "Camera-PWR_{LV}"
+	(label "Camera-PWD_{LV}"
 		(at 54.61 101.6 0)
 		(effects
 			(font
@@ -3518,7 +3518,7 @@
 		)
 		(uuid "7098bfcf-bf0a-4991-b501-c8d0b4d68152")
 	)
-	(label "Camera-PWR_{LV}"
+	(label "Camera-PWD_{LV}"
 		(at 128.27 90.17 180)
 		(effects
 			(font
@@ -3865,7 +3865,7 @@
 		)
 		(uuid "9929fcdb-5c85-401e-9874-ad02f8a68b6d")
 	)
-	(hierarchical_label "Camera-PWR"
+	(hierarchical_label "Camera-PWD"
 		(shape input)
 		(at 172.72 90.17 0)
 		(effects
