@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 [![PCB](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml/badge.svg)](https://github.com/PyroVision-ThermalCam/Mainboard/actions/workflows/pcb.yml)
-[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://pyrovision-thermalcam.github.io/)
+[![Documentation](https://img.shields.io/badge/KiBot-Documentation-blue?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://pyrovision-thermalcam.github.io/Mainboard/)
 
 ## Table of Contents
 
