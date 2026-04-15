@@ -2,21 +2,21 @@
 <export version="E">
   <design>
     <source>/__w/Mainboard/Mainboard/mainboard/Mainboard.kicad_sch</source>
-    <date>2026-02-24T06:24:54+0000</date>
+    <date>2026-04-15T05:32:31+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Mainboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">2bb2a6c</textvar>
+    <textvar name="GIT_HASH_PCB">670db9e</textvar>
     <textvar name="GIT_HASH_SCH">965ddee</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Mainboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
     <textvar name="RELEASE_BODY_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">24-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-24</textvar>
+    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
     <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
@@ -635,6 +635,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Battery"/>
       <property name="Sheetfile" value="Battery.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Battery/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22/"/>
@@ -795,6 +797,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Battery"/>
       <property name="Sheetfile" value="Battery.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Battery/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22/"/>
@@ -901,11 +905,37 @@
       <property name="Sheetname" value="Battery"/>
       <property name="Sheetfile" value="Battery.kicad_sch"/>
       <property name="exclude_from_bom"/>
-      <property name="dnp"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Battery/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22/"/>
       <tstamps>d2a9190d-82b5-411b-8405-cded0744be1e</tstamps>
+    </comp>
+    <comp ref="TP703">
+      <value>~</value>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="CONFIG"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="Battery"/>
+      <property name="Sheetfile" value="Battery.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Battery/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a86b9e25-5bc0-455f-833c-d00b4e9a8b22/"/>
+      <tstamps>0c617e59-cc96-49ed-b635-542f8d677e33</tstamps>
     </comp>
     <comp ref="X701">
       <value>USB</value>
@@ -936,7 +966,7 @@
     <comp ref="X702">
       <value>Battery</value>
       <footprint>JST:S2B-PH-SM4-TB</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1q49kc1*_gcl_aw*R0NMLjE3Njc4MTgyNTEuQ2owS0NRaUFwZmpLQmhDMEFSSXNBTWlSX0lzdkJ5TENnX010TTZNVG9xREFmVmI5TVlsSHQ2OXlNZmxfSmM2M1BITW9jMUNYYXE4LS1Kd2FBa3Y1RUFMd193Y0I.*_gcl_au*Mjc1Njk5MzM3LjE3NjUxMzEwODIuMzAwMjEyMTU0LjE3Njc4MTc1MDQuMTc2NzgxNzU2Mg..*_ga*MTI4ODM2MzAzLjE3NjU0MzcxNTg.*_ga_15W4STQT4T*czE3Njc4MTc1MDUkbzI0JGcxJHQxNzY3ODE4MjUxJGo2MCRsMCRoMA..</datasheet>
+      <datasheet>https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf</datasheet>
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="manf">JST Commercial</field>
@@ -944,7 +974,7 @@
         <field name="mouser#">306-S2B-PH-SM4-TB(LF)(SN)</field>
         <field name="CONFIG"/>
         <field name="Footprint">JST:S2B-PH-SM4-TB</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1q49kc1*_gcl_aw*R0NMLjE3Njc4MTgyNTEuQ2owS0NRaUFwZmpLQmhDMEFSSXNBTWlSX0lzdkJ5TENnX010TTZNVG9xREFmVmI5TVlsSHQ2OXlNZmxfSmM2M1BITW9jMUNYYXE4LS1Kd2FBa3Y1RUFMd193Y0I.*_gcl_au*Mjc1Njk5MzM3LjE3NjUxMzEwODIuMzAwMjEyMTU0LjE3Njc4MTc1MDQuMTc2NzgxNzU2Mg..*_ga*MTI4ODM2MzAzLjE3NjU0MzcxNTg.*_ga_15W4STQT4T*czE3Njc4MTc1MDUkbzI0JGcxJHQxNzY3ODE4MjUxJGo2MCRsMCRoMA..</field>
+        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/JST_B2B_PH_SM4_TB_LF_SN_ePH.pdf</field>
         <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -962,22 +992,22 @@
     <comp ref="C801">
       <value>4u7</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/KGM_Y5V.pdf</datasheet>
+      <datasheet>https://datasheets.kyocera-avx.com/cx5r.pdf</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">KYOCERA AVX</field>
-        <field name="manf#">0603ZG475ZAT2A</field>
-        <field name="mouser#">581-0603ZG475ZAT2A</field>
+        <field name="manf#">06036D475MAT4A</field>
+        <field name="mouser#">581-06036D475MAT4A</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://datasheets.kyocera-avx.com/KGM_Y5V.pdf</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r.pdf</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="KYOCERA AVX"/>
-      <property name="manf#" value="0603ZG475ZAT2A"/>
-      <property name="mouser#" value="581-0603ZG475ZAT2A"/>
+      <property name="manf#" value="06036D475MAT4A"/>
+      <property name="mouser#" value="581-06036D475MAT4A"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1092,22 +1122,22 @@
     <comp ref="C806">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</datasheet>
+      <datasheet>https://datasheets.kyocera-avx.com/cx5r.pdf</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">KYOCERA AVX</field>
-        <field name="manf#">0603YD106MAT2A</field>
-        <field name="mouser#">581-0603YD106MAT2A</field>
+        <field name="manf#">06034D106KAT2A</field>
+        <field name="mouser#">581-06034D106K</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r.pdf</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="KYOCERA AVX"/>
-      <property name="manf#" value="0603YD106MAT2A"/>
-      <property name="mouser#" value="581-0603YD106MAT2A"/>
+      <property name="manf#" value="06034D106KAT2A"/>
+      <property name="mouser#" value="581-06034D106K"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -1500,6 +1530,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -1526,6 +1558,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -1604,6 +1638,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -1630,6 +1666,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -1656,6 +1694,8 @@
       <property name="mouser#" value="652-CR0603-JW-104ELF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Power/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d8ae338d-43c5-41cc-a0e1-8d38ead45342/"/>
@@ -2392,6 +2432,33 @@
       <sheetpath names="/Project Architecture/Lepton/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195/"/>
       <tstamps>809b09ad-3f1b-44f3-870c-cd154d1546cc</tstamps>
     </comp>
+    <comp ref="TP1001">
+      <value>~</value>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="CONFIG"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="Lepton"/>
+      <property name="Sheetfile" value="Lepton.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Lepton/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ffacc25a-000f-4387-8e2b-18f7ed663195/"/>
+      <tstamps>ebbf13e0-4eb8-47cc-98e5-fc80dd586242</tstamps>
+    </comp>
     <comp ref="X1001">
       <value>LEPTON</value>
       <footprint>Molex:105028-1001</footprint>
@@ -2603,22 +2670,22 @@
     <comp ref="C1107">
       <value>4u7</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</datasheet>
+      <datasheet>https://datasheets.kyocera-avx.com/cx5r.pdf</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">KYOCERA AVX</field>
-        <field name="manf#">06033D475KAT2A</field>
-        <field name="mouser#">581-06033D475KAT2A</field>
+        <field name="manf#">06036D475MAT4A</field>
+        <field name="mouser#">581-06036D475MAT4A</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r-KGM.pdf</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/cx5r.pdf</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="KYOCERA AVX"/>
-      <property name="manf#" value="06033D475KAT2A"/>
-      <property name="mouser#" value="581-06033D475KAT2A"/>
+      <property name="manf#" value="06036D475MAT4A"/>
+      <property name="mouser#" value="581-06036D475MAT4A"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2627,7 +2694,7 @@
       <tstamps>da8b8e6c-38cf-4f58-b24a-1726959e3261</tstamps>
     </comp>
     <comp ref="D1101">
-      <value>FLASH</value>
+      <value>Flash</value>
       <footprint>Cree:XP-G</footprint>
       <datasheet>https://downloads.cree-led.com/files/ds/x/XLamp-XPG3-Horizon.pdf</datasheet>
       <description>Light emitting diode</description>
@@ -2653,7 +2720,7 @@
       <tstamps>2a1d9899-f302-4d72-b0d8-c6e797ee084a</tstamps>
     </comp>
     <comp ref="D1102">
-      <value>FLASH</value>
+      <value>Flash</value>
       <footprint>Cree:XP-G</footprint>
       <datasheet>https://downloads.cree-led.com/files/ds/x/XLamp-XPG3-Horizon.pdf</datasheet>
       <description>Light emitting diode</description>
@@ -3002,6 +3069,8 @@
       <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
@@ -3080,6 +3149,8 @@
       <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
@@ -3106,6 +3177,8 @@
       <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
@@ -3210,12 +3283,42 @@
       <property name="mouser#" value="603-RC0603FR-073K3L"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
+      <tstamps>0b885dc8-0c0a-4b42-8de7-60ec597cb4d9</tstamps>
+    </comp>
+    <comp ref="R1114">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">YAGEO</field>
+        <field name="manf#">RC0603FR-073K3L</field>
+        <field name="mouser#">603-RC0603FR-073K3L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="YAGEO"/>
+      <property name="manf#" value="RC0603FR-073K3L"/>
+      <property name="mouser#" value="603-RC0603FR-073K3L"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>0a324f0a-68c8-43a9-847c-626a311d7be0</tstamps>
     </comp>
-    <comp ref="R1114">
+    <comp ref="R1115">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
@@ -3509,7 +3612,88 @@
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
-      <tstamps>0ca675d4-0f84-445c-893d-70650b16f57d</tstamps>
+      <tstamps>a8940a7f-0def-4890-9b9e-8f80d515da31</tstamps>
+    </comp>
+    <comp ref="TP1111">
+      <value>~</value>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="CONFIG"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
+      <tstamps>7df3c830-c6f1-4eb3-8161-ed42e3aa0bc2</tstamps>
+    </comp>
+    <comp ref="TP1112">
+      <value>~</value>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="CONFIG"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
+      <tstamps>8c19c25d-20ed-47b4-9829-4e02aa37445a</tstamps>
+    </comp>
+    <comp ref="TP1113">
+      <value>~</value>
+      <footprint>Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="CONFIG"/>
+        <field name="Footprint">Testpoints_Kampi:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
+      <tstamps>bf1aad3e-528e-4a00-96aa-133b393c81ad</tstamps>
     </comp>
     <comp ref="C1201">
       <value>10n</value>
@@ -3673,8 +3857,8 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-072K83L</field>
-        <field name="mouser#">603-RC0603FR-072K83L</field>
+        <field name="manf#">RC0603FR-072K8L</field>
+        <field name="mouser#">603-RC0603FR-072K8L</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
         <field name="Description">Resistor</field>
@@ -3682,8 +3866,8 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-072K83L"/>
-      <property name="mouser#" value="603-RC0603FR-072K83L"/>
+      <property name="manf#" value="RC0603FR-072K8L"/>
+      <property name="mouser#" value="603-RC0603FR-072K8L"/>
       <property name="Sheetname" value="Camera"/>
       <property name="Sheetfile" value="Camera.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3699,8 +3883,8 @@
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-072K83L</field>
-        <field name="mouser#">603-RC0603FR-072K83L</field>
+        <field name="manf#">RC0603FR-072K8L</field>
+        <field name="mouser#">603-RC0603FR-072K8L</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
         <field name="Description">Resistor</field>
@@ -3708,8 +3892,8 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-072K83L"/>
-      <property name="mouser#" value="603-RC0603FR-072K83L"/>
+      <property name="manf#" value="RC0603FR-072K8L"/>
+      <property name="mouser#" value="603-RC0603FR-072K8L"/>
       <property name="Sheetname" value="Camera"/>
       <property name="Sheetfile" value="Camera.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -3742,62 +3926,6 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Camera/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b/"/>
       <tstamps>10652ea4-c765-4216-9afb-f137c0104ae3</tstamps>
-    </comp>
-    <comp ref="R1207">
-      <value>3k3</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-073K3L</field>
-        <field name="mouser#">603-RC0603FR-073K3L</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-073K3L"/>
-      <property name="mouser#" value="603-RC0603FR-073K3L"/>
-      <property name="Sheetname" value="Camera"/>
-      <property name="Sheetfile" value="Camera.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Camera/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b/"/>
-      <tstamps>0e7c5097-c488-4f64-a523-53d01fb1e8e3</tstamps>
-    </comp>
-    <comp ref="R1208">
-      <value>3k3</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">YAGEO</field>
-        <field name="manf#">RC0603FR-073K3L</field>
-        <field name="mouser#">603-RC0603FR-073K3L</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0603FR-073K3L"/>
-      <property name="mouser#" value="603-RC0603FR-073K3L"/>
-      <property name="Sheetname" value="Camera"/>
-      <property name="Sheetfile" value="Camera.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Camera/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b/"/>
-      <tstamps>23560716-d29b-4f3f-8c3d-c0212367b364</tstamps>
     </comp>
     <comp ref="X1201">
       <value>Camera</value>
@@ -3850,6 +3978,32 @@
       <property name="ki_fp_filters" value="Oscillator*Abracon*ASCO*1.6x1.2mm*"/>
       <sheetpath names="/Project Architecture/Camera/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b/"/>
       <tstamps>2be2e3bc-fbc4-4271-8237-e14d0cf15f52</tstamps>
+    </comp>
+    <comp ref="C1301">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">KYOCERA AVX</field>
+        <field name="manf#">06031C104MAT2A</field>
+        <field name="mouser#">581-06031C104MAT2A</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="KYOCERA AVX"/>
+      <property name="manf#" value="06031C104MAT2A"/>
+      <property name="mouser#" value="581-06031C104MAT2A"/>
+      <property name="Sheetname" value="SD-Card"/>
+      <property name="Sheetfile" value="SD.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/SD-Card/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/9daf4182-cb00-4c79-b40e-4d55650908dc/"/>
+      <tstamps>063998a0-5b3d-4e35-8eed-16b1dfdd0434</tstamps>
     </comp>
     <comp ref="R1301">
       <value>100k</value>
@@ -5029,12 +5183,11 @@
       <node ref="R1108" pin="2" pintype="passive"/>
       <node ref="R1109" pin="2" pintype="passive"/>
       <node ref="R1113" pin="2" pintype="passive"/>
-      <node ref="R1114" pin="1" pintype="passive"/>
+      <node ref="R1114" pin="2" pintype="passive"/>
+      <node ref="R1115" pin="1" pintype="passive"/>
       <node ref="R1201" pin="2" pintype="passive"/>
       <node ref="R1203" pin="2" pintype="passive"/>
       <node ref="R1206" pin="1" pintype="passive"/>
-      <node ref="R1207" pin="2" pintype="passive"/>
-      <node ref="R1208" pin="2" pintype="passive"/>
       <node ref="R1301" pin="2" pintype="passive"/>
       <node ref="R1401" pin="2" pintype="passive"/>
       <node ref="R1402" pin="2" pintype="passive"/>
@@ -5064,6 +5217,7 @@
       <node ref="R1112" pin="2" pintype="passive"/>
       <node ref="R711" pin="2" pintype="passive"/>
       <node ref="SW801" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TP703" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="3" name="/Project Architecture/Battery/Battery-Charge" class="Default">
       <node ref="IC1101" pin="2" pinfunction="P0_1" pintype="bidirectional"/>
@@ -5082,7 +5236,6 @@
       <node ref="IC703" pin="7" pinfunction="SCL" pintype="input"/>
       <node ref="M901" pin="17" pinfunction="IO9" pintype="bidirectional"/>
       <node ref="R1108" pin="1" pintype="passive"/>
-      <node ref="R1207" pin="1" pintype="passive"/>
       <node ref="R901" pin="1" pintype="passive"/>
       <node ref="TP1102" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1401" pin="9" pinfunction="Pin_9" pintype="passive"/>
@@ -5098,7 +5251,6 @@
       <node ref="IC703" pin="8" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="M901" pin="18" pinfunction="IO10" pintype="bidirectional"/>
       <node ref="R1109" pin="1" pintype="passive"/>
-      <node ref="R1208" pin="1" pintype="passive"/>
       <node ref="R902" pin="1" pintype="passive"/>
       <node ref="TP1101" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1401" pin="10" pinfunction="Pin_10" pintype="passive"/>
@@ -5165,18 +5317,13 @@
       <node ref="M901" pin="12" pinfunction="IO8" pintype="bidirectional"/>
       <node ref="X1201" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="20" name="/Project Architecture/Camera/Camera-PWR" class="Default">
-      <node ref="IC1101" pin="17" pinfunction="P1_7" pintype="bidirectional"/>
-      <node ref="IC1201" pin="5" pinfunction="A1" pintype="bidirectional"/>
-      <node ref="IC801" pin="3" pinfunction="EN" pintype="input"/>
-      <node ref="IC802" pin="3" pinfunction="EN" pintype="input"/>
-      <node ref="R1202" pin="2" pintype="passive"/>
-      <node ref="R802" pin="1" pintype="passive"/>
-      <node ref="R803" pin="1" pintype="passive"/>
-      <node ref="TP1103" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="20" name="/Project Architecture/Camera/Camera-PWD" class="Default">
+      <node ref="IC1101" pin="13" pinfunction="P1_3" pintype="bidirectional"/>
+      <node ref="IC1201" pin="4" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="R1203" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="/Project Architecture/Camera/Camera-PWR_{LV}" class="Default">
-      <node ref="IC1201" pin="8" pinfunction="B1" pintype="bidirectional"/>
+    <net code="21" name="/Project Architecture/Camera/Camera-PWD_{LV}" class="Default">
+      <node ref="IC1201" pin="1" pinfunction="B2" pintype="bidirectional"/>
       <node ref="X1201" pin="17" pinfunction="Pin_17" pintype="passive"/>
     </net>
     <net code="22" name="/Project Architecture/Camera/Camera-VSync" class="Default">
@@ -5199,12 +5346,12 @@
     </net>
     <net code="26" name="/Project Architecture/Camera/~{Camera-Reset}" class="Default">
       <node ref="IC1101" pin="16" pinfunction="P1_6" pintype="bidirectional"/>
-      <node ref="IC1201" pin="4" pinfunction="A2" pintype="bidirectional"/>
-      <node ref="R1203" pin="1" pintype="passive"/>
+      <node ref="IC1201" pin="5" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="R1202" pin="2" pintype="passive"/>
       <node ref="TP1104" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="27" name="/Project Architecture/Camera/~{Camera-Reset}_{LV}" class="Default">
-      <node ref="IC1201" pin="1" pinfunction="B2" pintype="bidirectional"/>
+      <node ref="IC1201" pin="8" pinfunction="B1" pintype="bidirectional"/>
       <node ref="X1201" pin="19" pinfunction="Pin_19" pintype="passive"/>
     </net>
     <net code="28" name="/Project Architecture/Display/Display-Backlight" class="Default">
@@ -5351,44 +5498,58 @@
       <node ref="M901" pin="31" pinfunction="IO38" pintype="bidirectional"/>
       <node ref="X1301" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
     </net>
-    <net code="58" name="/Project Architecture/Peripherals/LED-Flash" class="Default">
-      <node ref="IC1101" pin="6" pinfunction="P0_5" pintype="bidirectional"/>
-      <node ref="TP1110" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="58" name="/Project Architecture/Peripherals/Camera-PWR" class="Default">
+      <node ref="IC1101" pin="17" pinfunction="P1_7" pintype="bidirectional"/>
+      <node ref="IC801" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="IC802" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="R802" pin="1" pintype="passive"/>
+      <node ref="R803" pin="1" pintype="passive"/>
+      <node ref="TP1103" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="59" name="/Project Architecture/Peripherals/LED-Flash_{1}" class="Default">
       <node ref="IC1104" pin="2" pinfunction="LED1" pintype="output"/>
       <node ref="Q1101" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1103" pin="2" pintype="passive"/>
+      <node ref="TP1112" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="60" name="/Project Architecture/Peripherals/LED-Flash_{2}" class="Default">
       <node ref="IC1104" pin="1" pinfunction="LED0" pintype="output"/>
       <node ref="Q1102" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1106" pin="2" pintype="passive"/>
+      <node ref="TP1113" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="61" name="/Project Architecture/Peripherals/~{RTC-INT}" class="Default">
       <node ref="IC1101" pin="5" pinfunction="P0_4" pintype="bidirectional"/>
       <node ref="IC1105" pin="3" pinfunction="~{INT}" pintype="output"/>
-      <node ref="R1113" pin="1" pintype="passive"/>
+      <node ref="R1114" pin="1" pintype="passive"/>
       <node ref="TP1108" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="62" name="/Project Architecture/Peripherals/~{SD-CD}" class="Default">
+    <net code="62" name="/Project Architecture/Peripherals/~{Range-INT}" class="Default">
+      <node ref="IC1101" pin="8" pinfunction="P0_7" pintype="bidirectional"/>
+      <node ref="IC1106" pin="7" pinfunction="GPIO1" pintype="open_collector"/>
+      <node ref="R1113" pin="1" pintype="passive"/>
+      <node ref="TP1110" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="63" name="/Project Architecture/Peripherals/~{SD-CD}" class="Default">
+      <node ref="C1301" pin="1" pintype="passive"/>
       <node ref="IC1101" pin="14" pinfunction="P1_4" pintype="bidirectional"/>
       <node ref="R1301" pin="1" pintype="passive"/>
       <node ref="TP1107" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1301" pin="9" pinfunction="DET" pintype="passive"/>
     </net>
-    <net code="63" name="/Project Architecture/Peripherals/~{TEMP-INT}" class="Default">
+    <net code="64" name="/Project Architecture/Peripherals/~{Temp-INT}" class="Default">
       <node ref="IC1101" pin="7" pinfunction="P0_6" pintype="bidirectional"/>
       <node ref="IC1102" pin="3" pinfunction="ALERT" pintype="open_collector"/>
       <node ref="R1105" pin="1" pintype="passive"/>
+      <node ref="TP1111" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="64" name="Camera-1V5" class="Default">
+    <net code="65" name="Camera-1V5" class="Default">
       <node ref="C805" pin="1" pintype="passive"/>
       <node ref="IC802" pin="5" pinfunction="OUT" pintype="power_out"/>
       <node ref="TP802" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1201" pin="15" pinfunction="Pin_15" pintype="passive"/>
     </net>
-    <net code="65" name="Camera-2V8" class="Default">
+    <net code="66" name="Camera-2V8" class="Default">
       <node ref="C1201" pin="1" pintype="passive"/>
       <node ref="C804" pin="1" pintype="passive"/>
       <node ref="IC1201" pin="7" pinfunction="VCCB" pintype="power_in"/>
@@ -5402,7 +5563,7 @@
       <node ref="Y1201" pin="1" pinfunction="Tri-State" pintype="input"/>
       <node ref="Y1201" pin="4" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="66" name="GND" class="Default">
+    <net code="67" name="GND" class="Default">
       <node ref="C1001" pin="2" pintype="passive"/>
       <node ref="C1002" pin="2" pintype="passive"/>
       <node ref="C1003" pin="2" pintype="passive"/>
@@ -5415,6 +5576,7 @@
       <node ref="C1106" pin="2" pintype="passive"/>
       <node ref="C1107" pin="2" pintype="passive"/>
       <node ref="C1201" pin="2" pintype="passive"/>
+      <node ref="C1301" pin="2" pintype="passive"/>
       <node ref="C701" pin="2" pintype="passive"/>
       <node ref="C702" pin="2" pintype="passive"/>
       <node ref="C703" pin="2" pintype="passive"/>
@@ -5500,6 +5662,7 @@
       <node ref="X1001" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="X1001" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="X1001" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="X1201" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="X1201" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="X1201" pin="23" pinfunction="Pin_23" pintype="passive"/>
       <node ref="X1201" pin="MP" pinfunction="MountPin" pintype="passive"/>
@@ -5516,21 +5679,21 @@
       <node ref="Y1001" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="Y1201" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="67" name="Lepton-1V2" class="Default">
+    <net code="68" name="Lepton-1V2" class="Default">
       <node ref="C1002" pin="1" pintype="passive"/>
       <node ref="C812" pin="1" pintype="passive"/>
       <node ref="IC806" pin="5" pinfunction="OUT" pintype="power_out"/>
       <node ref="TP806" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1001" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
-    <net code="68" name="Lepton-2V8" class="Default">
+    <net code="69" name="Lepton-2V8" class="Default">
       <node ref="C1001" pin="1" pintype="passive"/>
       <node ref="C811" pin="1" pintype="passive"/>
       <node ref="IC805" pin="5" pinfunction="OUT" pintype="power_out"/>
       <node ref="TP805" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1001" pin="19" pinfunction="Pin_19" pintype="passive"/>
     </net>
-    <net code="69" name="Lepton-3V0" class="Default">
+    <net code="70" name="Lepton-3V0" class="Default">
       <node ref="C1003" pin="1" pintype="passive"/>
       <node ref="C1004" pin="1" pintype="passive"/>
       <node ref="C810" pin="1" pintype="passive"/>
@@ -5547,33 +5710,33 @@
       <node ref="Y1001" pin="1" pinfunction="Tri-State" pintype="input"/>
       <node ref="Y1001" pin="4" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="70" name="Net-(D1101-A)" class="Default">
+    <net code="71" name="Net-(D1101-A)" class="Default">
       <node ref="D1101" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1104" pin="1" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(D1101-K)" class="Default">
+    <net code="72" name="Net-(D1101-K)" class="Default">
       <node ref="D1101" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q1101" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(D1102-A)" class="Default">
+    <net code="73" name="Net-(D1102-A)" class="Default">
       <node ref="D1102" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1107" pin="1" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(D1102-K)" class="Default">
+    <net code="74" name="Net-(D1102-K)" class="Default">
       <node ref="D1102" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q1102" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(IC701-I/O1-Pad1)" class="Default">
+    <net code="75" name="Net-(IC701-I/O1-Pad1)" class="Default">
       <node ref="IC701" pin="1" pinfunction="I/O1" pintype="passive"/>
       <node ref="X701" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="X701" pin="B7" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="75" name="Net-(IC701-I/O2-Pad3)" class="Default">
+    <net code="76" name="Net-(IC701-I/O2-Pad3)" class="Default">
       <node ref="IC701" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="X701" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="X701" pin="B6" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="76" name="Net-(IC701-VBUS)" class="Default">
+    <net code="77" name="Net-(IC701-VBUS)" class="Default">
       <node ref="C701" pin="1" pintype="passive"/>
       <node ref="IC701" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="IC702" pin="6" pinfunction="VIN" pintype="power_in"/>
@@ -5582,160 +5745,158 @@
       <node ref="X701" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="X701" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(IC702-ISET)" class="Default">
+    <net code="78" name="Net-(IC702-ISET)" class="Default">
       <node ref="IC702" pin="4" pinfunction="ISET" pintype="input"/>
       <node ref="R703" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(IC702-TS)" class="Default">
+    <net code="79" name="Net-(IC702-TS)" class="Default">
       <node ref="IC702" pin="1" pinfunction="TS" pintype="input"/>
       <node ref="TH701" pin="1" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(IC703-CELL)" class="Default">
+    <net code="80" name="Net-(IC703-CELL)" class="Default">
       <node ref="C703" pin="1" pintype="passive"/>
       <node ref="IC703" pin="2" pinfunction="CELL" pintype="power_in"/>
       <node ref="IC703" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="Q701" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R711" pin="1" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(IC803-EN)" class="Default">
+    <net code="81" name="Net-(IC803-EN)" class="Default">
       <node ref="IC803" pin="1" pinfunction="EN" pintype="input"/>
       <node ref="SW801" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(IC803-FB)" class="Default">
+    <net code="82" name="Net-(IC803-FB)" class="Default">
       <node ref="IC803" pin="2" pinfunction="FB" pintype="input"/>
       <node ref="R804" pin="2" pintype="passive"/>
       <node ref="R805" pin="1" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(IC803-SW)" class="Default">
+    <net code="83" name="Net-(IC803-SW)" class="Default">
       <node ref="IC803" pin="6" pinfunction="SW" pintype="power_out"/>
       <node ref="L801" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(IC1002-EN)" class="Default">
+    <net code="84" name="Net-(IC1002-EN)" class="Default">
       <node ref="IC1002" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
       <node ref="IC1002" pin="8" pinfunction="EN" pintype="input"/>
       <node ref="R1006" pin="2" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(IC1101-~{RESET})" class="Default">
+    <net code="85" name="Net-(IC1101-~{RESET})" class="Default">
       <node ref="C1101" pin="1" pintype="passive"/>
       <node ref="IC1101" pin="24" pinfunction="~{RESET}" pintype="input"/>
       <node ref="R1101" pin="1" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(IC1103-EN)" class="Default">
+    <net code="86" name="Net-(IC1103-EN)" class="Default">
       <node ref="IC1103" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
       <node ref="IC1103" pin="8" pinfunction="EN" pintype="input"/>
       <node ref="R1110" pin="2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(IC1103-SCL_{2})" class="Default">
+    <net code="87" name="Net-(IC1103-SCL_{2})" class="Default">
       <node ref="IC1103" pin="6" pinfunction="SCL_{2}" pintype="bidirectional"/>
       <node ref="IC1105" pin="8" pinfunction="SCL" pintype="input"/>
       <node ref="R1111" pin="1" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(IC1103-SDA_{2})" class="Default">
+    <net code="88" name="Net-(IC1103-SDA_{2})" class="Default">
       <node ref="IC1103" pin="5" pinfunction="SDA_{2}" pintype="bidirectional"/>
       <node ref="IC1105" pin="1" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="R1112" pin="1" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(IC1106-XSHUT)" class="Default">
+    <net code="89" name="Net-(IC1106-XSHUT)" class="Default">
       <node ref="IC1106" pin="5" pinfunction="XSHUT" pintype="input"/>
-      <node ref="R1114" pin="2" pintype="passive"/>
+      <node ref="R1115" pin="2" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(IC1202-EN)" class="Default">
+    <net code="90" name="Net-(IC1202-EN)" class="Default">
       <node ref="IC1202" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
       <node ref="IC1202" pin="8" pinfunction="EN" pintype="input"/>
       <node ref="R1206" pin="2" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(Q701-D)" class="Default">
+    <net code="91" name="Net-(Q701-D)" class="Default">
       <node ref="F701" pin="2" pintype="passive"/>
       <node ref="Q701" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(Q701-G)" class="Default">
+    <net code="92" name="Net-(Q701-G)" class="Default">
       <node ref="Q701" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R709" pin="2" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(SW801-A)" class="Default">
+    <net code="93" name="Net-(SW801-A)" class="Default">
       <node ref="R801" pin="1" pintype="passive"/>
       <node ref="SW801" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="93" name="Net-(X701-CC1)" class="Default">
+    <net code="94" name="Net-(X701-CC1)" class="Default">
       <node ref="R702" pin="2" pintype="passive"/>
       <node ref="X701" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
     </net>
-    <net code="94" name="Net-(X701-CC2)" class="Default">
+    <net code="95" name="Net-(X701-CC2)" class="Default">
       <node ref="R701" pin="2" pintype="passive"/>
       <node ref="X701" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
     </net>
-    <net code="95" name="Net-(X702-Pin_1)" class="Default">
+    <net code="96" name="Net-(X702-Pin_1)" class="Default">
       <node ref="R705" pin="1" pintype="passive"/>
       <node ref="R706" pin="2" pintype="passive"/>
       <node ref="X702" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="96" name="Net-(X702-Pin_2)" class="Default">
+    <net code="97" name="Net-(X702-Pin_2)" class="Default">
       <node ref="R707" pin="1" pintype="passive"/>
       <node ref="R708" pin="1" pintype="passive"/>
       <node ref="X702" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="97" name="Net-(X1001-Pin_11)" class="Default">
+    <net code="98" name="Net-(X1001-Pin_11)" class="Default">
       <node ref="R1002" pin="1" pintype="passive"/>
       <node ref="X1001" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
-    <net code="98" name="Net-(X1001-Pin_26)" class="Default">
+    <net code="99" name="Net-(X1001-Pin_26)" class="Default">
+      <node ref="TP1001" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X1001" pin="26" pinfunction="Pin_26" pintype="passive"/>
       <node ref="Y1001" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="99" name="Net-(X1201-Pin_2)" class="Default">
+    <net code="100" name="Net-(X1201-Pin_2)" class="Default">
       <node ref="R1201" pin="1" pintype="passive"/>
       <node ref="X1201" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="100" name="unconnected-(IC801-NC-Pad4)" class="Default">
+    <net code="101" name="unconnected-(IC801-NC-Pad4)" class="Default">
       <node ref="IC801" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="101" name="unconnected-(IC802-NC-Pad4)" class="Default">
+    <net code="102" name="unconnected-(IC802-NC-Pad4)" class="Default">
       <node ref="IC802" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="102" name="unconnected-(IC803-NC-Pad4)" class="Default">
+    <net code="103" name="unconnected-(IC803-NC-Pad4)" class="Default">
       <node ref="IC803" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="103" name="unconnected-(IC803-PG-Pad8)" class="Default">
+    <net code="104" name="unconnected-(IC803-PG-Pad8)" class="Default">
       <node ref="IC803" pin="8" pinfunction="PG" pintype="open_collector+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(IC804-NC-Pad4)" class="Default">
+    <net code="105" name="unconnected-(IC804-NC-Pad4)" class="Default">
       <node ref="IC804" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="105" name="unconnected-(IC805-NC-Pad4)" class="Default">
+    <net code="106" name="unconnected-(IC805-NC-Pad4)" class="Default">
       <node ref="IC805" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="106" name="unconnected-(IC806-NC-Pad4)" class="Default">
+    <net code="107" name="unconnected-(IC806-NC-Pad4)" class="Default">
       <node ref="IC806" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="107" name="unconnected-(IC1001-A1-Pad2)" class="Default">
+    <net code="108" name="unconnected-(IC1001-A1-Pad2)" class="Default">
       <node ref="IC1001" pin="2" pinfunction="A1" pintype="tri_state+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(IC1001-B1-Pad10)" class="Default">
+    <net code="109" name="unconnected-(IC1001-B1-Pad10)" class="Default">
       <node ref="IC1001" pin="10" pinfunction="B1" pintype="tri_state+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(IC1003-A4-Pad5)" class="Default">
+    <net code="110" name="unconnected-(IC1003-A4-Pad5)" class="Default">
       <node ref="IC1003" pin="5" pinfunction="A4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(IC1003-B4-Pad7)" class="Default">
+    <net code="111" name="unconnected-(IC1003-B4-Pad7)" class="Default">
       <node ref="IC1003" pin="7" pinfunction="B4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(IC1101-P0_2-Pad3)" class="Default">
+    <net code="112" name="unconnected-(IC1101-P0_2-Pad3)" class="Default">
       <node ref="IC1101" pin="3" pinfunction="P0_2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(IC1101-P0_7-Pad8)" class="Default">
-      <node ref="IC1101" pin="8" pinfunction="P0_7" pintype="bidirectional+no_connect"/>
+    <net code="113" name="unconnected-(IC1101-P0_5-Pad6)" class="Default">
+      <node ref="IC1101" pin="6" pinfunction="P0_5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(IC1101-P1_0-Pad10)" class="Default">
+    <net code="114" name="unconnected-(IC1101-P1_0-Pad10)" class="Default">
       <node ref="IC1101" pin="10" pinfunction="P1_0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(IC1101-P1_1-Pad11)" class="Default">
+    <net code="115" name="unconnected-(IC1101-P1_1-Pad11)" class="Default">
       <node ref="IC1101" pin="11" pinfunction="P1_1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(IC1101-P1_2-Pad12)" class="Default">
+    <net code="116" name="unconnected-(IC1101-P1_2-Pad12)" class="Default">
       <node ref="IC1101" pin="12" pinfunction="P1_2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="116" name="unconnected-(IC1101-P1_3-Pad13)" class="Default">
-      <node ref="IC1101" pin="13" pinfunction="P1_3" pintype="bidirectional+no_connect"/>
     </net>
     <net code="117" name="unconnected-(IC1104-LED3-Pad4)" class="Default">
       <node ref="IC1104" pin="4" pinfunction="LED3" pintype="output+no_connect"/>
@@ -5749,52 +5910,46 @@
     <net code="120" name="unconnected-(IC1106-DNC-Pad8)" class="Default">
       <node ref="IC1106" pin="8" pinfunction="DNC" pintype="no_connect"/>
     </net>
-    <net code="121" name="unconnected-(IC1106-GPIO1-Pad7)" class="Default">
-      <node ref="IC1106" pin="7" pinfunction="GPIO1" pintype="open_collector+no_connect"/>
-    </net>
-    <net code="122" name="unconnected-(M901-IO35-Pad28)" class="Default">
+    <net code="121" name="unconnected-(M901-IO35-Pad28)" class="Default">
       <node ref="M901" pin="28" pinfunction="IO35" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(M901-IO36-Pad29)" class="Default">
+    <net code="122" name="unconnected-(M901-IO36-Pad29)" class="Default">
       <node ref="M901" pin="29" pinfunction="IO36" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(M901-IO37-Pad30)" class="Default">
+    <net code="123" name="unconnected-(M901-IO37-Pad30)" class="Default">
       <node ref="M901" pin="30" pinfunction="IO37" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(X1001-Pin_3-Pad3)" class="Default">
+    <net code="124" name="unconnected-(X1001-Pin_3-Pad3)" class="Default">
       <node ref="X1001" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(X1001-Pin_4-Pad4)" class="Default">
+    <net code="125" name="unconnected-(X1001-Pin_4-Pad4)" class="Default">
       <node ref="X1001" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(X1001-Pin_5-Pad5)" class="Default">
+    <net code="126" name="unconnected-(X1001-Pin_5-Pad5)" class="Default">
       <node ref="X1001" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(X1001-Pin_17-Pad17)" class="Default">
+    <net code="127" name="unconnected-(X1001-Pin_17-Pad17)" class="Default">
       <node ref="X1001" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(X1001-Pin_28-Pad28)" class="Default">
+    <net code="128" name="unconnected-(X1001-Pin_28-Pad28)" class="Default">
       <node ref="X1001" pin="28" pinfunction="Pin_28" pintype="passive+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(X1001-Pin_29-Pad29)" class="Default">
+    <net code="129" name="unconnected-(X1001-Pin_29-Pad29)" class="Default">
       <node ref="X1001" pin="29" pinfunction="Pin_29" pintype="passive+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(X1001-Pin_31-Pad31)" class="Default">
+    <net code="130" name="unconnected-(X1001-Pin_31-Pad31)" class="Default">
       <node ref="X1001" pin="31" pinfunction="Pin_31" pintype="passive+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(X1001-Pin_32-Pad32)" class="Default">
+    <net code="131" name="unconnected-(X1001-Pin_32-Pad32)" class="Default">
       <node ref="X1001" pin="32" pinfunction="Pin_32" pintype="passive+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(X1201-Pin_1-Pad1)" class="Default">
-      <node ref="X1201" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
-    </net>
-    <net code="134" name="unconnected-(X1201-Pin_24-Pad24)" class="Default">
+    <net code="132" name="unconnected-(X1201-Pin_24-Pad24)" class="Default">
       <node ref="X1201" pin="24" pinfunction="Pin_24" pintype="passive+no_connect"/>
     </net>
-    <net code="135" name="unconnected-(X1301-DAT1-Pad8)" class="Default">
+    <net code="133" name="unconnected-(X1301-DAT1-Pad8)" class="Default">
       <node ref="X1301" pin="8" pinfunction="DAT1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="136" name="unconnected-(X1301-DAT2-Pad1)" class="Default">
+    <net code="134" name="unconnected-(X1301-DAT2-Pad1)" class="Default">
       <node ref="X1301" pin="1" pinfunction="DAT2" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
