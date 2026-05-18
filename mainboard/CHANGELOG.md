@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+**Changed:**
+
+- Update to KiCad 10
+
 ## [1.0.3] - 2026-04-15
 
 **Added:**

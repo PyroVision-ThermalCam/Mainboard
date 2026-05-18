@@ -1,4 +1,39 @@
-name: PCB
+﻿# =============================================================================
+# Workflow: PCB
+# =============================================================================
+#
+# Trigger:
+#   - workflow_dispatch: Manual trigger via GitHub UI
+#   - push to branches 'main' or 'dev' (excluding *.md changes)
+#   - push of a tag matching semantic versioning (e.g. 1.0.0)
+#
+# Function:
+#   Generates KiCad PCB project outputs using KiBot (schematics, Gerbers, BoM,
+#   3D models, cost estimation, etc.) and handles the full release process:
+#     - generate_outputs: Runs KiBot to produce all documents and artifacts,
+#       updates the CHANGELOG on tag pushes, and commits outputs back to the branch.
+#     - release: Creates a GitHub Release with the generated ZIP artifact.
+#       Only runs on tag pushes.
+#     - deploy: Publishes the generated outputs to GitHub Pages.
+#       Only runs on tag pushes.
+#
+# Variables:
+#   kicad_board         - Name of the KiCad PCB file (without extension)
+#   kibot_config        - Path to the KiBot main configuration YAML
+#   kibot_output_dir    - Output subdirectory name for KiBot results
+#   kibot_output_path   - Root output path for KiBot results
+#   kibot_input_dir     - Directory containing the KiCad project and KiBot files
+#   kibot_variant       - Active KiBot variant (DRAFT / PRELIMINARY / CHECKED / RELEASED).
+#                         Set to PRELIMINARY by init_release.yaml when a *_Dev branch
+#                         is created. Automatically overridden to RELEASED on tag pushes.
+#   master_branch       - Name of the main branch (main or master)
+#
+# Secrets:
+#   MOUSER_KEY          - API key for the Mouser distributor used by KiCost
+#   GITHUB_TOKEN        - Automatically provided by GitHub Actions (read/write contents)
+# =============================================================================
+
+name: PCB Data
 
 on:
   workflow_dispatch:
@@ -7,7 +42,10 @@ on:
       - '[0-9]+.[0-9]+.[0-9]+' # Match semantic versioning tags
     branches:
       - main
+      - master
       - dev
+      - '[0-9]*.[0-9]*.[0-9]*_Dev'
+      - '[0-9]*.[0-9]*_Dev'
     paths-ignore:
       - '*.md'
 
@@ -18,14 +56,14 @@ env:
   # KiBot init point
   kibot_config: kibot_yaml/kibot_main.yaml
 
+  # Input directory with the KiCad project and the KiBot files
+  kibot_input_dir: mainboard
+
   # Output directory for the run results from KiBot
   kibot_output_dir: mainboard
 
   # Output path for the run results from KiBot
   kibot_output_path: ../production
-
-  # Input directory with the KiCad project and the KiBot files
-  kibot_input_dir: mainboard
 
   # Used variant. We assume:
   # DRAFT: Only schematic in progress, will only generate schematic PDF, netlist and BoM
@@ -34,11 +72,15 @@ env:
   # RELEASED: Similar to CHECKED, automatically selected when pushing a tag to main
   kibot_variant: PRELIMINARY
 
-  # Master branch (main or master). Can be changed for testing
-  master_branch: master
+  # Master branch. Can be changed for testing
+  master_branch: main
 
   # API keys used by KiCost
   MOUSER_KEY: ${{ secrets.MOUSER_KEY }}
+  DIGIKEY_KEY: ${{ secrets.DIGIKEY_KEY }}
+  TME_KEY: ${{ secrets.TME_KEY }}
+  RS_KEY: ${{ secrets.RS_KEY }}
+  FARNELL_KEY: ${{ secrets.FARNELL_KEY }}
 
 permissions:
   contents: write
@@ -46,14 +88,14 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
   release:
     needs: generate_outputs
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
+    container: ghcr.io/inti-cmnb/kicad10_auto_full:dev_1.8.6-727a5c6_k10.0.1_d13.2_b4.2.4lts
 
     if: github.ref_type == 'tag'
     steps:
@@ -62,16 +104,10 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      - name: Determine VERSION argument and override variant if tag
+      - name: Set variant to RELEASED for tag
         shell: bash
         run: |
-          last_tag="$(git describe --tags --abbrev=0 || echo "")"
-          if [[ "${{ github.ref_type }}" == "tag" ]]; then
-            echo "Overriding kibot_variant to 'RELEASED' for tag"
-            echo "kibot_variant=RELEASED" >> "${GITHUB_ENV}"
-          else
-            echo "kibot_variant=${{ env.kibot_variant }}" >> "${GITHUB_ENV}"
-          fi
+          echo "kibot_variant=RELEASED" >> ${GITHUB_ENV}
 
       - name: Download updated CHANGELOG
         uses: actions/download-artifact@v4
@@ -90,22 +126,23 @@ jobs:
         run: |
           apt-get update
           apt-get install -y zip
-          zip -r "${{ env.kicad_board }}.zip" "${{ env.kibot_output_dir }}-${{ env.kibot_variant }}"
+          zip -r ${{ env.kicad_board }}.zip ${{ env.kibot_output_dir }}-${{ env.kibot_variant }}
 
       - name: Release
         uses: docker://antonyurchenko/git-release:v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHANGELOG_FILE: ./CHANGELOG.md
+          RELEASE_NAME_PREFIX: "Release"
         with:
           args: |
             ${{ env.kicad_board }}.zip
 
   generate_outputs:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
+    container: ghcr.io/inti-cmnb/kicad10_auto_full:dev_1.8.6-727a5c6_k10.0.1_d13.2_b4.2.4lts
 
-    if: '!contains(github.event.head_commit.message, ''Merge pull request'') || github.ref_type == ''tag'''
+    if: "!contains(github.event.head_commit.message, 'Merge pull request') || github.ref_type == 'tag'"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v5
@@ -115,7 +152,7 @@ jobs:
       - name: Initialize
         run: |
           mkdir -p log
-          echo "DATE=$(date +'%Y-%m-%d %H:%M:%S')" >> "${GITHUB_ENV}"
+          echo "DATE=$(date +'%Y-%m-%d %H:%M:%S')" >> ${GITHUB_ENV}
 
       # Run these changelog update steps only on tag pushes
       - name: Pull latest changes for changelog update
@@ -131,8 +168,7 @@ jobs:
         shell: bash
         run: |
           git clone https://github.com/Kampi/KiCad.git kicad-library
-          echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> "${GITHUB_ENV}"
-          pip install defusedxml --break-system-packages
+          echo "KICAD_LIBRARY=$(pwd)/kicad-library" >> ${GITHUB_ENV}
 
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
@@ -148,6 +184,23 @@ jobs:
           changelogPath: ${{ env.kibot_input_dir }}/CHANGELOG.md
           tag: ${{ github.ref_name }}
 
+      - name: Add Full Changelog link to CHANGELOG
+        if: ${{ github.ref_type == 'tag' }}
+        shell: bash
+        run: |
+          current_tag="${{ github.ref_name }}"
+          changelog_file="${{ env.kibot_input_dir }}/CHANGELOG.md"
+          repo_url="https://github.com/${{ github.repository }}"
+
+          # Get the previous tag (all SemVer tags, excluding the current one)
+          prev_tag=$(git tag --sort=-version:refname | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | grep -v "^${current_tag}$" | head -1)
+
+          python3 ./scripts/update_changelog_links.py \
+            --file "${changelog_file}" \
+            --tag "${current_tag}" \
+            --prev-tag "${prev_tag}" \
+            --repo-url "${repo_url}"
+
       - name: Commit updated CHANGELOG
         if: ${{ github.ref_type == 'tag' }}
         uses: stefanzweifel/git-auto-commit-action@v6
@@ -155,12 +208,21 @@ jobs:
           branch: ${{ env.master_branch }}
           commit_message: Update CHANGELOG
           file_pattern: ${{ env.kibot_input_dir }}/CHANGELOG.md
+          push_options: '--force'
 
       - name: Cache 3D models data
         uses: set-soft/cache@main
         with:
           path: ~/cache_3d
           key: cache_3d
+
+      - name: Cache KiCost data
+        uses: set-soft/cache@main
+        with:
+          path: |
+            ~/kicost_cache
+            ~/.cache/kicost
+          key: kicost_cache
 
       - name: Replace .wrl with .step in PCB file
         shell: bash
@@ -173,11 +235,12 @@ jobs:
           last_tag=$(git describe --tags --abbrev=0 || echo "")
           if [[ "${{ github.ref_type }}" == "tag" ]]; then
             version_arg="-E REVISION='${last_tag}'"
-            echo "Overriding kibot_variant to 'RELEASED' for tag"
-            echo "kibot_variant=RELEASED" >> "${GITHUB_ENV}"
+            kibot_variant="RELEASED"
+            echo "kibot_variant=RELEASED" >> ${GITHUB_ENV}
           else
-            version_arg="-E REVISION='${last_tag} + (Unreleased)'"
-            echo "kibot_variant=${{ env.kibot_variant }}" >> "${GITHUB_ENV}"
+            version_arg="-E REVISION='${last_tag}+ (Unreleased)'"
+            kibot_variant="${{ env.kibot_variant }}"
+            echo "kibot_variant=${{ env.kibot_variant }}" >> ${GITHUB_ENV}
           fi
 
           # Determine additional_args based on the variant
@@ -197,8 +260,8 @@ jobs:
               ;;
           esac
 
-          echo "version_arg=${version_arg}" >> "${GITHUB_ENV}"
-          echo "additional_args=${additional_args}" >> "${GITHUB_ENV}"
+          echo "version_arg=${version_arg}" >> ${GITHUB_ENV}
+          echo "additional_args=${additional_args}" >> ${GITHUB_ENV}
 
       # Generate notes (skipped for DRAFT variant)
       - name: Generate notes
@@ -225,11 +288,26 @@ jobs:
         shell: bash
         run: |
           cd ${{ env.kibot_input_dir }}
-          if ! revision=$(python3 kibot_resources/scripts/get_changelog_version.py -f CHANGELOG.md); then
+          revision=$(python3 kibot_resources/scripts/get_changelog_version.py -f CHANGELOG.md)
+          if [[ $? -ne 0 ]]; then
               echo -e "${YELLOW}Warning: Unable to determine version from CHANGELOG.md. Defaulting to empty revision.${NC}"
               revision=""
           fi
-          kibot -vvvv  --skip-pre erc,drc,draw_fancy_stackup -c kibot_yaml/kibot_main.yaml -d ${{ env.kibot_output_path }}/${{ env.kibot_output_dir }}-${{ env.kibot_variant }} -g variant=${{ env.kibot_variant }} -E KICOST_CONFIG=kibot_yaml/kicost_config_local.yaml xlsx_bom 2> ../log/kicost_output.log
+          # Run KiCost multiple times to work around the Mouser API rate limit
+          # (30 calls/minute, 1 call/part). Each run caches results; subsequent
+          # runs only query the remaining uncached parts.
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            echo "--- KiCost attempt ${attempt}/3 ---"
+            kibot -vvvv --skip-pre erc,drc,draw_fancy_stackup -c kibot_yaml/kibot_main.yaml \
+              -d ${{ env.kibot_output_path }}/${{ env.kibot_output_dir }}-${{ env.kibot_variant }} \
+              -g variant=${{ env.kibot_variant }} \
+              -E KICOST_CONFIG=kibot_yaml/kicost_config_local.yaml xlsx_bom \
+              2>> ../log/kicost_output.log || true
+            if [[ ${attempt} -lt 3 ]]; then
+              echo "Waiting 61s for Mouser API rate limit to reset..."
+              sleep 61
+            fi
+          done
 
       - name: Upload artifacts (logs)
         uses: actions/upload-artifact@v4
@@ -241,7 +319,7 @@ jobs:
       - name: Clean up
         shell: bash
         run: |
-          rm -rf "${KICAD_LIBRARY}"
+          rm -rf ${KICAD_LIBRARY}
           find . -type f -iname \*.log -delete
           find . -type f -iname \*.ogv -delete
           find . -type f -iname \*.kicad_pro-bak -delete
@@ -306,7 +384,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    if: github.ref_type == 'tag'
+    if: github.ref_type == 'tag' || github.ref_name == 'main' || github.ref_name == 'master'
     steps:
       - name: Determine variant
         shell: bash
@@ -327,7 +405,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: production/${{ env.kibot_output_dir }}-${{ env.kibot_variant }}
-          overwrite: true
 
       - name: Deploy to GitHub Pages
         id: deployment

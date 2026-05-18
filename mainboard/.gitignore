@@ -15,6 +15,7 @@
 *~
 _autosave-*
 *#auto_saved_files#*
+*.history/
 *.tmp
 *-save.pro
 *-save.kicad_pcb

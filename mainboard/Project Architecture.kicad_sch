@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
 	(paper "A3")
 	(title_block
@@ -1675,11 +1675,13 @@
 			(type solid)
 		)
 		(fill
-			(color 132 0 0 0.5000)
+			(color 132 0 0 0.5)
 		)
 		(uuid "85a410e7-e905-4760-8407-37aaa1389258")
 		(property "Sheetname" "MCU"
 			(at 149.86 60.1976 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,6 +1691,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 149.86 163.1954 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,11 +2021,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 0 0.5000)
+			(color 255 255 0 0.5)
 		)
 		(uuid "87ec52b1-2e4e-4bae-bd8b-72c5c03421b9")
 		(property "Sheetname" "Display"
 			(at 72.39 184.6576 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,6 +2037,8 @@
 		)
 		(property "Sheetfile" "Display.kicad_sch"
 			(at 72.39 231.7754 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,11 +2187,13 @@
 			(type solid)
 		)
 		(fill
-			(color 132 132 132 0.5000)
+			(color 132 132 132 0.5)
 		)
 		(uuid "9daf4182-cb00-4c79-b40e-4d55650908dc")
 		(property "Sheetname" "SD-Card"
 			(at 72.39 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,6 +2203,8 @@
 		)
 		(property "Sheetfile" "SD.kicad_sch"
 			(at 72.39 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,11 +2283,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 0.5000)
+			(color 0 255 255 0.5)
 		)
 		(uuid "a86b9e25-5bc0-455f-833c-d00b4e9a8b22")
 		(property "Sheetname" "Battery"
 			(at 72.39 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,6 +2299,8 @@
 		)
 		(property "Sheetfile" "Battery.kicad_sch"
 			(at 72.39 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,11 +2389,13 @@
 			(type solid)
 		)
 		(fill
-			(color 132 132 0 0.5000)
+			(color 132 132 0 0.5)
 		)
 		(uuid "b241b90d-ce8f-4ac5-a13c-a4133ff3ac6b")
 		(property "Sheetname" "Camera"
 			(at 259.08 164.3376 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,6 +2405,8 @@
 		)
 		(property "Sheetfile" "Camera.kicad_sch"
 			(at 259.08 219.0754 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,11 +2595,13 @@
 			(type solid)
 		)
 		(fill
-			(color 194 0 194 0.5000)
+			(color 194 0 194 0.5)
 		)
 		(uuid "d8ae338d-43c5-41cc-a0e1-8d38ead45342")
 		(property "Sheetname" "Power"
 			(at 72.39 107.1876 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,6 +2611,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 72.39 137.7954 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,11 +2661,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 255 0 0.5000)
+			(color 0 255 0 0.5)
 		)
 		(uuid "dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1")
 		(property "Sheetname" "Peripherals"
 			(at 259.08 53.8476 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,6 +2677,8 @@
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
 			(at 259.08 97.1554 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,11 +2827,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 194 194 0.5000)
+			(color 0 194 194 0.5)
 		)
 		(uuid "ffacc25a-000f-4387-8e2b-18f7ed663195")
 		(property "Sheetname" "Lepton"
 			(at 259.08 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,6 +2843,8 @@
 		)
 		(property "Sheetfile" "Lepton.kicad_sch"
 			(at 259.08 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
